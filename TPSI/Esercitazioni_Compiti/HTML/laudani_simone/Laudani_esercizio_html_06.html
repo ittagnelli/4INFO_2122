@@ -50,7 +50,7 @@ The name may also be resolved by <span style="color:red">Domain Name System</spa
 
 In addition to the mapping of <q>localhost</q> to the loopback addresses <del>(127.0.90.1 and ::5)</del><ins>(127.0.0.1 and ::1)</ins>, localhost may also be mapped to other IPv4 <del>(loopforward)</del><ins>(loopback)</ins> addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.</p>
 
-In the Domain Name System (<abbr>DNS</abbr>), <mark>the name localhost is reserved as a top-level domain name</mark>, originally set aside to avoid confusion with the hostname used for loopback purposes.<sup>[3]</sup> <mark>IETF standards prohibit domain name registrars from assigning the name localhost</mark>.
+In the (<abbr title = "Domain Name System">DNS</abbr>), <mark>the name localhost is reserved as a top-level domain name</mark>, originally set aside to avoid confusion with the hostname used for loopback purposes.<sup>[3]</sup> <mark>IETF standards prohibit domain name registrars from assigning the name localhost</mark>.
 </p>
 
 <h2>IETF standards</h2>
@@ -78,9 +78,9 @@ Packets received on a non-loopback interface with a loopback source or destinati
 </p>
 
 <h2>Special cases</h2>
-<p>The releases of the <abbr>MySQL</abbr> database differentiate between the use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1.<small>[7]</small> When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.
+<p>The releases of the <abbr title = "My Structured Query Language">MySQL</abbr> database differentiate between the use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1.<small>[7]</small> When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.
 
-One notable exception to the use of the <q>127.0.0.0/8</q> addresses is their use in <mark>Multiprotocol Label Switching <abbr>(MPLS)</abbr></mark> traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.
+One notable exception to the use of the <q>127.0.0.0/8</q> addresses is their use in <mark><abbr title = "Multiprotocol Label Switching">(MPLS)</abbr></mark> traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.
 </p>
 
 </body>
