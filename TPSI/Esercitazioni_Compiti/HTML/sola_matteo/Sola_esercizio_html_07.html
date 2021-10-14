@@ -22,16 +22,16 @@
             computer networking</blockquote>, localhost is a hostname that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware.</p>
 
 <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank"><h2>Loopback</h2></a>
-<p>The local loopback <q>mechanism</q> may be used to run a network service on a host without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL http://localhost to display its home page.
+<p>The local loopback <q>mechanism</q> may be used to <u>run</u> a network <u>service</u> on a <u>host</u> without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL http://localhost to display its home page.
 The name <q>loopback</q> normally resolves to the IPv4 <q>loopback</q> address 127.0.0.1, and to the IPv6 loopback address ::1.</p>
 
 <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank"><h2>Name resolution</h2></a>
-<p>IPv4 network standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
+<p>IPv4 <u>network</u> standards reserve the entire <u>address</u> block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
 The <b>resolution</b> of the <b>name</b> localhost to one or more IP addresses is normally configured by the following lines in the operating system's hosts file:
 127.0.0.1    localhost
 ::1          localhost
 
-The name may also be resolved by <b>Domain</b> Name System (DNS) servers, but queries for this name should be resolved locally, and should not be forwarded to remote name servers.
+The name may also be resolved by <b>Domain</b> Name System (DNS) <s>servers</s>, but <s>queries</s> for this <s>name</s> should be <s>resolved</s> locally, and should not be <s>forwarded</s> to remote name servers.
 
 In <em>addition</em> to the mapping of <b>localhost</b> to the loopback addresses (127.0.0.1 and ::1), localhost may also be mapped to other IPv4 (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.
 
@@ -61,8 +61,9 @@ In <strong>contrast</strong>, the IETF "IP <strong>Version 6</strong> Addressing
 <span style="color: red;">Special cases</span>
 <span style="color: red;">The releases</span> of the MySQL database differentiate between the use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1.[<sup>7</sup>] When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.
 
-One notable exception to the use of the 127.0.0.0/8 addresses is their use in <abbr title="Multiprotocol Label Switching">MPLS</abbr> traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.</h1>
+<pre>One notable exception     to     the use of the 127.0.0.0/8 addresses</pre> is their use in <abbr title="Multiprotocol Label Switching">MPLS</abbr> traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.</h1>
     </p>
+    <p><code>apt install vscode</code> to install the programm vscode</p>
 <img src="https://cdn.ttgtmedia.com/rms/computerweekly/berners-lee-with-next.jpg" width="250" alt="primo web server"/>
 <img src="Image/Cattura.JPG" width="250" alt="primo web server"/>
 <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">
