@@ -19,18 +19,18 @@
       <h1>localhosts</h1>
 
       <p>
-        <div>Di Joseph Campbell: <cite>If a computer is a <u>god</u>, it is an Old Testament god with lots of rules and no mercy.</cite></div> <br>
+        <div>Di Joseph Campbell: <cite>If a computer is a <u>god</u>, it is an Old Testament god with lots of rules and no mercy.</cite></div> <br />
 
         In <a href="https://en.wikipedia.org/wiki/Computer_network">computer networking</a>, <span style="color: green;">localhost</span> is a <a href="https://en.wikipedia.org/wiki/Hostname">hostname</a>  that refers to the current <strong>computer</strong> used to access it.It is used to access the <b>network</b> services that are running on the <b>host</b> via the <a href="https://en.wikipedia.org/wiki/Loopback">loopback</a> network interface. Using the loopback interface bypasses any local <a href="https://en.wikipedia.org/wiki/Network_interface_controller">network interface</a> hardware.  
       </p>
       
       <img style="max-width: 250px" src="https://www.aruba.it/getattachment/992773e3-53d9-457b-bfdf-1c3568310197/Come%20funziona%20la%20connessione%20a%20localhost.aspx" alt="Immagine localhost">
     
-     utilizzo di internet <meter min="0" max="10" value="9.9"></meter><br>
-     utilizzo di safari <meter min="0" max="10" value="4"></meter><br>
-     utilizzo di firefox <meter min="0" max="10" value="7"></meter><br>
-     utilizzo di explorer <meter min="0" max="10" value="1"></meter><br>
-     utilizzo di chrome <meter min="0" max="10" value="8"></meter><br>
+     utilizzo di internet <meter min="0" max="10" value="9.9"></meter><br />
+     utilizzo di safari <meter min="0" max="10" value="4"></meter><br />
+     utilizzo di firefox <meter min="0" max="10" value="7"></meter><br />
+     utilizzo di explorer <meter min="0" max="10" value="1"></meter><br />
+     utilizzo di chrome <meter min="0" max="10" value="8"></meter><br />
       
     </div>
 
@@ -56,7 +56,7 @@
 
       <p>
         IPv4 network <span style="color: green;">standards</span> reserve the entire address block <mark>127.0.0.0/8</mark>  (more than 16 million addresses) for <mark>loopback</mark> purposes. <sub>[2]</sub> That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
-        <br> The resolution of the name localhost to one or more IP <u>addresses</u> is normally configured by the following lines in the <q>operating system's hosts file</q> :  
+        <br /> The resolution of the name localhost to one or more IP <u>addresses</u> is normally configured by the following lines in the <q>operating system's hosts file</q> :  
         127.0.0.1    localhost
         ::1          localhost
 
@@ -64,7 +64,7 @@
 
        <hr>
 
-        <br> In a ddition to the mapping of localhost to the loopback addresses (127.0.0.1 and ::1), localhost may also be mapped to other IPv4 (<em>loopback</em>) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.
+        <br /> In a ddition to the mapping of localhost to the loopback addresses (127.0.0.1 and ::1), localhost may also be mapped to other IPv4 (<em>loopback</em>) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.
 
         In the Domain Name <u>System</u>, the name localhost is reserved as a <q> top-level domain</q> name, originally set aside to avoid confusion with the hostname used for <q>loopback purposes</q>.[3] IETF standards prohibit domain name registrars from assigning the name localhost.
       </p>
@@ -81,7 +81,7 @@
       <p>
          The name localhost is reserved for loopback purposes by RFC 6761 (<mark>Special-Use Domain Names</mark>),[4] which achieved the Proposed Standard maturity level in February 2013. The standard sets forth a number of special considerations governing the use of the name in the Domain Name System:
 
-         <br> <blockquote>An IPv4 or IPv6 address query for the name localhost must <s>always</s> resolve to the respective loopback address, which is specified in a separate standard.</blockquote>
+         <br /> <blockquote>An IPv4 or IPv6 address query for the name localhost must <s>always</s> resolve to the respective loopback address, which is specified in a separate standard.</blockquote>
         Applications may resolve the name to a loopback address themselves, or pass it to the local name resolver mechanisms.
         When a name resolver receives an address ( <i>A</i>  or <i>AAAA</i> ) query for localhost, it should <small>return</small> the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.
         To avoid burdening the <mark>Domain Name System</mark> root servers with traffic, caching name servers should never request name server records for localhost, or forward resolution to authoritative name servers.
@@ -89,15 +89,15 @@
         When authoritative name servers receive <u>queries</u> for 'localhost' in spite of the provisions mentioned resolve them appropriately.
         The IPv4 <mark>loopback</mark> addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (<em>RFC 5735</em>).<sup>[5]</sup>  The reservation can be traced back to the November 1986 "Assigned Numbers" standard (<i>RFC 990</i>).
         <hr>
-         <br> In contrast, the IETF "IP <s>Version</s> 6 Addressing Architecture" standard (<em>RFC 4291</em>) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
+         <br /> In contrast, the IETF "IP <s>Version</s> 6 Addressing Architecture" standard (<em>RFC 4291</em>) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
 
       </p>
 
-      utilizzo di internet <progress min="0" max="10" value="9.9"></progress><br>
-     utilizzo di safari <progress min="0" max="10" value="4"></progress><br>
-     utilizzo di firefox <progress min="0" max="10" value="7"></progress><br>
-     utilizzo di explorer <progress min="0" max="10" value="1"></progress><br>
-     utilizzo di chrome <progress min="0" max="10" value="8"></progress><br>
+      utilizzo di internet <progress min="0" max="10" value="9.9"></progress><br />
+     utilizzo di safari <progress min="0" max="10" value="4"></progress><br />
+     utilizzo di firefox <progress min="0" max="10" value="7"></progress><br />
+     utilizzo di explorer <progress min="0" max="10" value="1"></progress><br />
+     utilizzo di chrome <progress min="0" max="10" value="8"></progress><br />
 
     </div>
 
