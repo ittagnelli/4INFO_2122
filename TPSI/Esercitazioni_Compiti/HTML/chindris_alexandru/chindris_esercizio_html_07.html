@@ -56,9 +56,11 @@ Packets <em>received <del>on a non-loopback</del></em> interface with a <del>loo
 <h1>Special cases</h1>
 <p>The <em>releases of the MySQL</em> database <em>differentiate</em> between the <del>use of the hostname</del> localhost and the use of the addresses 127.0.0.1 and ::1.[7] When using localhost as <cite>the destination in a client connector interface</cite> of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.
 
-One notable <em>exception</em> to the use <em>of the <code> 127.0.0.0/8 </code> <del>addresses</del> is their use in <del>Multiprotocol Label Switching (MPLS)</del> traceroute error detection, in which their property of not being routable provides a convenient</em> means <pre>to avoid 
+One notable <em>exception</em> to the use <em>of the  127.0.0.0/8  <del>addresses</del> is their use in <del>Multiprotocol Label Switching (MPLS)</del> traceroute error detection, in which their property of not being routable provides a convenient</em> means <pre>to avoid 
     delivery of faulty packets
      to end users.</pre>
+
+    <code> pwgen -c -n [amount] </code>
 </p>
 </body>
 </html>
