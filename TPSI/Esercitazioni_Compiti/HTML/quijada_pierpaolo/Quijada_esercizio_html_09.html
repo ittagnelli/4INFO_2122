@@ -48,7 +48,7 @@
         <h2>IETF standards</h2>
         <p>
             The <span>name localhost</span> is reserved for <b>loopback purposes by RFC 6761</b> (Special-Use Domain Names),[4] which achieved the Proposed Standard maturity level in February 2013. <div>The <strong>standard sets</strong> forth a number of special considerations governing the use of the name in the Domain Name System:</div>
-            <strong>An IPv4 or IPv6</strong> address query for the name localhost must always resolve to the respective loopback address, which is specified in a separate standard.
+            <strong>An IPv4 or IPv6</strong> address query for the name localhost must always resolve to the respective loopback address<e>&#44;</e> which is specified in a separate standard.
             Applications may resolve the name to a loopback address themselves, or pass it to the local name resolver mechanisms.
             <strong>When a name</strong> resolver receives an address (A or AAAA) query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.
             <strong>To avoid burdening</strong> the Domain Name System root servers with traffic, caching name servers should never request name server records for localhost, or forward resolution to authoritative name servers.
@@ -62,7 +62,7 @@
         <h2>Packet processing</h2>
         <p>
             <span>The processing</span> of any packet <del>sent to a loopback address</del>, is implemented in the link layer of the <del>TCP/IP stack. </del><div>Such packets are never passed to any network interface controller <del>(NIC)</del> or hardware device driver and must not appear outside of a <del>computing system,</del> or be routed by any router.</div> This permits software testing and local services in the absence of any hardware <del>network interfaces.</del>
-            <ins>Looped-back</ins> packets are distinguished <ins>from any other packets</ins> traversing the <ins>TCP/IP</ins> stack only by the special <ins><abbr title="Interner Protocol">IP</abbr> address</ins> they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an <ins>HTTP service</ins> could route packets addressed to <sub>127.0.0.99:80</sub> and <sup>127.0.0.100:80</sup> to different Web servers, or to a single server that returns different web pages.To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
+            <ins>Looped-back</ins> packets are distinguished <ins>&#58;	from any other packets</ins> traversing the <ins>TCP/IP</ins> stack only by the special <ins><abbr title="Interner Protocol">IP</abbr> address</ins> they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an <ins>HTTP service</ins> could route packets addressed to <sub>127.0.0.99:80</sub> and <sup>127.0.0.100<e>&#58;</e>80</sup> to different Web servers, or to a single server that returns different web pages.To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
             <s>Packets</s> received on a non-loopback interface with a loopback source or destination <s>address</s> must be dropped. Such packets are sometimes referred to as Martian packets.[6] As with any other <s>bogus packets</s>, they may be malicious and any problems they <s>might</s> cause can be avoided by applying bogon <s>filtering</s>.
         </p>
         <a href="https://en.wikipedia.org/wiki/Packet_processing">
@@ -70,17 +70,17 @@
         </a>
         <h2>Special cases</h2>
         <p>
-            <span>The releases</span> of the MySQL database <u>differentiate</u> between the use of the <u>hostname</u> localhost and the use of the addresses <u>127.0.0.1</u> and ::1.[7] <q>When using localhost as the destination in a client connector interface of an application</q>, the <abbr title="Structured Query Language">MySQL</abbr> application programming <u>interface</u> connects to the database using a Unix domain socket, <q>while a TCP connection via the loopback <u>interface</u> requires the direct use of the explicit address.</q>
-            <q>One notable exception to the use of the 127.0.0.0/8 addresses is their use in Multiprotocol Label Switching <abbr tittle="Multiprotocol Label Switching">(MPLS)</abbr> </q>traceroute evscoderror detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.
-            <cite>"Nel mezzo del cammin di nostra vita</cite>
+            <span>The releases</span> of the MySQL database <u>differentiate</u> between the use of the <u>hostname</u> localhost and the use of the addresses <u>127.0.0.1</u> and ::1<e>&#46;</e>[7] <q>When using localhost as the destination in a client connector interface of an application</q>, the <abbr title="Structured Query Language">MySQL</abbr> application programming <u>interface</u> connects to the database using a Unix domain socket, <q>while a TCP connection via the loopback <u>interface</u> requires the direct use of the explicit address.</q>
+            <q>One notable exception to the use of the 127.0.0.0/8 addresses is their use in Multiprotocol Label Switching <abbr tittle="Multiprotocol Label Switching"><e>&#40;</e>MPLS<e>&#41;</e></abbr> </q>traceroute evscoderror detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.
+            <cite>"Nel mezzo del cammin di nostra vita"</cite>
             <blockquote cite="https://www.frasicelebri.it/frase/brian-wilson-kernighan-fare-il-debugging-e-doppiam/?utm_source=internal&utm_medium=link&utm_campaign=phrase_snippet_wholetext">
-                “Fare il debugging è doppiamente difficile rispetto a scrivere direttamente il codice. Quindi, se scrivi il codice nel miglior modo possibile, sei, per definizione, non abbastanza intelligente per fare il debug.”
+                <e>&#34;</e>Fare il debugging è doppiamente difficile rispetto a scrivere direttamente il codice. Quindi, se scrivi il codice nel miglior modo possibile, sei, per definizione, non abbastanza intelligente per fare il debug.<e>&#34;</e>
 
               </blockquote>
             Per aggiornare il grub: <code>update-grub</code>
             <pre>
                 Vediamo
-                come lo formattaprogress
+                come lo formatta
                 questo tag.
             </pre>
             Windows 11 <meter min="0" max="15" value="1"></meter><br/>
@@ -118,6 +118,23 @@
             Promosso<progress min="0" max="15" value="12"></progress><br/>
             Rimandato<progress min="0" max="15" value="3"></progress><br/>
             Bocciato<progress min="0" max="15" value="0"></progress><br/>
+            <b>Indice</b><br/>
+            <ul>
+                <li>Localhost</li>
+                <li>Loopback</li>
+                <li>Name Resolution</li>
+                <li>IETF standards</li>
+                <li>Packet Processing</li>
+                <li>Special cases</li>
+            </ul><br/>
+            <ol>
+                <li>Localhost</li>
+                <li>Loopback</li>
+                <li>Name Resolution</li>
+                <li>IETF standards</li>
+                <li>Packet Processing</li>
+                <li>Special cases</li>
+            </ol>
         </p>
     </body>
     </html>
