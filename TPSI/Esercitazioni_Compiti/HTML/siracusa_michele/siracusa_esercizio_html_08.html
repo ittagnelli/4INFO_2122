@@ -9,7 +9,7 @@
       <meta name="keywords" content="template, html, scuola" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta http-equiv="refresh" content="100"><!-- Durante la fase di sviluppo permette il refresh  automatico della pagina  -->
-      <title>Esercizio 06</title><!-- titolo della pagina -->
+      <title>Esercizio 08</title><!-- titolo della pagina -->
     
   </head>
 
@@ -18,7 +18,7 @@
     <div> 
       <h1 style="color:red">Localhosts</h1>
 
-      <div>Di Bill Gates: <cite>Technology is just a tool.</cite></div>
+      <hr/><div>Di Bill Gates: <cite>Technology is just a tool.</cite></div><hr/>
 
       <p>
         In <a href="https://en.wikipedia.org/wiki/Computer_network">computer networking</a>, <span style="color:green">localhost</span> is a <strong>hostname</strong> that refers to the <i>current computer</i> used to access it.<span style="background-color: blue; color: white;">It is used to access the <strong>network services</strong> that are running on the host via the <strong>loopback network interface.</strong></span> Using the loopback interface bypasses any local <a href="https://en.wikipedia.org/wiki/Network_interface_controller">network interface</a> hardware.  
@@ -54,7 +54,7 @@
 
        <span style="background-color: blue; color: white;">The name may also be resolved by Domain Name System <mark>(DNS)</mark> servers, but queries for this name should be resolved locally, and should not be forwarded to remote name servers.</span> 
 
-        In a ddition to the mapping of localhost to the <span style="color:green">loopback</span> addresses (127.0.0.1 and ::1), localhost may also be mapped to other <u>IPv4</u> (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.
+        In a ddition to the mapping of localhost to the <span style="color:green">loopback</span> addresses (127.0.0.1 and ::1), localhost may also be mapped to other <u>IPv4</u> (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. <br>The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.
 
         In the Domain Name System, the name <span style="color:green">localhost</span> is reserved <sub>as</sub> a top-level domain name, originally set aside to avoid confusion with the <u>hostname</u> used for loopback purposes.[3] <u>IETF</u> standards prohibit domain name registrars from assigning the name localhost.
       </p>
@@ -74,16 +74,19 @@
 
         An <a href="https://it.wikipedia.org/wiki/IPv4">IPv4</a> or <a href="https://it.wikipedia.org/wiki/IPv6">IPv6</a> address query for the name <span style="color:green">localhost</span> must always resolve <small>to</small> the respective loopback address, which is specified in a separate standard.
         Applications may resolve the name to a loopback address themselves, or pass it to the local name resolver mechanisms.
-        When a name resolver receives an address <mark>(A or AAAA)</mark> query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. <u>Queries</u> for localhost should not be sent to caching name servers.
+        When a name resolver receives an address <mark>(A or AAAA)</mark> query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. <br><u>Queries</u> for localhost should not be sent to caching name servers.
         To avoid burdening the Domain Name System root servers with traffic, caching <q>name servers</q> should never request name server records for localhost, <small>or</small> forward resolution to authoritative name servers.
         DNS registrars are <del>from</del> <ins>precluded</ins>  <sup>delegating</sup> domain names in the top-level domain <span style="color:green">localhost.</span>
         When authoritative name servers <q>receive</q> queries for 'localhost' in spite of the provisions mentioned resolve them appropriately.
         The <span style="color:blue">IPv4</span> loopback <sup>addresses</sup> are reserved <del>the</del> <ins>within  IPv4 address</ins> space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735).[5] The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).
 
-       <pre>In contrast, the IETF "IP Version 6 Addressing Architecture" standard <mark>(RFC 4291)</mark> reserves the single IPv6 loopback address ::1 within the IPv6 address space. The <s>standard</s> precludes <small>the</small> assignment of that <s>address</s> to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.</pre> 
+       <pre>In contrast, the IETF "IP Version 6 Addressing Architecture" standard <mark>(RFC 4291)</mark> reserves the single IPv6 loopback address ::1 within the IPv6 address space. <br>The <s>standard</s> precludes <small>the</small> assignment of that <s>address</s> to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.</pre> 
 
       </p>
-
+      Andamento progresso <meter min="0" max="10" value="8.0">Studente 1</meter><br>
+      Andamento progresso <meter min="0" max="10" value="6.5">Studente 2</meter><br>
+      Andamento progresso <meter min="0" max="10" value="9.5">Studente 3</meter><br>
+      Andamento progresso <meter min="0" max="10" value="4.5">Studente 4</meter><br>
     </div>
 
 
@@ -94,9 +97,9 @@
       </h2>
 
       <p>
-        The processing of any packet sent to a <span style="color:blue">loopback</span> address, is implemented in the link layer of the TCP/IP stack. Such packets <small>are</small> never passed to any <s>network</s> interface controller <mark>(NIC)</mark> or hardware device driver and must not appear outside of a computing system, or be routed by any router. Per installare vscode in Linux usa il comando: <code>apt install vscode</code>. This permits software testing and local services in the absence of any hardware network interfaces.
+        The processing of any packet sent to a <span style="color:blue">loopback</span> address, is implemented in the link layer of the TCP/IP stack. <br>Such packets <small>are</small> never passed to any <s>network</s> interface controller <mark>(NIC)</mark> or hardware device driver and must not appear outside of a computing system, or be routed by any router. Per installare vscode in Linux usa il comando: <code>apt install vscode</code>. This permits software testing and local services in the absence of any hardware network interfaces.
 
-        Looped-back packets <sup>are</sup> distinguished from any <sup>other</sup> packets traversing the <em>TCP/IP</em> stack only by the special IP address <small>they</small> were addressed to. Thus, the <q>services</q> that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to <span style="color:blue">127.0.0.99:80 and 127.0.0.100:80</span> to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
+        Looped-back packets <sup>are</sup> distinguished from any <sup>other</sup> packets traversing the <em>TCP/IP</em> stack only by the special IP address <small>they</small> were addressed to. <br>Thus, the <q>services</q> that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to <span style="color:blue">127.0.0.99:80 and 127.0.0.100:80</span> to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
         
         Packets received on a non-loopback <del>the</del> <ins>within  IPv4 address</ins> interface <sup>with</sup> a loopback source or destination address must be dropped. <abbr title="Gnu is Not Unix">GNU</abbr> such packets are <q>sometimes</q> referred to as Martian packets.[6] As with any other bogus packets, they may be malicious and any problems they might cause can be avoided by applying bogon filtering.
         
@@ -106,6 +109,10 @@
         One notable exception to the use of the <span style="color:blue">127.0.0.0/8</span> addresses is <del>the</del> <ins>within  IPv4 address</ins> their use in Multiprotocol Label Switching (MPLS) traceroute <cite>error detection,</cite> in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.
         
       </p>
+      Andamento progresso <progress min="0" max="10" value="8">Studente 1</progress><br>
+      Andamento progresso <progress min="0" max="10" value="6.5">Studente 2</progress><br>
+      Andamento progresso <progress min="0" max="10" value="9.5">Studente 3</progress><br>
+      Andamento progresso <progress min="0" max="10" value="4.5">Studente 4</progress><br>
     </div>
       
 
