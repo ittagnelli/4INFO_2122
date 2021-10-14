@@ -62,7 +62,7 @@
 
        <span style="background-color: blue; color: white;">The name may also be resolved by Domain Name System (<em>DNS</em>) servers, but queries for this name should be resolved locally, and should not be forwarded to remote name servers.</span> 
 
-       <hr>
+       <hr />
 
         <br /> In a ddition to the mapping of localhost to the loopback addresses (127.0.0.1 and ::1), localhost may also be mapped to other IPv4 (<em>loopback</em>) addresses and it is also possible to assign other, or additional, names to any loopback address. The mapping of localhost to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.
 
@@ -75,7 +75,7 @@
 
     <div>
 
-      <hr>
+      <hr />
 
       <h2>IETF standards</h2>
       <p>
@@ -88,7 +88,7 @@
         DNS registrars are precluded from delegating domain names in <s>the</s> top-level domain localhost.
         When authoritative name servers receive <u>queries</u> for 'localhost' in spite of the provisions mentioned resolve them appropriately.
         The IPv4 <mark>loopback</mark> addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (<em>RFC 5735</em>).<sup>[5]</sup>  The reservation can be traced back to the November 1986 "Assigned Numbers" standard (<i>RFC 990</i>).
-        <hr>
+        <hr />
          <br /> In contrast, the IETF "IP <s>Version</s> 6 Addressing Architecture" standard (<em>RFC 4291</em>) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
 
       </p>
