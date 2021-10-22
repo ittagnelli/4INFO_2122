@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Luca Bortoluzzi" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Bortoluzzi_html_10b.html</title>
+    <style>
+      body {background-color: white;}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "Bortoluzzi_html_10b.html";
+      }
+    </script>
+
+</head>
+
+<body style="background: antiquewhite;">
+
+<form>
+
+    <label for="Nomeutente" style="background: aqua;"> Ciao utente...</label><br>
+    <label for="Nomeutente">Nome: </label>
+    <input type="text" id="Nomeutente" name="nomeutente" placeholder="Inserire  nome">
+    <label for="Cognomeutente">Cognome: </label>
+    <input type="text" id="Cognomeutente" name="cognomeutente" placeholder="Inserire cognome"><br>
+    <hr>
+    <br>
+    <label for="data">Inserisci la tua data di nascita:</label>
+    <input type="date" id="data" name="compleanno">
+    <br>
+    <hr>
+    <br>
+    <label for="button"> Premi il pulsante: </label>
+    <button type="button" id="pulsante" name="button"> Click here!</button><br>
+    <label for="pizza; sushi; kebap"> Qual è il tuo cibo preferito tra i seguenti:</label><br>
+    <input type="radio" id="pizza" name="cibo" value="pizza">
+    <label for="pizza"> Pizza</label>    <br>
+    <input type="radio" id="sushi" name="cibo" value="sushi">
+    <label for="sushi"> Sushi</label>    <br>
+    <input type="radio" id="kebap" name="cibo" value="kebap">
+    <label for="kebap"> Kebap</label>    <br><br>
+
+    <label for="calcio;basket;tennis;scherma;baseball"> Quale tra i seguenti sport vuoi fare:</label><br>
+    <input type="checkbox" id="calcio" name="sport" value="calcio">
+    <label for="calcio"> Calcio</label>    <br>
+    <input type="checkbox" id="basket" name="sport" value="basket">
+    <label for="basket"> Basket</label>    <br>
+    <input type="checkbox" id="tennis" name="sport" value="tennis">
+    <label for="tennis"> Tennis</label>    <br>
+    <input type="checkbox" id="scherma" name="sport" value="scherma">
+    <label for="scherma"> Calcio</label>    <br>
+    <input type="checkbox" id="baseball" name="sport" value="baseball">
+    <label for="baseball"> Baseball</label>    
+    <br>
+    <hr>
+    <br>
+    <label for="media1"> Inserisci la tua media in matematica: </label>
+    <input type="number" id="media1" name="medie" min="0.0" max="10.0" value="6.0"><br>
+    <label for="media2"> Inserisci la tua media in italiano: </label>
+    <input type="number" id="media2" name="medie" min="0.0" max="10.0" value="6.0"><br>
+    <label for="media3"> Inserisci la tua media in storia: </label>
+    <input type="number" id="media3" name="medie" min="0.0" max="10.0" value="6.0"><br>
+    <label for="media4"> Inserisci la tua media in informatica: </label>
+    <input type="number" id="media4" name="medie" min="0.0" max="10.0" value="6.0">
+    <br>
+    <hr>
+    <br>
+    <label for="colore"> Segli un colore: </label>
+    <input type="color" id="colore" name="colore" value="#ff0000">
+    <br>
+    <hr>
+    <br>
+    <label for="scuola"> Quanto ti piace la scuola? </label>
+    <input type="range" min="0" max="100" value="50" id="scuola"><br>
+    <label for="sport"> Quanto ti piace lo sport? </label>
+    <input type="range" min="0" max="100" value="50" id="sport"><br>
+    <label for="informatica"> Quanto ti piace l'informatica? </label>
+    <input type="range" min="0" max="100" value="50" id="informatica">
+    <br>
+    <hr>
+    <br>
+    <label for="bibita"> Quale bibita è la tua preferita: </label>
+    <select name="bibite" id="bibita">
+        <option value="Coca-Cola">Coca-Cola</option>
+        <option value="Pepsi">Pepsi</option>
+        <option value="Fanta">Fanta</option>
+        <option value="Estathe(limone)">Estathe(limone)</option>
+        <option value="Estathe(pesca)">Estathe(pesca)</option>
+    </select><br><br>
+
+    <label for="pizza"> Quale tipo di pizza ti piace di più: </label>
+    <select name="pizza" ip="pizza">
+        <option value="Margherita">Margherita</option>
+        <option value="Capricciosa">Capricciosa</option>
+        <option value="Salsiccia">Salsiccia</option>
+        <option value="Funghi">Funghi</option>
+        <option value="Diavola">Diavola</option>
+        <option value="Vegetariana">Vegetariana</option>
+    </select>
+    <br>
+    <hr>
+    <br>
+    <label for="bio">Descriviti: </label><br>
+    <textarea id="bio" name="descrizione" rows="6" cols="60" placeholder="Descrivi come sei, parla un po' di te..."></textarea> 
+
+</form>
+
+
+</body>
+
+</html>

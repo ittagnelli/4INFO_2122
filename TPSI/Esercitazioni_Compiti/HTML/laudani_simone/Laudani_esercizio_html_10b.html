@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body {background-color:cadetblue;}
+    </style>
+</head>
+<body>
+    
+    <h3>GENERALITA'</h3>
+    <form>
+        <label for="nome">Nome: </label>
+        <input type="text" id="idnome" name="nome" placeholder="Nome completo">
+        <label for="cognome">Cognome: </label>
+        <input type="text" id="idcognome" name="cognome" placeholder="Cognome completo">
+        <label for="altezza">Altezza: </label>
+        <input type="number" id="altezza" name="altezza" min="120" max="250" placeholder="cm"><br><br>
+    </form>
+    
+    <h3>DATA DI NASCITA</h3>
+    <form>
+        <input type="date" id="iddata" name="birthday"><br><br>
+    </form> 
+
+    <h3>PIZZA</h3>
+    <h4>Quanto ti piace la pizza?</h4>
+    <form>
+        <label for="pizza">Pizza: </label>
+        <input type="range" min="0" max="100" value="0" class="slider" id="pizza"><br>
+        <label for="hotdog">Hot dog: </label>
+        <input type="range" min="0" max="100" value="0" class="slider" id="hotdog"><br>
+        <label for="sushi">Sushi: </label>
+        <input type="range" min="0" max="100" value="0" class="slider" id="sushi"><br> 
+    </form>
+    <h4>Che tipo di pizza ti piace?</h4>
+    Seleziona tutte le risposte applicabili.
+    <form>
+        <input type="checkbox" id="carciofini" name="pizza" value="carciofini">
+        <label for="carciofini">carciofini</label><br>
+        <input type="checkbox" id="funghetti" name="pizza" value="funghetti">
+        <label for="funghetti">funghetti</label><br>
+        <input type="checkbox" id="friarielli" name="pizza" value="friarielli">
+        <label for="friarielli">friarielli</label><br>
+        <input type="checkbox" id="bufala" name="pizza" value="bufala">
+        <label for="bufala">bufala</label><br>
+        <input type="checkbox" id="ananas" name="pizza" value="ananas">
+        <label for="ananas">ananas</label><br><br>
+        <label for="prezzo">Quanto pagheresti la pizza che hai creato? </label>
+        <input type="number" id="prezzo" name="prezzo" min="1" max="20" placeholder="&euro;"><br>
+        <label for="prezzo">Quanto pagheresti una pizza con i carciofi? </label>
+        <input type="number" id="prezzocarciofi" name="prezzocarciofi" min="1" max="20" placeholder="&euro;"><br>
+        <label for="prezzo">Quanto pagheresti una pizza con i funghi? </label>
+        <input type="number" id="prezzofunghi" name="prezzofunghi" min="1" max="20" placeholder="&euro;"><br>
+        
+        <label for="ingredienti">Ti piacciono altri ingredienti? Selezionali da questo menu'!</label><br>
+        <select name="Altri ingredienti" id="ing"><br>
+            <option value="salsiccia">salsiccia</option>
+            <option value="salame">salame</option>
+            <option value="insalata">insalata</option>
+            <option value="mais">mais</option>
+            <option value="piccadilli">piccadilli</option>
+        </select><br>
+        <label for="pizze3">Ti piacciono altri tipi di pizze? Selezionali da questo menu'!</label><br>
+        <select name="Tipi di pizza" id="pizz">
+            <option value="diavola">diavola</option>
+            <option value="margherita">margherita</option>
+            <option value="bufala">bufala</option>
+            <option value="napoletana">napoletana</option>
+            <option value="valdostana">valdostana</option>
+        </select>
+        <br><br>
+        <label for="pizze">Ci sono altre pizze che ti piacciono? Dicci perche'!</label><br>
+        <textarea id="pizze" name="pizze" rows="6" cols="60" placeholder="Inserisci le pizze che piu' ti piacciono!"></textarea>    
+
+    </form>
+
+    <h3>Colore preferito</h3><br>
+    <form>
+        <label for="color">Colore preferito?</label>
+        <input type="color" id="favcolor" name="favcolor" value="#fff000"><br><br>
+    </form>
+
+    <h3>FASCIA D'ETA'</h3>
+    <form>
+        <input type="radio" id="studente" name="fasciaeta" value="under25">
+        <label for="under25">  0-25</label><br>
+        <input type="radio" id="occupato" name="fasciaeta" value="under50">
+        <label for="under50">  26-50</label><br>
+        <input type="radio" id="disoccupato" name="fasciaeta" value="over50">
+        <label for="over50">  >50</label><br><br>
+    </form>
+
+    <form>
+        <label for="idpulsante">Premi il pulsante: </label>
+        <button type="button" id="idpulsante">Click Me!</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body {background-color:cadetblue;}
+    </style>
+</head>
+<body>
+    
+    <h3>GENERALITA'</h3>
+    <form>
+        <input type="text" id="idnome" name="nome" placeholder="Nome">
+        <input type="text" id="idcognome" name="cognnome" placeholder="Cognome">
+    </form>
+    
+    <h3>DATA DI NASCITA</h3>
+    <form>
+        <input type="date" id="iddata" name="birthday"><br><br>
+    </form>
+
+    <h3>PIZZA</h3>
+    <form>
+        <input type="checkbox" id="carciofini" name="pizza" value="carciofini">
+        <label for="carciofini">  carciofini</label><br>
+        <input type="checkbox" id="funghetti" name="pizza" value="funghetti">
+        <label for="funghetti">  funghetti</label><br>
+        <input type="checkbox" id="friarielli" name="pizza" value="friarielli">
+        <label for="friarielli"> friarielli</label><br>
+        <input type="checkbox" id="bufala" name="pizza" value="bufala">
+        <label for="bufala">  bufala</label><br>
+        <input type="checkbox" id="ananas" name="pizza" value="ananas">
+        <label for="ananas"> ananas</label><br><br>
+    </form>
+
+    <h3>FASCIA D'ETA'</h3>
+    <form>
+        <input type="radio" id="studente" name="fasciaeta" value="under25">
+        <label for="under25">  0-25</label><br>
+        <input type="radio" id="occupato" name="fasciaeta" value="under50">
+        <label for="under50">  26-50</label><br>
+        <input type="radio" id="disoccupato" name="fasciaeta" value="over50">
+        <label for="over50">  >50</label><br><br>
+    </form>
+
+    <form>
+        <label for="idpulsante">Premi il pulsante: </label>
+        <button type="button" id="idpulsante">Click Me!</button>
+    </form>
+</body>
+</html>
