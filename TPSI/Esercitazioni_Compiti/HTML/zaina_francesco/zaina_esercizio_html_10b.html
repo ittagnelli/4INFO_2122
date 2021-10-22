@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Antonio Mancuso" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="5">
+    <title>Zaina_html_10b.html</title>
+    <style>
+      body {background-color: powderblue;}
+      h1 {color: blue;}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "Zaina_html_02.html";
+      }
+    </script>
+
+</head>
+<body>
+    <h3>DATI PERSONALI:</h3>
+    <form>
+        <input type="text" id="idnome" name="nome" placeholder="Nome">
+        <input type="text" id="idcognome" name="cognnome" placeholder="Cognome">
+    </form>
+    <br>
+    <form>
+        <label for="genere">Genere:  </label>
+          <select name="genere" id="cars">
+              <option value="maschio">Maschio</option>
+              <option value="femmina">Femmina</option>
+          </select>
+        </form>
+        <h4>Altezza</h4>
+<form>
+  <input type="number" id="altezza" name="altezza" min="140" max="210"><br><br>
+</form>
+<h4>Quanto ti impegni a scuola/lavoro?</h4>
+<form>
+  <input type="number" id="altezza" name="altezza" min="1" max="10"><br><br>
+</form>
+<h4>quanto sei bravo a scuola/lavoro?</h4>
+<form>
+  <input type="number" id="altezza" name="altezza" min="1" max="10"><br><br>
+</form>
+
+    <h4>Tempo libero:</h4>
+    <form>
+        <input type="checkbox" id="lavoro" name="tempo" value="lavoro">
+        <label for="lavoro">  Lavoro</label><br>
+        <input type="checkbox" id="studio" name="tempo" value="studio">
+        <label for="studio">  Studio</label><br>
+        <input type="checkbox" id="friarielli" name="pizza" value="friarielli">
+        <label for="friarielli"> Tennis</label><br>
+        <input type="checkbox" id="bufala" name="pizza" value="bufala">
+        <label for="bufala">  Nuoto</label><br>
+        <input type="checkbox" id="svago" name="tempo" value="svago">
+        <label for="svago"> Svago</label><br><br>
+    </form>
+
+    <h4>lavoro:</h4>
+    <form>
+        <input type="radio" id="studente" name="fasciaeta" value="under25">
+        <label for="under25">  pubblico</label><br>
+        <input type="radio" id="occupato" name="fasciaeta" value="under50">
+        <label for="under50">  privato</label><br>
+        <input type="radio" id="disoccupato" name="fasciaeta" value="over50">
+        <label for="over50">  azienda</label><br><br>
+    </form>
+
+    <form>
+        <label for="idpulsante">Premi il pulsante: </label>
+        <button type="button" id="idpulsante">faccio altro</button>
+    </form>
+    <h4>Data di nascità</h4>
+    <form>
+        <input type="date" id="iddata" name="birthday"><br><br>
+    </form>
+
+</body>
+</html>
