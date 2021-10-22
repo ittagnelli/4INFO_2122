@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Antonio Mancuso" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="5">
+    <title>Zaina_html_10.html</title>
+    <style>
+      body {background-color: powderblue;}
+      h1 {color: blue;}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "Bortoluzzi&Zaina_html_02.html";
+      }
+    </script>
+
+</head>
+
+<body>
+  &copy;
+  &euro;
+  &lt;
+  &gt;<br>
+
+    <a href="https://en.wikipedia.org/wiki/Localhost">da https://en.wikipedia.org/wiki/Localhost</a>
+    <div ><h4>localhost</h4>
+        <p><em>In computer networking</em>,<mark>localhost</mark> is a hostname that refers to <i>the current computer</i> used to access it.<br> It is used to access the network services that are running on the host via <strong>the loopback network interface</strong>. Using <mark>the loopback interface bypasses any local network interface hardware</mark>.</p>
+        </div>
+        <br/><hr/>
+<span><h4>Loopback</h4></span>
+<p><img src="https://cloudo3.com/ArticleIMG/image-0724061805204.jpg " width="200" alt="The local loopback mechanism"/><strong>The local loopback mechanism</strong> may be used to run a network service on a host without requiring a physical<br> network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL http://localhost to display its home page.
+The name localhost normally resolves to <small>the IPv4 loopback address 127.0.0.1</small>, and to the IPv6 loopback address ::1.</p>
+<br/>
+<h4>Name resolution</h4>
+<p>IPv4 <a href="https://en.wikipedia.org/wiki/IPv4">da https://en.wikipedia.org/wiki/IPv4</a><img src="img_1.png" alt="IPv4 address in dotted-decimal notation"/> network standards reserve  127.0.0.0/8 (more than 16 million addresses) for loopback<br> purposes.[2] That means any packet sent to any of those addresses is looped back.<small>The address 127.0.0.1</small> is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
+    <br/><hr/>
+<strong>The resolution</strong> of the name localhost to one or more IP addresses is normally configured by the following lines in the<br> operating system's hosts file:<br></p>
+<h4>127.0.0.1    localhost
+::1          localhost
+<br></h4>
+<p>The name may also be resolved by <b>Domain Name System</b><small>(DNS) servers</small>, but queries for this name should be resolved locally,<br> and should not be forwarded to remote name servers.
+
+<abbr title="in addition">GNU</abbr>to the mapping of localhost to the loopback addresses (127.0.0.1 and ::1).In addition to the mapping of localhost to the loopback addresses (127.0.0.1 and ::1), localhost may also be mapped to other<br> IPv4 (loopback) addresses and it is also possible to assign other, or additional, names to any loopback address. <mark>The mapping of localhost</mark> to addresses other than the designated loopback address range in the hosts file or in DNS is not guaranteed to have the desired effect, as applications may map the name internally.
+
+<span style="color:green">In the Domain Name System</span>, <mark>the name localhost is reserved as a top-level domain name</mark>, originally set aside to avoid confusion<br> with the hostname used for loopback purposes.<sup>[3]</sup> IETF standards prohibit domain name registrars from assigning <small>the name localhost</small>.
+<ul>
+  <li>Domain Name System</li>
+  <li>DNS</li>
+  <li>GNU</li>
+</ul>
+
+
+<ol>
+  <li>cpu</li>
+  <li>ram</li>
+  <li>hard disk</li>
+</ol>
+
+<h4>IETF standards</h4>
+<span style="color:blue">The name localhost</span> is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names),[4] which achieved the Proposed Standard<br> maturity level in February <del>2016</del><ins>2013</ins>. The standard sets forth a number of special considerations governing the use of the name in <i>the Domain Name System:</i>
+<br>
+An IPv4 <cite><u>"is the fourth version of the Internet Protocol"</u>.</cite> or IPv6 address query for <em>the name localhost</em> must always resolve to the respective loopback address, which is specified in a separate standard.
+<span style="color:red">Applications may resolve</span> the name to a loopback address themselves, or pass it to the local name resolver mechanisms.<br>
+When a name resolver receives an address (A or AAAA) query for localhost, it should return <em>the appropriate loopback</em> addresses, and<br> negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.
+To avoid burdening <i>the Domain Name System</i> root servers<pre> with       traffic</pre>, caching name servers should never request name server records for<br> localhost, or forward resolution to authoritative name servers.
+DNS registrars are precluded from delegating domain names in the top-level domain localhost.
+<abbr title="When authoritative">GNU</abbr>When authoritative <u>name servers</u> receive queries for <b>'localhost'</b> in spite of the provisions mentioned resolve them appropriately.
+The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF <i>"Special Use IPv4 Addresses"</i> standard (RFC 5735).<br> The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).
+<div style="background-color:blue ; color:white">In contrast, the IETF <small>"IP Version 6 Addressing Architecture"</small> standard <del>(RFC 5678)</del><ins>(RFC 4291)</ins> reserves the single IPv6 loopback address ::1 within<br> the IPv6 address space.<strong>The standard precludes</strong> the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
+</div>
+<br/><hr/>
+
+<h4>Packet processing</h4> <blockquote cite="https://codilime.com/blog/why-vector-packet-processing-is-worth-your-time/">
+    Vector processing is completely different, as each packet is not processed separately. Instead, a certain group of packets is processed at the same time. 
+  </blockquote>
+<a href="https://www.linux.com/" target="_blank">
+  <img src="https://www.researchgate.net/profile/Gabriele-Mencagli/publication/281711729/figure/fig1/AS:391441525297152@1470338340112/Pipeline-model-for-packet-processing-on-network-processors-and-the-use-of-on-chip.png" width="250" alt="primo web server"/>
+  </a>
+
+  <b>The processing</b> of any packet sent to a loopback address, is implemented in the link layer of the TCP/IP stack. Such packets are never passed<br> to any network interface controller (NIC) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.
+
+<q>Looped-back packets</q> are distinguished from any other packets traversing the TCP/IP stack only by the special IP address they were addressed to.<br> Thus, the services that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages.<del>To ease such testing</del><ins>To simplify such testing</ins> , the hosts file may be configured to provide appropriate names for each address.
+
+<abbr title="packets received on">GNU</abbr>a non-loopback interface with a loopback source or destination address must be dropped.
+
+Packets received on a non-loopback interface with a loopback source or destination address <s>must be dropped</s>. Such packets are sometimes referred to<br> as Martian packets.<sub>[6]</sub> As with any other bogus packets, they may be malicious and any problems they might cause can be avoided <em>by applying bogon filtering</em>.
+<code>sudo su</code>
+<h4>Special cases</h4>
+<q>The releases of the MySQL</q> database differentiate between the use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1.<br> When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.
+
+One notable exception to the use of the 127.0.0.0/8 addresses <s>is their use in</s> <q>Multiprotocol Label Switching (MPLS)</q> traceroute error detection,<br> in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.
+</p>
+andamento<meter min="0" max="10" value="9.0">andamento</meter><br>
+ PROGRESSO<progress min="0" max="10" value="8"></progress><br>
+ andamento<meter min="0" max="10" value="8.0">andamento</meter><br>
+ PROGRESSO<progress min="0" max="10" value="8"></progress><br>
+ andamento<meter min="0" max="100" value="5.0">andamento</meter><br>
+ PROGRESSO<progress min="0" max="10" value="2"></progress><br>
+<br>
+ <table border="4">
+  <caption>TABELLA</caption>
+  <thead style="background:rgb(255, 255, 255);text-align: center;">
+      <tr>
+          <td>A</td> <td>B</td> <td>numeri</td>
+      </tr>
+  </thead>
+  <tbody style="color:rgb(248, 0, 0);text-align: center;">
+      <tr style="background-color: blueviolet;">
+          <td>1</td> <td>5</td> <td>0</td>
+      </tr>
+      <tr style="background:rgb(255, 255, 255);">
+          <td>7</td> <td>1</td> <td>1</td>
+      </tr>
+      <tr style="background-color: blue;">
+          <td>9</td> <td>0</td> <td>1</td>
+      </tr>
+      <tr style="background:rgb(255, 255, 255);">
+          <td>3</td> <td>1</td> <td>1</td>
+ 
+      </tr>
+ 
+  </tbody>
+
+</table>
+</body>
+
+</html>
