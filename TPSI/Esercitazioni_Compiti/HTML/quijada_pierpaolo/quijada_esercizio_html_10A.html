@@ -1,0 +1,63 @@
+<!DOCTYPE>
+<html lang="it">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Pierpaolo Quijada Gomez" />
+        <meta name="description" content="Scelta_Studente" />
+        <meta name="keywords" content="pierpaolo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="refresh" content="100">
+        <title>Scelta Studente</title>
+    </head>
+    
+    <style>
+        body {background-color: rgb(202, 200, 200)}
+        div {background-color: blanchedalmond;}
+    </style>
+
+    <body>
+        <form>
+            <!--Identita'-->
+            <div>
+                <h3>Presentazione</h3>
+                <label for="idnome">Nome: </label>
+                <input type="text" id="idnome" name="nome" placeholder="Nome"><br>
+                <label for="idcognome">Cognome: </label>
+                <input type="text" id="idcognome" name="cognnome" placeholder="Cognome"><br>
+            </div>
+            <!--Bottone-->
+            <div>
+                <label for="idbutton">Pulsante: </label>
+                <input type="button" id="idbutton" value="Clicca qui!"><br> 
+            </div>
+            <!--Scelte Radio-->
+            <div>
+                <h3>Scelta per il Triennio</h3>
+                <input type="radio" id="idInformatica" name="scelta" value="Informatica">
+                <label for="informatica">  Informatica</label><br>
+                <input type="radio" id="idElettronica" name="scelta" value="Elettronica">
+                <label for="elettronica">  Elettronica</label><br>
+                <input type="radio" id="idMeccatronica" name="scelta" value="Meccatronica">
+                <label for="meccatronica">  Meccatronica</label><br><br>
+            </div>
+            <!--Scelte CheckBox-->
+            <div>
+                <h3>Materie di oggi</h3>
+                <input type="checkbox" id="idInformatica" name="informatica" value="informatica">
+                <label for="informatica">  Informatica</label><br>
+                <input type="checkbox" id="idTPSI" name="tpsi" value="tpsi">
+                <label for="tpsi">  TPSI</label><br>
+                <input type="checkbox" id="idSistemi" name="sistemi" value="sistemi">
+                <label for="sistemi"> Sistemi</label><br>
+                <input type="checkbox" id="idStoria" name="storia" value="storia">
+                <label for="storia">  Storia</label><br>
+                <input type="checkbox" id="idInglese" name="inglese" value="inglese">
+                <label for="inglese">  Inglese</label><br>
+            </div>
+            <!--Compleanno-->
+            <h3>Compleanno</h3>
+            <input type="date" id="iddata" name="birthday"><br><br>
+        </form>
+    </body>
+</html>
