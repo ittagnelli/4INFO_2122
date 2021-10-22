@@ -32,19 +32,39 @@
               <option value="maschio">Maschio</option>
               <option value="femmina">Femmina</option>
           </select>
+       <br>
+          <label for="genere">Nazionalità:  </label>
+          <select name="genere" id="cars">
+              <option value="italiano">Italiano</option>
+              <option value="inglese">Inglese</option>
+              <option value="Americano">Americano</option>
+              <option value="Spagnolo">Spagnolo</option>
+              <option value="altro">Altro...</option>
+            </select>
+       
+       
+       
         </form>
         <h4>Altezza</h4>
 <form>
   <input type="number" id="altezza" name="altezza" min="140" max="210"><br><br>
-</form>
+
 <h4>Quanto ti impegni a scuola/lavoro?</h4>
-<form>
+
   <input type="number" id="altezza" name="altezza" min="1" max="10"><br><br>
-</form>
+
 <h4>quanto sei bravo a scuola/lavoro?</h4>
-<form>
+
   <input type="number" id="altezza" name="altezza" min="1" max="10"><br><br>
+
+  <h4>con quanto sei uscito da scuola</h4>
+
+    <input type="number" id="altezza" name="altezza" min="60" max="100"><br><br>
 </form>
+
+<form><h3>Colore preferito</h3><br>
+
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br></form>
 
     <h4>Tempo libero:</h4>
     <form>
@@ -78,6 +98,19 @@
     <form>
         <input type="date" id="iddata" name="birthday"><br><br>
     </form>
+
+<form><label for="">trascina: </label>
+    <input type="range" min="50" max="100" value="60" class="slider" id="trascina">
+    <label for="">trascina: </label>
+    <input type="range" min="50" max="100" value="60" class="slider" id="trascina">
+    <label for="">trascina: </label>
+    <input type="range" min="50" max="100" value="60" class="slider" id="trascina">
+    </form>
+<from>
+    <label for="bio">Biografia:</label>
+  <textarea id="bio" name="bio" rows="6" cols="60" placeholder="Inserisci la tua biografia"></textarea>
+</from>
+
 
 </body>
 </html>
