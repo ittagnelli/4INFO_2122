@@ -1,0 +1,131 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+    <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Matteo Sola" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100"><!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
+    <title>Prima pagina HTML</title><!-- titolo della pagina -->
+</head>
+
+<body>
+
+<h3>Inserimento dati personali:</h3><br><br><br>
+<form>
+    <label for="idnome">Nome: </label>
+    <input type="text" id="idnome" name="nome" placeholder="Nome">
+    <label for="idcognome">Cognome: </label>
+    <input type="text" id="idcognome" name="cognome" placeholder="Cognome">
+</form><br>
+
+  <p>Data di Nascita</p><br>
+<form>
+    <input type="date" id="iddata" name="birthday"><br><br>
+</form>
+</form><br><br><br>
+
+<form>
+    <label for="idbutton">Premi il pulsante: </label>
+    <input type="button" id="idbutton" value="Clicca qui non abilitato">
+</form><br><br><br>
+
+<h3>Possibile indirizzo di specializzazione dell'istituto tecnico:</h3><br>
+<form>
+  <input type="radio" id="informatica" name="indirizzo" value="informatica">
+  <label for="informatica">Informatica</label><br>
+  <input type="radio" id="elettronica" name="indirizzo" value="elettronica">
+  <label for="elettronica">Elettronica</label><br>
+  <input type="radio" id="meccatronica" name="indirizzo" value="meccatronica">
+  <label for="meccatronica">Meccatronica</label><br><br>
+</form><br><br><br>
+
+<h3>Sondaggio per possibili sport extracurriculari:</h3><br>
+<form>
+  <input type="checkbox" id="tennis" name="tennis" value="tennis">
+  <label for="tennis">Tennis</label><br>
+  <input type="checkbox" id="calcio" name="calcio" value="calcio">
+  <label for="calcio">Calcio</label><br>
+  <input type="checkbox" id="nuoto" name="nuoto" value="nuoto">
+  <label for="nuoto">Nuoto</label><br>
+  <input type="checkbox" id="basket" name="basket" value="basket">
+  <label for="basket">Basket</label><br>
+  <input type="checkbox" id="pallavolo" name="pallavolo" value="pallavolo">
+  <label for="pallavolo">Pallavolo</label><br><br>
+</form><br><br><br>
+
+<h3>Curiosità extra:</h3><br>
+
+<p>Altezza</p><br>
+<form>
+  <input type="number" id="altezza" name="altezza" min="150" max="210"><br><br>
+</form><br>
+
+<p>Peso</p><br>
+<form>
+  <input type="number" id="peso" name="peso" min="0" max="100"><br><br>
+</form><br>
+
+<p>Numero di pollici dello schermo del computer</p><br>
+<form>
+  <input type="number" id="pollici" name="pollici" min="5" max="70"><br><br>
+</form><br>
+
+<p>Numero di anni di scuola</p><br>
+<form>
+  <input type="number" id="anni_scuola" name="anni_scuola" min="0" max="20"><br><br>
+</form><br>
+
+<p>Colore preferito</p><br>
+<form>
+   <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+</form><br>
+
+<form><br>
+    <label for="Temperatura">Temperatura corporea</label>
+    <input type="range" min="34" max="55" value="36" class="slider" id="Temperatura"><br> 
+</form><br>
+
+<form><br>
+    <label for="libri">Passione per i libri</label>
+    <input type="range" min="1" max="10" value="6" class="slider" id="libri"><br> 
+</form><br>
+
+<form><br>
+    <label for="sport">Passione per lo sport</label>
+    <input type="range" min="1" max="10" value="8" class="slider" id="sport"><br> 
+</form><br>
+
+<form><br>
+    <label for="genere">Animali preferiti</label>
+      <select name="genere" id="cars">
+          <option value="maschio">Cani</option>
+          <option value="femmina">Gatti</option>
+          <option value="femmina">Conigli</option>
+          <option value="femmina">Pesci</option>
+          <option value="femmina">Tartarughe</option>
+      </select>
+</form><br>
+
+<form><br>
+    <label for="genere">Macchine preferite</label>
+      <select name="genere" id="cars">
+          <option value="maschio">Berline</option>
+          <option value="femmina">Utilitarie</option>
+          <option value="femmina">Sportive</option>
+          <option value="femmina">Lussuose</option>
+          <option value="femmina">SUV</option>
+      </select>
+</form><br>
+
+<form><br>
+    <label for="bio">Curiosità aggiuntive</label>
+    <textarea id="bio" name="bio" rows="6" cols="60" placeholder="Inserisci le curiosità"></textarea>    
+</form><br>
+
+</body>
+</html>
