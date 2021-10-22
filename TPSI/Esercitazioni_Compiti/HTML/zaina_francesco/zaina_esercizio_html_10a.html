@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Antonio Mancuso" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="5">
+    <title>Zaina_html_10a.html</title>
+    <style>
+      body {background-color: powderblue;}
+      h1 {color: blue;}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "Bortoluzzi&Zaina_html_02.html";
+      }
+    </script>
+
+</head>
+<body>
+    <h3>DATI PERSONALI:</h3>
+    <form>
+        <input type="text" id="idnome" name="nome" placeholder="Nome">
+        <input type="text" id="idcognome" name="cognnome" placeholder="Cognome">
+    </form>
+
+    <h3>Tempo libero:</h3>
+    <form>
+        <input type="checkbox" id="lavoro" name="tempo" value="lavoro">
+        <label for="lavoro">  Lavoro</label><br>
+        <input type="checkbox" id="studio" name="tempo" value="studio">
+        <label for="studio">  Studio</label><br>
+        <input type="checkbox" id="friarielli" name="pizza" value="friarielli">
+        <label for="friarielli"> Tennis</label><br>
+        <input type="checkbox" id="bufala" name="pizza" value="bufala">
+        <label for="bufala">  Nuoto</label><br>
+        <input type="checkbox" id="svago" name="tempo" value="svago">
+        <label for="svago"> Svago</label><br><br>
+    </form>
+
+    <h3>FASCIA D'ETA'</h3>
+    <form>
+        <input type="radio" id="studente" name="fasciaeta" value="under25">
+        <label for="under25">  0-25</label><br>
+        <input type="radio" id="occupato" name="fasciaeta" value="under50">
+        <label for="under50">  26-50</label><br>
+        <input type="radio" id="disoccupato" name="fasciaeta" value="over50">
+        <label for="over50">  >50</label><br><br>
+    </form>
+
+    <form>
+        <label for="idpulsante">Premi il pulsante: </label>
+        <button type="button" id="idpulsante">Click Me!</button>
+    </form>
+    <h3>DATA </h3>
+    <form>
+        <input type="date" id="iddata" name="birthday"><br><br>
+    </form>
+
+</body>
+</html>
