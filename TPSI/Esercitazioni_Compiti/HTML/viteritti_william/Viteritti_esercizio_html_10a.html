@@ -1,0 +1,94 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+    <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Antonio Mancuso" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100"><!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
+    <title>Prima pagina HTML</title><!-- titolo della pagina -->
+
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "STRUTTURA BASE DI UNA PAGINA WEB";
+      }
+    </script>
+    <style>
+          div{background: blue;
+          color:white;
+          }</style> 
+</head>
+
+<body><!-- Corpo principale della pagina HTML-->
+
+
+  <p>Welcome: </p>
+
+  <form>
+    <fieldset>
+    <legend>Personal Data: </legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+  
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" name="surname">
+    <br></br>
+
+  <form>
+
+    <form>
+  
+    <label for="gender">Gender:</label>
+    <select name="gender" id="cars">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br><br>
+    </form>
+   
+    
+    <form>
+      <h3>Date Of Birth: </h3><br>
+      <input type="date" id="iddata" name="birthday"><br><br>
+      </datalist><br><br>
+    </form>
+    </fieldset>
+
+  </form>
+
+  <h3>Choose your current status: </h3>
+  <form>
+    
+    <input type="radio" id="student" name="occupation" value="student">
+    <label for="student">  Student</label><br>
+    <input type="radio" id="occupation" name="occupation" value="busy">
+    <label for="busy">  Busy</label><br>
+    <input type="radio" id="unemployed" name="occupation" value="unemployed">
+    <label for="Unemployed">  Unemployed</label><br><br>
+  
+  </form>
+
+  <form><h3>Favourite subject: </h3><br>
+    <form>
+      <input type="checkbox" id="italian" name="italian" value="italian">
+      <label for="Italian">  Italian</label><br>
+      <input type="checkbox" id="maths" name="maths" value="maths">
+      <label for="Maths">  Maths</label><br>
+      <input type="checkbox" id="science" name="science" value="science">
+      <label for="Science"> Science</label><br>
+      <input type="checkbox" id="history" name="history" value="history">
+      <label for="History">  History</label><br>
+      <input type="checkbox" id="geography" name="geography" value="geography">
+      <label for="Geography">  Geography</label><br></form><br></br>
+    </form>
+       
+    <form>
+      <label for="idbutton">Push the button:  </label>
+      <input type="button" id="idbutton" value="Cliccami!!">
+    </form>
+
+
+</body>
+</html>
