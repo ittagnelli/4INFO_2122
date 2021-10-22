@@ -1,0 +1,115 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+    <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Dario Ruggieri" />
+    <meta name="description" content="Esercizio 10b" />
+    <meta name="keywords" content="form, nome, cognome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<meta http-equiv="refresh" content="1">--><!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
+    <title>Esercizio 10b</title><!-- titolo della pagina -->
+
+</head>
+
+<body><!-- Corpo principale della pagina HTML-->
+    <div>
+        <h2 style="font-size:large; margin: 0px;">Dati dell'utente</h2> <br>
+        <label for="idnome">Nome:</label>
+        <input type="text" id="idnome" name="nome" placeholder="Inserire il proprio nome">
+        <br>
+        <label for="idcognome">Cognome:</label>
+        <input type="text" id="idcognome" name="cognome" placeholder="Inserire il proprio cognome">
+        <br>
+        <label for="idindirizzo">Indirizzo:</label>
+        <input type="text" id="idindirizzo" name="indirizzo" placeholder="Inserire il proprio indirizzo">
+        <br>
+        <label for="iddata">Data di nascita:</label>
+        <input type="date" id="iddata" name="nascita"><br><br>
+
+        <label for="idaltezza">Inserire la propria altezza:</label><br>
+        <input type="number" id="idaltezza" name="altezza" min="100" max="210"><br>
+
+        <label for="idpeso">Inserire il proprio peso:</label><br>
+        <input type="number" id="idpeso" name="peso" min="30" max="120"><br>
+
+        <label for="idtemperaturacorporea">Inserire la propria temperatura corporea:</label><br>
+        <input type="number" id="idtemperaturacorporea" name="temperaturacorporea" min="35" max="40"><br>
+
+        <label for="idmediascolastica">Inserire la propria media scolastica:</label><br>
+        <input type="number" id="idmediascolastica" name="mediascolastica" min="0" max="10"><br>
+        
+        <label for="idcolorepreferito">Inserisci il tuo colore preferito:</label>
+        <input type="color" id="idcolorepreferito" name="colorepreferito" value="#ffffff"><br><br>
+        
+        <h3 style="font-size: medium; margin: 0px;">Informazioni aggiuntive</h3><br>
+        <textarea name="informazioniaggiuntive" id="idinformazioniaggiuntive" cols="60" rows="6" placeholder="Scrivi qua quello che voui aggiungere"></textarea>
+
+        <h2 style="font-size:large; margin: 0px;">Domande riguardanti la scuola </h2> <br>
+        <h3 style="font-size: medium; margin: 0px;">Periodo scolastico: </h3>
+        <input type="radio" id="biennio" name="periodoscolastico" value="biennio">
+        <label for="biennio">Biennio</label>
+        <br>
+        <input type="radio" id="triennio" name="periodoscolastico" value="triennio">
+        <label for="biennio">Triennio</label><br><br>
+        <h3 style="font-size: medium; margin: 0px;">Valutazione insegnamento: </h3>
+        <label for="idvalutazioneinsegnamento">Quanto valuti la scuola nel metodo di insegnamento da 0 a 10:</label><br>
+        <input type="range" id="idvalutazioneinsegnamento" name="valutazione" min="0" max="10" value="5"><br>
+
+        <h3 style="font-size: medium; margin: 0px;">Valutazione ambiente scolastico: </h3>
+        <label for="idambientescolastico">Valuta l'ambiente sociale della scuola, da 0 a 10:</label><br>
+        <input type="range" id="idambientescolastico" name="valutazione" min="0" max="10" value="5"><br>
+
+        <h3 style="font-size: medium; margin: 0px;">Valutazione mensa scolastica: </h3>
+        <label for="idvalutazionemensa">Valuta la mensa della scuola, da 0 a 10:</label><br>
+        <input type="range" id="idvalutazionemensa" name="valutazionemensa" min="0" max="10" value="5"><br><br>
+
+        <h2 style="font-size:large; margin: 0px;">Domande aggiuntive</h2> <br> 
+        <h3 style="font-size: medium; margin: 0px;">Cibi preferiti</h3>
+        <input type="checkbox" id="pasta" name="pasta" value="pasta">
+        <label for="pasta">  Pasta</label><br>
+        <input type="checkbox" id="Pizza" name="pizza" value="pizza">
+        <label for="pizza">  Pizza</label><br>
+        <input type="checkbox" id="kebab" name="kebab" value="kebab">
+        <label for="kebab"> Kebab</label><br>
+        <input type="checkbox" id="hot-dog" name="hot-dog" value="hot-dog">
+        <label for="hot-dog"> Hot-dog</label><br>
+        <input type="checkbox" id="gelato" name="gelato" value="gelato">
+        <label for="gelato"> Gelato</label><br><br>
+
+        <h3 style="font-size: medium; margin: 0px;">Materia preferita</h3>
+        <label for="idmateria">Scegli la tua materia preferita</label>
+        <select id="idmateria" name="materia">
+            <option value="matematica">Matematica</option>
+            <option value="tpsi">TPSI</option>
+            <option value="sistemi">Sistemi e Reti</option>
+            <option value="italiano">Italiano</option>
+            <option value="inglese">Inglese</option>
+            <option value="ginnastica">Ginnastica</option>
+            <option value="telecomunicazioni">Telecomunicazioni</option>
+            <option value="storia">Storia</option>
+            <option value="religione">Religione</option>
+        </select><br>
+        
+        <h3 style="font-size: medium; margin: 0px;">Hobby</h3>
+        <label for="idhobby">Seleziona il tuo hobby</label>
+        <select id="idhobby" name="hobby">
+            <option value="programmare">Programmare</option>
+            <option value="leggere">Leggere</option>
+            <option value="bici">Andare in bici</option>
+            <option value="musica">Ascoltare la musica</option>
+            <option value="viaggiare">Viaggiare</option>
+            <option value="compere">Fare compere</option>
+        </select><br>
+
+
+
+
+        <button type="button" id="idbutton">Clicca qua per confermare</button>
+        <br>
+    </form>
+    </div>
+
+</body>
+</html>
