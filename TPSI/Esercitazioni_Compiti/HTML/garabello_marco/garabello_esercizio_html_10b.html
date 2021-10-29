@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Garabello Marco">
+    <title>Primo form in html</title>
+</head>
+
+<body>
+
+    <h1>FORM</h1>
+
+    <form>
+        <label for="idnome">Nome:</label>
+        <input type="text" id="idnome" name="Nome" placeholder="Nome"><br />
+
+        <label for="idcognome">Cognome:</label>
+        <input type="text" id="idcognome" name="Cognome" placeholder="Cognome"><br />
+
+        <label for="idbottone">Bottone inutile:</label>
+        <input type="button" id="idbottone" value="Un pulsante totalmente inutile!">
+    </form>
+
+    <h2>Classe:</h2><br />
+    <form>
+    <input type="radio" id="Informatica" name="Classe" value="Informatica">
+    <label for="Informatica">  Informatica</label><br />
+    <input type="radio" id="Elettronica" name="Classe" value="Elettronica">
+    <label for="Elettronica">  Elettronica</label><br />
+    <input type="radio" id="Meccatronica" name="Classe" value="Meccatronica">
+    <label for="Meccatronica">  Meccatronica</label><br /><br />
+    </form>
+
+    <h2>Che materie ti piacciono?</h2><br />
+    <form>
+    <input type="checkbox" id="Matematica" name="Matematica" value="Matematica">
+    <label for="Matematica">  Matematica</label><br />
+    <input type="checkbox" id="Sistemi" name="Sistemi" value="Sistemi">
+    <label for="Sistemi">  Sistemi</label><br />
+    <input type="checkbox" id="TPSI" name="TPSI" value="TPSI">
+    <label for="TPSI"> TPSI</label><br />
+    <input type="checkbox" id="Inglese" name="Inglese" value="Inglese">
+    <label for="Inglese">  Inglese</label><br />
+    <input type="checkbox" id="Informatica" name="Informatica" value="Informatica">
+    <label for="Informatica"> Informatica</label><br /><br />
+
+    <h2>Quanti voti hai preso quest'anno?</h2>
+    <label for="voti">Voti presi quest anno:</label>
+    <input type="number" id="voti" min="0" max="100">
+    
+    <h2>Materie scolastiche</h2>
+    <label for="materia">Materia:</label>
+    <select name="materia" id="idmateria">
+        <option value="Matematica">Matematica</option>  
+        <option value="Informatica">Informatica</option>
+        <option value="TPSI">TPSI</option>
+        <option value="Sistemi">Sistemi</option>
+        <option value="Telecomunicazioni">Telecomunicazioni</option>
+    </select> <br /><br />
+
+    <label for="voto">Voto</label>
+    <input type="number" id="voto" min="0" max="10"> <br /><br />
+
+    <label for="colore">Che colore assegni alla materia:</label>
+    <input type="color" id="colore" name="colore" value="#ff0000"><br /><br />
+
+    <label for="descrizione">Cosa ne pensi della materia:</label><br /><br />
+    <textarea name="descrizione" id="descrizone" cols="60" rows="6">Pensiero sulla materia</textarea><br /><br />
+
+    <label for="divertimento">Quanto ti diverte?</label>
+    <input type="range" min="0" max="100" value="50" id="divertimento"><br /><br />
+
+    <label for="interesse">Quanto ti interessa?</label>
+    <input type="range" min="0" max="100" value="70" id="interesse"><br /><br />
+
+    <label for="andamento">Vai bene in questa materia?</label>
+    <input type="range" min="0" max="100" value="20" id="andamento">
+
+    </form>
+
+    <form >
+        <h2>Sport</h2>
+
+        <label for="sport">Selezionare uno sport</label>
+        <select name="sport" id="sport">
+            <option value="calcio">calcio</option>
+            <option value="basket">basket</option>
+            <option value="baseball">baseball</option>
+            <option value="volley">volley</option>
+            <option value="nuoto">nuoto</option>
+        </select><br /><br />
+
+        <label for="praticaAnni">Anni di pratica:</label>
+        <input type="number" id="praticaAnni" min="0" max="10"><br /><br />
+
+        <label for="praticaMesi">Mesi di pratica</label>
+        <input type="number" id="praticaMesi" min="0" max="120">
+    </form>
+    
+</body>
+</html>
