@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Pierpaolo Quijada Gomez" />
+        <meta name="description" content="Pagina wikipedia" />
+        <meta name="keywords" content="pierpaolo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="refresh" content="100">
+        <title>Raccolta dati</title>
+        <style>
+            body {background-color: white;}
+            h1 {color: black;}
+            div {background: blue;
+                color: white;
+                }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+            <legend>Dati Personali</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+          
+            <label for="cognome">Cognome:</label>   
+            <input type="text" id="cognome" name="cognome"><br>
+          
+            <label for="genere">Genere:</label>
+            <select name="genere" id="cars">
+                <option value="maschio">Maschio</option>
+                <option value="femmina">Femmina</option>
+            </select><br>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+
+            <label for="iddata">Nascita:</label>
+            <input type="date" id="iddata" name="birthday"><br>
+
+            <label for="nazionalità">Nazionalità:</label>
+            <select name="nazionalità" id="nazionalità">
+                <option value="Italia">Italia</option>
+                <option value="Perù">Perù</option>
+                <option value="Olanda">Olanda</option>
+                <option value="Francia">Francia</option>
+            </select><br>
+
+            <input type="submit" value="Invia">
+          </fieldset>      
+          </form>
+    </body>
+</html>
