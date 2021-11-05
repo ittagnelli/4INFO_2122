@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="author" content="Antonio Mancuso" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="1000">
+    <title>Prima pagina HTML</title>
+    <style>
+      h1 {color: rgb(0, 0, 0);}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "STRUTTURA BASE DI UNA PAGINA WEB";
+      }
+    </script>
+</head>
+
+<body>
+  
+    <form>
+        <label>Nazionalità: </label><br>
+        <input list="nazioni" name="nazioni" id="nazioni">
+        <datalist id="nazioni">
+            <option value="Albanese">
+            <option value="Argentina">
+            <option value="Belga">
+            <option value="Biellorussa">
+            <option value="Italiana">
+            <option value="Irlandese">
+            <option value="Israeliana">
+        </datalist>
+      </form>
+      <form>
+        <fieldset>
+        <legend>Dati Personali</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+      
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome">
+      
+        <label for="genere">Genere:</label>
+        <select name="genere" id="cars">
+            <option value="maschio">Maschio</option>
+            <option value="femmina">Femmina</option>
+        </select><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Invia">
+      </fieldset>      
+      </form>
+
+    </body>
+</html>
