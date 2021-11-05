@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="author" content="Antonio Mancuso" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="1000">
+    <title>Prima pagina HTML</title>
+    <style>
+      h1 {color: rgb(0, 0, 0);}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "STRUTTURA BASE DI UNA PAGINA WEB";
+      }
+    </script>
+</head>
+
+<body>
+  
+    <h3>Altezza</h3><br>
+    <form>
+      <input type="number" id="altezza" name="altezza" min="150" max="200"><br><br>
+    </form>
+    
+        <h3>Colore preferito</h3><br>
+    <form>
+       <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+    </form>
+    
+    <form>
+        <label for="peso">Peso: </label>
+        <input type="range" min="50" max="100" value="60" class="slider" id="peso"><br> 
+      </form>
+    
+      <form>
+        <label for="genere">Genere:  </label>
+          <select name="genere" id="cars">
+              <option value="maschio">Maschio</option>
+              <option value="femmina">Femmina</option>
+          </select>
+        </form>
+    
+        <form>
+            <label for="bio">Biografia:</label>
+            <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Inserisci la tua biografia"></textarea>    
+          </form>
+
+    <form>
+        <label>Nazionalità: </label><br>
+        <input list="nazioni" name="nazioni" id="nazioni">
+        <datalist id="nazioni">
+            <option value="Albanese">
+            <option value="Argentina">
+            <option value="Belga">
+            <option value="Biellorussa">
+            <option value="Italiana">
+            <option value="Irlandese">
+            <option value="Israeliana">
+        </datalist>
+      </form>
+      <form>
+        <fieldset>
+        <legend>Dati Personali</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+      
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome">
+      
+        <label for="genere">Genere:</label>
+        <select name="genere" id="cars">
+            <option value="maschio">Maschio</option>
+            <option value="femmina">Femmina</option>
+        </select><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Invia">
+      </fieldset>      
+      </form>
+
+    </body>
+</html>
