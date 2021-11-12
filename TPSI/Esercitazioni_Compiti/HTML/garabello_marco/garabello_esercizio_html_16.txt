@@ -1,0 +1,5 @@
+FOUND ERRORS
+Resulting report:
+"file:/home/marco/Work/Code/Web/garabello_glossario.html":13.9-13.16: error: The “center” element is obsolete. Use CSS instead.
+
+ 
