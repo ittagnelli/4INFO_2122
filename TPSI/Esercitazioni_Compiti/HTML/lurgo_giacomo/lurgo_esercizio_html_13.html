@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html lang="it"> 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Giacomo Lurgo" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="TPSI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title> esercitazione 10b</title> 
+    
+</head><body>
+   
+
+    <form>
+        <fieldset>
+        <legend>Dati Personali</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"></br>
+      
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome"></br>
+      
+        <label for="genere">Genere:</label>
+        <select name="genere" id="cars">
+            <option value="maschio">Maschio</option>
+            <option value="femmina">Femmina</option>
+        </select><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> </br>
+        
+
+        <label for="Password">Password:</label>
+        <input type="password"  id="Password" name="Password"></br>
+        
+        <form>
+            <label for="iddata" > Data nascita utente:      </label> 
+            <input type="date" id="iddata" name="birthday" > <br> <br> 
+        </form>
+    
+        <form>
+            <label for="nazioni">Nazionalità: </label>
+            <input list="nations" name="nazioni" id="nazioni">
+            <datalist id="nations">
+                <option value="Albanese">
+                <option value="Argentina">
+                <option value="Belga">
+                <option value="Biellorussa">
+                <option value="Italiana">
+                <option value="Irlandese">
+                <option value="Israeliana">
+            </datalist>
+          </form>
+            <br>
+        
+        <form>
+            <label for="Attività">Attività lavorativa:</label>
+            <input type="text" id="Attività" name="Attività"></br>
+        </form>
+
+        <label for="Hobby">Hobby:</label>
+        <input type="text" id="Hobby" name="Hobby"></br>
+
+        <form>
+            <label for="Altezza">Altezza:</label>
+            <input type="number" id="Altezza" name="Altezza" min="120" max="200" > <br>
+        </form>
+
+        <form>
+            <label for="Peso">Peso:</label>
+            <input type="number" id="Peso" name="Peso" min="40" max="160" > <br>
+        </form>
+
+        
+        <form>
+            <label for="favcolor">Colore prefrito:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+        </form>
+
+
+        <form>
+            <label for="note">Note:</label>
+        <textarea id="note" name="note" rows="2" cols="21" placeholder="Note in più..."></textarea>    
+        </form>
+
+
+        </br>       
+        <form>
+        <label for="idbutton" > -> Premi per inviare il modulo compilato. Premi </label>
+        <input type="button" id="idbutton" value="Qui " >
+    </form>
+</fieldset>
+
+</body>
+</html>

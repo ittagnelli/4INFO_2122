@@ -1,0 +1,92 @@
+<!DOCTYPE html> <!-- HTML5-->
+<html lang="it"> <!-- Pagina HTML -->
+
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+    <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Matteo Sola" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100"><!-- Duranbte la fase di sviluppo permette il refresh  automatico della pagina  -->
+    <title>Prima pagina HTML</title><!-- titolo della pagina -->
+</head>
+
+<body>
+    <form>
+        <fieldset>
+        <legend>Dati Personali</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br><br>
+
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome">
+        <br><br>
+
+        <label for="genere">Genere:</label>
+        <select name="genere" id="cars">
+            <option value="maschio">Maschio</option>
+            <option value="femmina">Femmina</option>
+        </select><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="email">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <p>Data di Nascita</p>
+        <form>
+        <input type="date" id="iddata" name="birthday"><br><br>
+        </form><br><br>
+        
+        <form>
+            <label for="nazioni">Nazionalità: </label>
+            <input list="nations" name="nazioni" id="nazioni">
+            <datalist id="nations">
+                <option value="Albanese">
+                <option value="Argentina">
+                <option value="Belga">
+                <option value="Biellorussa">
+                <option value="Italiana">
+                <option value="Irlandese">
+                <option value="Israeliana">
+            </datalist>
+        </form><br><br>
+
+        <label for="attività lavorativa">Attività lavorativa:</label>
+        <input type="attività lavorativa" id="attività lavorativa" name="attività lavorativa">
+        <br><br>
+
+        <label for="hobby">Hobby:</label>
+        <input type="hobby" id="hobby" name="hobby">
+        <br><br>
+
+        <p>Altezza</p>
+        <form>
+        <input type="number" id="altezza" name="altezza" min="150" max="200"><br><br>
+        </form><br><br>
+
+        <form>
+            <label for="peso">Peso: </label>
+            <input type="range" min="50" max="100" value="60" class="slider" id="peso">
+        </form><br><br>
+
+        <p>Colore preferito</p>
+        <form>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+        </form><br><br>
+
+        <form>
+            <label for="note">Note personali:</label><br>
+            <textarea id="note" name="note" rows="4" cols="50" placeholder="Inserisci le tue note personali"></textarea>    
+        </form><br><br>
+        <input type="submit" value="Invia">
+      </fieldset>      
+      </form>
+</body>
+</html>

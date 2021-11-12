@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it"> 
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="author" content="Francesco Zaina" />
+    <meta name="description" content="esercizio_html" />
+    <meta name="keywords" content="template, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Esercizio html</title>
+    <style>
+      body {background-color:yellow;}
+      h1 {color: black (255, 0, 0);}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "A.C. Milan";
+}
+</script>
+</head>
+
+<body>
+<form>
+    <h1>Curriculum</h1><br>
+    <fieldset>
+    <legend>Dati Personali</legend>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+  
+    <label for="cognome">Cognome:</label>
+    <input type="text" id="cognome" name="cognome">
+  
+    <label for="genere">Genere:</label>
+    <select name="genere" id="cars">
+        <option value="maschio">Maschio</option>
+        <option value="femmina">Femmina</option>
+    </select><br><br>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <input type="submit" value="Invia">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <input type="submit" value="Invia">
+
+    <h3>Data di Nascita</h3>
+    <form>
+    <input type="date" id="iddata" name="birthday"><br><br>
+    </form>
+  
+  <form>
+    <label>Nazionalità: </label><br>
+    <input list="nazioni" name="nazioni" id="nazione">
+    <datalist id="nazioni">
+        <option value="Albanese">
+        <option value="Argentina">
+        <option value="Belga">
+        <option value="Biellorussa">
+        <option value="Italiana">
+        <option value="Irlandese">
+        <option value="Israeliana">
+        <option value="Inglese">
+        <option value="Libano">
+        <option value="Libia">
+        <option value="Macedonia">
+        <option value="Venezuola">
+    </datalist>
+
+    <h3>Attività lavorativa:</h3>
+<form>
+  <input type="radio" id="studente" name="occupazione" value="studente">
+  <label for="studente">  Studente</label><br>
+  <input type="radio" id="disoccupato" name="occupazione" value="disoccupato">
+  <label for="disoccupato">  Disoccupato</label><br>
+  <input type="radio" id="occupato" name="occupazione" value="occupato">
+  <label for="occupato">  Occupato(pubblico)</label><br>
+  <input type="radio" id="occupato" name="occupazione" value="occupato">
+  <label for="occupato">  Occupato(privato)</label><br>
+</form>
+
+<h3>Hobby:</h3>
+<form>
+  <input type="radio" id="sport" name="ginnastica" value="sport">
+  <label for="sport">  Sport</label><br>
+  <input type="radio" id="studio" name="scuola" value="studio">
+  <label for="studio">  studio</label><br>
+  <input type="radio" id="viaggiare" name="valigia" value="viaggiare">
+  <label for="viaggiare">  Viaggiare</label><br>
+  <input type="radio" id="usicre" name="amici" value="uscire">
+  <label for="uscire">  Uscire con amici/fidanzata</label><br>
+</form>
+
+<h3>Quanto pesi?:</h3>
+<form>
+    <label for="peso">peso: </label>
+    <input type="range" min="0" max="250" value="60" class="slider" id="peso"><br> 
+  </form>
+
+<h3>Colore preferito</h3>
+<form>
+   <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+</form>
+
+<h3>Note aggiuntive</h3>
+<form>
+    <label for="bio">Desideri aggiungere altro(attestati, certificati, ...):</label>
+    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Inserisci la tua biografia"></textarea>    
+  </form>
+</fieldset>
+  </form>
+
+  </form>
+</body>
+  
