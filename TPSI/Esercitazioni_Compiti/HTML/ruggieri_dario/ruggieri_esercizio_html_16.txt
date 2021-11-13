@@ -1,0 +1,5 @@
+FOUND ERRORS
+Resulting report:
+"file:/home/dario/Scrivania/Codici/4_INFORMATICA/TSPI/4INFO_2122/TPSI/Verifiche/HTML/ruggieri_dario/ruggieri_glossario.html":12.5-12.12: error: The “center” element is obsolete. Use CSS instead.
+
+ 

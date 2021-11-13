@@ -1,0 +1,12 @@
+FOUND ERRORS
+Resulting report:
+
+  Documenti\4INFO_2122\TPSI\Verifiche\HTML\solavagione_matteo\solavagione_glossario.html:7:1
+  ‼   1:16  Warning Consider adding a “lang” attribute to the “html” start tag to declare the language of this document.  
+  ×   7:1   Error   Element “head” is missing a required instance of child element “title”.                               
+  ×  10:1   Error   The “center” element is obsolete. Use CSS instead.                                                    
+
+  1 warning
+  2 errors
+
+ 

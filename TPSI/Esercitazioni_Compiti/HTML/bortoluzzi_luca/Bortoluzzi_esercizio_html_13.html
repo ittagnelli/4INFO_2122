@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Luca Bortoluzzi" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>Bortoluzzi_html_10a.html</title>
+    <style>
+      body {background-color: white;}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "Bortoluzzi_html_10a.html";
+      }
+    </script>
+</head>
+
+<body style="background: antiquewhite;">
+
+<form>
+    <fieldset style="color: red;">
+        <legend>Dati personali</legend>
+        <label for="nome">NOME:</label>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="cognome">COGNOME:</label>
+        <input type="text" id="cognome" name="cognome"><br>
+        <label for="genere">GENERE:</label>
+        <select id="nome" name="nome">
+            <option value="Maschio">Maschio</option>
+            <option value="Femmina">Femmina</option>
+            <option value="Altro">Altro</option>
+        </select><br>
+            <label for="nazioni">Nazionalità:</label>
+            <input list="nazions" name="na" id="nazioni">
+                 <datalist id="nazions">
+                    <option value="Albanese">Albanese</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Belga">Belga</option>
+                    <option value="Biellorussa">Biellorussa</option>
+                    <option value="Italiana">Italiana</option>
+                    <option value="Irlandese">Irlandese</option>
+                    <option value="Israeliana">Israeliana</option>
+                  </datalist>
+    </fieldset>
+
+</form>
+
+</body>
+
+</html>

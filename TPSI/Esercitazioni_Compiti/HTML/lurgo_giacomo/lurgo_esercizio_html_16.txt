@@ -1,0 +1,86 @@
+FOUND ERRORS
+Resulting report:
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":10.5-10.12: error: The “center” element is obsolete. Use CSS instead.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":11.9-11.27: error: The “border” attribute on the “table” element is obsolete. Use CSS instead.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":15.39-15.43: error: Stray end tag “tp”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":21.49-21.53: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":21.21-21.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":21.87-21.91: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":21.59-21.82: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":21.128-21.132: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":21.97-21.120: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":24.48-24.52: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":24.21-24.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":24.90-24.94: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":24.58-24.81: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":24.139-24.143: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":24.101-24.124: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":27.49-27.53: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":27.21-27.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":27.91-27.95: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":27.59-27.82: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":27.137-27.141: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":27.102-27.125: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":33.5-33.23: error: The “border” attribute on the “table” element is obsolete. Use CSS instead.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":36.39-36.43: error: Stray end tag “tp”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":41.52-41.56: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":41.21-41.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":41.91-41.95: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":41.62-41.85: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":41.136-41.140: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":41.101-41.124: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":44.51-44.55: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":44.21-44.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":44.105-44.109: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":44.61-44.98: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":44.143-44.147: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":44.115-44.138: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":47.53-47.57: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":47.21-47.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":47.95-47.99: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":47.63-47.86: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":47.137-47.141: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":47.105-47.128: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":52.8-52.26: error: The “border” attribute on the “table” element is obsolete. Use CSS instead.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":55.29-55.33: error: Stray end tag “tp”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":60.48-60.52: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":60.21-60.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":60.91-60.95: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":60.58-60.81: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":60.127-60.131: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":60.101-60.124: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":63.48-63.52: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":63.21-63.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":63.90-63.94: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":63.58-63.81: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":63.132-63.136: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":63.100-63.123: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":66.47-66.51: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":66.21-66.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":66.90-66.94: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":66.57-66.80: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":66.129-66.133: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":66.100-66.123: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":72.8-72.26: error: The “border” attribute on the “table” element is obsolete. Use CSS instead.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":75.29-75.33: error: Stray end tag “tp”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":80.61-80.65: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":80.21-80.56: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":80.97-80.101: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":80.71-80.94: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":80.134-80.138: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":80.107-80.130: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":83.51-83.55: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":83.21-83.44: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":83.91-83.95: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":83.61-83.84: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":83.129-83.133: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":83.101-83.124: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":86.65-86.69: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":86.32-86.55: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":86.104-86.108: error: End tag “td” seen, but there were open elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":86.75-86.98: error: Unclosed element “a”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":92.1-92.7: error: End tag for  “body” seen, but there were unclosed elements.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":10.5-10.12: error: Unclosed element “center”.
+"file:/home/giacomo/Scrivania/lurgo_glossario.html":94.1-94.9: error: Stray end tag “center”.
+
+ 

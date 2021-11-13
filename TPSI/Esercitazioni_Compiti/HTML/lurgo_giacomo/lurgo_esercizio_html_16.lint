@@ -1,0 +1,90 @@
+FOUND ERRORS
+Resulting report:
+
+  .home/giacomo/Scrivania/lurgo_glossario.html:10:5
+  ✖  10:5    Error   Unclosed element “center”.                                                   
+  ✖  10:5    Error   The “center” element is obsolete. Use CSS instead.                           
+  ✖  11:9    Error   The “border” attribute on the “table” element is obsolete. Use CSS instead.  
+  ✖  15:39   Error   Stray end tag “tp”.                                                          
+  ✖  21:21   Error   Unclosed element “a”.                                                        
+  ✖  21:49   Error   End tag “td” seen, but there were open elements.                             
+  ✖  21:59   Error   Unclosed element “a”.                                                        
+  ✖  21:87   Error   End tag “td” seen, but there were open elements.                             
+  ✖  21:97   Error   Unclosed element “a”.                                                        
+  ✖  21:128  Error   End tag “td” seen, but there were open elements.                             
+  ✖  24:21   Error   Unclosed element “a”.                                                        
+  ✖  24:48   Error   End tag “td” seen, but there were open elements.                             
+  ✖  24:58   Error   Unclosed element “a”.                                                        
+  ✖  24:90   Error   End tag “td” seen, but there were open elements.                             
+  ✖  24:101  Error   Unclosed element “a”.                                                        
+  ✖  24:139  Error   End tag “td” seen, but there were open elements.                             
+  ✖  27:21   Error   Unclosed element “a”.                                                        
+  ✖  27:49   Error   End tag “td” seen, but there were open elements.                             
+  ✖  27:59   Error   Unclosed element “a”.                                                        
+  ✖  27:91   Error   End tag “td” seen, but there were open elements.                             
+  ✖  27:102  Error   Unclosed element “a”.                                                        
+  ✖  27:137  Error   End tag “td” seen, but there were open elements.                             
+  ✖  33:5    Error   The “border” attribute on the “table” element is obsolete. Use CSS instead.  
+  ✖  36:39   Error   Stray end tag “tp”.                                                          
+  ✖  41:21   Error   Unclosed element “a”.                                                        
+  ✖  41:52   Error   End tag “td” seen, but there were open elements.                             
+  ✖  41:62   Error   Unclosed element “a”.                                                        
+  ✖  41:91   Error   End tag “td” seen, but there were open elements.                             
+  ✖  41:101  Error   Unclosed element “a”.                                                        
+  ✖  41:136  Error   End tag “td” seen, but there were open elements.                             
+  ✖  44:21   Error   Unclosed element “a”.                                                        
+  ✖  44:51   Error   End tag “td” seen, but there were open elements.                             
+  ✖  44:61   Error   Unclosed element “a”.                                                        
+  ✖  44:105  Error   End tag “td” seen, but there were open elements.                             
+  ✖  44:115  Error   Unclosed element “a”.                                                        
+  ✖  44:143  Error   End tag “td” seen, but there were open elements.                             
+  ✖  47:21   Error   Unclosed element “a”.                                                        
+  ✖  47:53   Error   End tag “td” seen, but there were open elements.                             
+  ✖  47:63   Error   Unclosed element “a”.                                                        
+  ✖  47:95   Error   End tag “td” seen, but there were open elements.                             
+  ✖  47:105  Error   Unclosed element “a”.                                                        
+  ✖  47:137  Error   End tag “td” seen, but there were open elements.                             
+  ✖  52:8    Error   The “border” attribute on the “table” element is obsolete. Use CSS instead.  
+  ✖  55:29   Error   Stray end tag “tp”.                                                          
+  ✖  60:21   Error   Unclosed element “a”.                                                        
+  ✖  60:48   Error   End tag “td” seen, but there were open elements.                             
+  ✖  60:58   Error   Unclosed element “a”.                                                        
+  ✖  60:91   Error   End tag “td” seen, but there were open elements.                             
+  ✖  60:101  Error   Unclosed element “a”.                                                        
+  ✖  60:127  Error   End tag “td” seen, but there were open elements.                             
+  ✖  63:21   Error   Unclosed element “a”.                                                        
+  ✖  63:48   Error   End tag “td” seen, but there were open elements.                             
+  ✖  63:58   Error   Unclosed element “a”.                                                        
+  ✖  63:90   Error   End tag “td” seen, but there were open elements.                             
+  ✖  63:100  Error   Unclosed element “a”.                                                        
+  ✖  63:132  Error   End tag “td” seen, but there were open elements.                             
+  ✖  66:21   Error   Unclosed element “a”.                                                        
+  ✖  66:47   Error   End tag “td” seen, but there were open elements.                             
+  ✖  66:57   Error   Unclosed element “a”.                                                        
+  ✖  66:90   Error   End tag “td” seen, but there were open elements.                             
+  ✖  66:100  Error   Unclosed element “a”.                                                        
+  ✖  66:129  Error   End tag “td” seen, but there were open elements.                             
+  ✖  72:8    Error   The “border” attribute on the “table” element is obsolete. Use CSS instead.  
+  ✖  75:29   Error   Stray end tag “tp”.                                                          
+  ✖  80:21   Error   Unclosed element “a”.                                                        
+  ✖  80:61   Error   End tag “td” seen, but there were open elements.                             
+  ✖  80:71   Error   Unclosed element “a”.                                                        
+  ✖  80:97   Error   End tag “td” seen, but there were open elements.                             
+  ✖  80:107  Error   Unclosed element “a”.                                                        
+  ✖  80:134  Error   End tag “td” seen, but there were open elements.                             
+  ✖  83:21   Error   Unclosed element “a”.                                                        
+  ✖  83:51   Error   End tag “td” seen, but there were open elements.                             
+  ✖  83:61   Error   Unclosed element “a”.                                                        
+  ✖  83:91   Error   End tag “td” seen, but there were open elements.                             
+  ✖  83:101  Error   Unclosed element “a”.                                                        
+  ✖  83:129  Error   End tag “td” seen, but there were open elements.                             
+  ✖  86:32   Error   Unclosed element “a”.                                                        
+  ✖  86:65   Error   End tag “td” seen, but there were open elements.                             
+  ✖  86:75   Error   Unclosed element “a”.                                                        
+  ✖  86:104  Error   End tag “td” seen, but there were open elements.                             
+  ✖  92:1    Error   End tag for  “body” seen, but there were unclosed elements.                  
+  ✖  94:1    Error   Stray end tag “center”.                                                      
+
+  82 errors
+
+ 
