@@ -18,9 +18,9 @@ app.post('/aggiungi', function(req,res){
     console.log("Ricevuta richiesta HTTP POST");
     console.log("Visualizzo l'oggetto HTTP body");
     console.log(req.body);
-    if (req.body.id_studente > 5 && req.body.id_studente < 100) {
-        console.log(`OK: id ${req.body.id_studente} valido`);
-        res.send(`<h1>OK studente aggiunto con id [${req.body.id_studente}]</h1>`);
+    if ((req.body.id_studente > 5 && req.body.id_studente < 100) && (req.body.eta_studente > 19 && req.body.eta_studente < 31)) {
+        console.log(`OK: id ${req.body.id_studente} valido ed eta' validi`);
+        res.send(`<h1>OK studente aggiunto con id [${req.body.id_studente}] ed eta [${req.body.eta_studente}]</h1>`);
     } else {
         console.log(`ERROR: id ${req.body.id_studente} non valido`);
         res.send(`<script>setTimeout(function(){ window.location.href = "/"; }, 3000);</script>
