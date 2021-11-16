@@ -1,0 +1,7 @@
+FOUND ERRORS
+Resulting report:
+"file:/C:/Users/Matteo/Documenti/4INFO_2122/TPSI/Verifiche/HTML/solavagione_matteo/solavagione_glossario.html":7.1-7.7: error: Element “head” is missing a required instance of child element “title”.
+"file:/C:/Users/Matteo/Documenti/4INFO_2122/TPSI/Verifiche/HTML/solavagione_matteo/solavagione_glossario.html":10.1-10.8: error: The “center” element is obsolete. Use CSS instead.
+"file:/C:/Users/Matteo/Documenti/4INFO_2122/TPSI/Verifiche/HTML/solavagione_matteo/solavagione_glossario.html":1.16-2.6: info warning: Consider adding a “lang” attribute to the “html” start tag to declare the language of this document.
+
+ 

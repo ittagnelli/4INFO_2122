@@ -1,0 +1,49 @@
+FOUND ERRORS
+Resulting report:
+
+  .home/pierpaolo/Scrivania/VsCode/4INFO_2122/TPSI/Verifiche/HTML/quijada_pierpaolo/quijada_glossario.html:6:9
+  ✖    6:9   Error   Attribute “value” not allowed on element “meta” at this point.                                                     
+  ✖    6:9   Error   Element “meta” is missing one or more of the following attributes: “content”, “property”.                          
+  ✖    7:9   Error   Attribute “value” not allowed on element “meta” at this point.                                                     
+  ✖    7:9   Error   Element “meta” is missing one or more of the following attributes: “content”, “property”.                          
+  ✖   14:9   Error   The “center” element is obsolete. Use CSS instead.                                                                 
+  ✖   15:13  Error   The “border” attribute on the “table” element is obsolete. Use CSS instead.                                        
+  ✖   25:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   26:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   27:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   33:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   34:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   35:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   41:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   42:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   43:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   59:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   60:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   61:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   67:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   68:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   69:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   75:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   76:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   77:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   93:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   94:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖   95:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  101:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  102:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  103:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  109:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  110:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  111:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  127:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  128:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  134:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  135:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  136:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  142:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  143:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+  ✖  144:29  Error   Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)  
+
+  41 errors
+
+ 
