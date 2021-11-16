@@ -1,0 +1,9 @@
+FOUND ERRORS
+Resulting report:
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+"file:/home/mega/Verifiche/HTML/chindris_alexandru/chindris_glossario.html":11.1-11.8: error: The “center” element is obsolete. Use CSS instead.
+"file:/home/mega/Verifiche/HTML/chindris_alexandru/chindris_glossario.html":14.13-15.16: error: Start tag “h1” seen in “table”.
+"file:/home/mega/Verifiche/HTML/chindris_alexandru/chindris_glossario.html":14.13-15.16: error fatal: Cannot recover after last error. Any further errors will be ignored.
+"file:/home/mega/Verifiche/HTML/chindris_alexandru/chindris_glossario.html":1.16-2.6: info warning: Consider adding a “lang” attribute to the “html” start tag to declare the language of this document.
+
+ 
