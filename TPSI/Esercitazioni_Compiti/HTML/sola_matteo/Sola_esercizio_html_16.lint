@@ -1,0 +1,55 @@
+FOUND ERRORS
+Resulting report:
+
+  .home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html:15:5
+  ✖  15:5    Error   The “center” element is obsolete. Use CSS instead.                                                                  
+  ✖  17:1    Error   Stray start tag “thead”.                                                                                            
+  ✖  18:1    Error   Stray end tag “thead”.                                                                                              
+  ✖  24:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  25:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  26:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  27:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  28:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  29:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  30:21   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  31:21   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  32:21   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  33:22   Error   Stray end tag “tr”.                                                                                                 
+  ✖  39:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  40:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  41:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  42:18   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  43:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  44:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  44:21   Error   Unclosed element “a”.                                                                                               
+  ✖  44:95   Error   A slash was not immediately followed by “>”.                                                                        
+  ✖  44:102  Error   End tag had attributes.                                                                                             
+  ✖  44:102  Error   Stray end tag “h2<”.                                                                                                
+  ✖  44:103  Error   End tag “li” seen, but there were open elements.                                                                    
+  ✖  45:18   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  46:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  47:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  48:18   Error   Stray end tag “tr”.                                                                                                 
+  ✖  54:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  55:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  56:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  57:18   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  58:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  59:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  60:22   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  61:21   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  62:21   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  63:22   Error   Stray end tag “tr”.                                                                                                 
+  ✖  69:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  70:13   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  71:18   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  72:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  73:17   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  74:22   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  75:21   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  76:21   Error   Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)  
+  ✖  83:1    Error   Saw an end tag after “body” had been closed.                                                                        
+
+  47 errors
+
+ 
