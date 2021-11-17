@@ -1,0 +1,51 @@
+FOUND ERRORS
+Resulting report:
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":15.5-15.12: error: The “center” element is obsolete. Use CSS instead.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":17.1-17.52: error: Stray start tag “thead”.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":18.1-18.8: error: Stray end tag “thead”.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":24.13-24.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":25.13-25.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":26.13-26.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":27.17-27.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":28.17-28.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":29.17-29.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":30.21-30.24: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":31.21-31.24: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":32.21-32.24: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":33.22-35.5: error: Stray end tag “tr”.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":39.13-39.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":40.13-40.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":41.13-41.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":42.18-42.21: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":43.17-43.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":44.17-44.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":44.95-44.101: error: A slash was not immediately followed by “>”.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":44.95-44.102: error: End tag had attributes.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":44.95-44.102: error: Stray end tag “h2<”.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":44.95-44.107: error: End tag “li” seen, but there were open elements.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":44.21-44.86: error: Unclosed element “a”.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":45.18-45.21: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":46.17-46.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":47.17-47.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":48.18-50.5: error: Stray end tag “tr”.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":54.13-54.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":55.13-55.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":56.13-56.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":57.18-57.21: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":58.17-58.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":59.17-59.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":60.22-60.25: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":61.21-61.24: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":62.21-62.24: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":63.22-65.9: error: Stray end tag “tr”.
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":69.13-69.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":70.13-70.16: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":71.18-71.21: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":72.17-72.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":73.17-73.20: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":74.22-74.25: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":75.21-75.24: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":76.21-76.24: error: Element “li” not allowed as child of element “td” in this context. (Suppressing further errors from this subtree.)
+"file:/home/marco/Work/Code/Web/tmp/sola_matteo_glossario.html":83.1-83.7: error: Saw an end tag after “body” had been closed.
+
+ 
