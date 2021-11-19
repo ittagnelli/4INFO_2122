@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Garabello Marco">
+        <title>Modulo iscrizione Agnelli anno 2022-2023</title>
+    
+    </head>
+
+    <body>
+
+        <center>
+
+            <img src="garabello_logoAgnelli.png" width="200" alt="Logo Agnelli">
+
+            <br>
+
+            <h1>Istituto Internazionale E. Agenlli</h1>
+            <h2>MODULO ISCRIZIONE ALL'ANNO SCOLASTICO 2022-2023</h2>
+
+            <br />
+            <hr>
+
+            <form>
+                <table>
+                    <tr>
+
+                        <td colspan="4">
+                               &nbsp;
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                    
+                        <td>
+                                <label for="idNomeCognome">Io sottoscritto</label>
+                        </td>
+
+                        <td>                       
+                                <input type="text" id="idNomeCognome" name="NomeCognome" placeholder="inserire il proprio nome e cognome" size="25">                
+                        </td>
+                        
+                        <td>
+                            <label for="idEmail"><center>Email</center></label>
+                        </td>
+                        
+                        <td>
+                            <input type="email" id="idEmail" name="Email" size="25">
+
+                        </td>
+                    
+                    </tr>
+
+                    <tr>
+                    
+                        <td colspan="4">
+                               &nbsp; 
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td>
+                            <label for="idNascita">Nato a</label>            
+                        </td>
+                        
+                        <td>
+                            <input type="text" id="idNascita" name="Nascita" size="25">
+                        </td>
+                        
+                        <td>
+                            <label for="idData"><center>il</center></label>
+                        </td>
+                        
+                        <td>
+                            <input type="date" id="idData" name="Data">
+
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td colspan="4">
+                               &nbsp;
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td>
+                            <label for="idCittadinanza">Cittadinanza</label>            
+                        </td>
+                        
+                        <td>
+                            <input list="Citt" name="cittadinanza" id="idCittadinanza" size="25">
+                            <datalist id="Citt">
+                                <option value="Italiana">
+                                <option value="Francese">
+                                <option value="Americana">
+                                <option value="Inglese">
+                                <option value="Tedesca">
+                             </datalist>
+                        </td>
+                        
+                        <td>
+                            <label for="idCodiceFiscale"><center>Codice Fiscale</center></label>
+                        </td>
+                        
+                        <td>
+                            <input type="text" id="idCodiceFiscale" name="CodiceFiscale" size="25">
+
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td colspan="4">
+                               &nbsp;
+                   
+                            </td>
+                    </tr>
+
+                    <tr>
+                   
+                        <td>
+                            <label for="idComune">Residente a</label>            
+                        </td>
+                        
+                        <td>
+                            <input type="text" placeholder="comune" id="idComune" name="Comune" size="25">
+                        </td>
+                        
+                        <td>
+                            <label for="idProvincia"><center>Provincia</center></label>
+                        </td>
+                        
+                        <td>
+                            <select name="Provincia" id="idProvincia">
+                                <option value="AL">AL</option>
+                                <option value="TO">TO</option>
+                                <option value="RO">RO</option>
+                                <option value="CN">CU</option>
+                                <option value="ML">ML</option>
+                            </select>
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td colspan="4">
+                               &nbsp;
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td colspan="2">
+                            
+                                <fieldset>
+
+                                    <legend>Genere</legend>
+                                    <input type="radio" id="idMaschio" name="Maschio" value="Maschio">
+                                    <label for="idMaschio">Maschio</label><br />
+                                    
+                                    <input type="radio" id="idFemmina" name="Femmina" value="Femmina">
+                                    <label for="idFemmina">Femmina</label><br />
+                                    
+                                    <input type="radio" id="idAltro" name="Altro" value="Altro">
+                                    <label for="idAltro">Altro</label><br />
+                                    
+                                    <input type="radio" id="idNS" name="Non Specificato" value="Non Specificato">
+                                    <label for="idNS">Non Specificato</label><br />
+                                
+                                </fieldset>
+                            
+                        </td>
+
+                        <td colspan="2">
+                            
+                                <fieldset>
+                                    <legend>Titolo di studio</legend>
+                                    <input type="checkbox" id="idLE" name="Licenza Elementare" value="Licenza Elementare">
+                                    <label for="idLE">Licenza Elementare</label><br />
+                                    
+                                    <input type="checkbox" id="idLM" name="Licenza Media" value="Licenza Media">
+                                    <label for="idFemmina">Femmina</label><br />
+                                    
+                                    <input type="checkbox" id="idDiploma" name="Diploma" value="Diploma">
+                                    <label for="idDiploma">Diploma</label><br />
+                                    
+                                    <input type="checkbox" id="idLaurea" name="Laurea" value="Laurea">
+                                    <label for="idLaurea">Laurea</label><br />
+
+                                </fieldset>
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td colspan="4">
+                               &nbsp;
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td colspan="4">
+                            <div> <center>in ottemperanza al decreto legge n. 37/1995 richiede l'iscrizione presso questo istituto tecnico</center></div>
+                   
+                        </td>
+                    </tr>
+
+                    <tr>
+                   
+                        <td colspan="4">
+                               &nbsp; 
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td colspan="2">
+
+                            <center><button>Cancella</button></center>
+                        </td>
+
+                        <td colspan="2">
+                            <center><button>Invia</button></center>
+                        </td>
+                   
+                    </tr>
+
+                    <tr>
+                   
+                        <td colspan="4">
+                               &nbsp; 
+                        </td>
+                   
+                    </tr>
+                </table>
+            </form>
+
+            <hr>
+            <br />
+            
+            <div><i>La presente domanda è soggetta ad un analisi dettagliata da parte del consiglio docenti.</i></div>
+            <div><i>Per tale motivo questa domanda potrebbe essere rifiutata ad insindacabile giudizio dell'istituto.</i></div>
+
+        </center>
+
+       
+        
+    </body>
+</html>
