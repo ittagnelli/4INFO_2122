@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it"> 
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="author" content="Federico Pomba" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>pomba_template.html</title>
+    <style>
+      body {background-color: rgb(255, 255, 255);}
+      h1 {color: rgb(0, 0, 0);}
+    </style>
+    <script>
+      function myFunction() { 
+        document.getElementById("titolo").innerHTML = "Pagina HTML";
+}
+</script>
+</head>
+
+<body>
+<center>
+
+    <img src="https://agnelli.it/wp-content/uploads/2021/02/logo_agnelli.png" width="150" alt="logo"/>
+
+<h1>Istituto Internazionale E.Agnelli</h1>
+<h2>MODULO ISCRIZIONE ALL'ANNO SCOLASTICO 2022-2023</h2>
+<br/>
+<hr/>
+
+<form>
+    <br/>
+    <table border="0">
+        <caption></caption>
+        <thead>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td> <label for="idnome">Io sottoscritto</label></td> <td><input type="text" id="idnome" name="nome" placeholder="inserire il prorpio nome e cognome"></td> <td><label for="idmail">Email </label></td>
+          <td>  <input type="text" id="idnato" name="nato" placeholder=""></td>
+            </tr>
+
+            <tr>
+                <td><label for="idnato">Nato a  </label></td> <td><input type="text" id="idnato" name="nato" placeholder=""></td> <td><label for="idcompleanno"> il </label></td>
+          <td><input type="date" id="iddata" name="birthday"></td>
+         </tr>
+          
+            <tr>
+                <td> <label for="citt">Cittadinanza  </label></td> <td> <select name="cittadinanza" id="cars">
+                    <option value="italiano">Italiano</option>
+                    <option value="inglese">Inglese</option>
+                    <option value="Americano">Americano</option>
+                    <option value="Spagnolo">Spagnolo</option>
+                    <option value="altro">Altro...</option>
+                  </select></td> <td><label for="idcomune">Codice Fiscale  </label></td> <td><input type="text" id="idcodfiscale" name="codfiscale" placeholder=""></td>
+            </tr>
+            <tr>
+                <td>        <label for="idcomune">Residente a  </label></td> <td> <input type="text" id="idcomune" name="comune" placeholder="comune"></td> <td><label for="citt">Provincia  </label></td>
+          <td> <select name="provincia" id="cars">
+            <option value="TO">TO</option>
+            <option value="MI">MI</option>
+            <option value="RM">RM</option>
+            <option value="AC">AC</option>
+            <option value="LV">LV</option>
+          </select></td>
+            </tr>
+     <tr>
+    <td colspan="2"><br/><fieldset> <legend>Genere</legend>
+        <input type="radio" id="maschio" name="genere" value="genere">
+        <label for="maschio">  Maschio</label><br/>
+        <input type="radio" id="femmina" name="genere" value="genere">
+        <label for="femmina">  Femmina</label><br/>
+        <input type="radio" id="altro" name="genere" value="genere">
+        <label for="disoccupato">  Altro</label><br/>
+        <input type="radio" id="non spevificato" name="genere" value="genere">
+        <label for="non specificato">  Non Specificato</label> <br/>
+        </fieldset>  </td>
+         <td colspan="2"><br/>
+            <fieldset><legend>Titolo di Studio</legend>
+                <input type="checkbox" id="licenzaelementare" name="licenza elementare" value="licenza elementare">
+                <label for="licenza elementare">  Licenza Elementare</label><br/>
+                
+                <input type="checkbox" id="Licenza Media" name="Licenza Media" value="Licenza Media">
+                <label for="Licenza Media">  Licenza Media</label><br>
+                
+                <input type="checkbox" id="Diploma" name="Diploma" value="Diploma">
+                <label for="Diploma">  Diploma</label><br>
+                
+                <input type="checkbox" id="Laurea" name="Laurea" value="Laurea">
+                <label for="Laurea">  Laurea</label><br/>
+                </fieldset>
+        </td> 
+  
+            </tr>
+            <tr>
+                <td colspan="4"><br/>
+                    <span>in ottemperanza al decreto legge n. 37/1995 richiede l'iscrizione presso questo istituto tecnico</span>
+                </td>
+                </tr>
+                <tr>
+
+                <td colspan="2">
+                 <br/>    <center>
+                   <button type="button" id="idpulsante">Cancella</button> </td> 
+                   </center>
+                    <td colspan="2">
+                  <br/>    <center>  <button type="button" id="idpulsante">Invia</button></td>
+    </center>
+        </tr>
+</tbody>
+</table>   
+</form>
+<br/>
+<hr/>
+<br/>
+<span>
+<cite>
+La presente domanda è soggetta ad un'analisi dettagliata da parte del cosiglio docenti.<br/>
+<br/>Per tale motivo questa domanda potrebbe essere rifiutata ad insindacabile giudizio dell'istituto.
+</cite>
+</span>
+
+</center>
+</body>
+
+
+</html>
