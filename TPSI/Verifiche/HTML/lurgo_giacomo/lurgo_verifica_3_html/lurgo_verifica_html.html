@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html lang="it"> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Giacomo Lurgo" />
+        <meta name="description" content="Template HTML" />
+        <meta name="keywords" content="TPSI" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <title> Home verifica</title> 
+    </head>
+
+
+
+    <body>
+        <center>
+                <img src="agnelli.jpg" height="80" alt="Immagine non trovata">
+                
+                <h1><b>Istituto Internazionale E.Agnelli</b></h1>
+                <h3>MODULO ISCRIZIONE ALL'ANNO SCOLASTICO 2022-2023</h3>
+                <hr/>
+
+            <table>
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Io sottoscritto <textarea id="nome" name="nome" rows="1" cols="35" placeholder="inserire il proprio nome e cognome"></textarea>  <br/><br/>  
+                        </td>
+                        <td>
+                            Email <textarea id="mail" name="mail" rows="1" cols="35"> </textarea>  <br/><br/> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nato a: <textarea id="nascita" name="nascita" rows="1" cols="35" ></textarea>  <br/><br/> 
+                        </td>
+                        <td>
+                            <label for="iddata" >il    </label> 
+                            <input type="date" id="iddata" name="birthday" > <br> <br> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Nazionalità">Cittadinanza </label>
+                            <input list="nazioni" name="Nazionalità" id="Nazionalità">
+                            <datalist id="nazioni">
+                            <option value="Albanese">
+                            <option value="Argentina">
+                            <option value="Belga">
+                            <option value="Biellorussa">
+                            <option value="Italiana">
+                            <option value="Irlandese">
+                            <option value="Israeliana">
+                            </datalist> <br/><br/>
+                        </td>
+                        <td>
+                            Codice Fiscale <textarea id="code" name="code" rows="1" cols="35"> </textarea>  <br/><br/> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Residente a <textarea id="residenza" name="residenza" rows="1" cols="35" placeholder="comune"></textarea>  <br/><br/>  
+                        </td>
+                        <td>
+                            <label for="luogo">Provincia</label>
+                                <select name="luogo" id="luogo">
+                                    <option value="alessandria">AL</option>
+                                    <option value="genova">GE</option>
+                                    <option value="torino">TO</option>
+                                </select><br><br>
+                        </td>
+                    </tr>
+                </tbody>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Genere</legend>
+                                <input type="radio" id="maschio" name="maschio" value="maschio">
+                                <label for="maschio">  Maschio</label><br>
+                                <input type="radio" id="femmina" name="femmina" value="femmina">
+                                <label for="femmina">  Femmina</label><br>
+                                <input type="radio" id="Altro" name="Altro" value="Altro">
+                                <label for="Altro">  Altro</label><br>
+                                <input type="radio" id="nn" name="nn" value="nn">
+                                <label for="nn">  Non specificato</label>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend>Titolo di Studio</legend>    
+                                <input type="checkbox" id="elementare" name="elementare" value="elementare">
+                                <label for="elementare">  Licenza Elementare</label><br>
+                                <input type="checkbox" id="medie" name="medie" value="medie">
+                                <label for="medie">  Licenza Media</label><br>
+                                <input type="checkbox" id="diploma" name="diploma" value="diploma">
+                                <label for="diploma"> Diploma</label><br>
+                                <input type="checkbox" id="Laurea" name="Laurea" value="Laurea">
+                                <label for="Laurea">  Laurea</label><br>
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                in ottemperanza al decreto legge n. 37/1995 richiede l'iscrizione presso questo istituto tecnico
+            </p>
+            <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <label for="idbutton" > </label>
+                        <input type="button" id="idbutton" value="Cencella " >              
+                    </td>
+                    <td>
+                        <label for="idbutton2" > </label>
+                        <input type="button" id="idbutton2" value="Invia " >
+                    </td>
+                </tr>
+            </table>
+            <hr/>
+            <br><br>
+            <p>
+                <i>
+                    La presente domanda è soggetta ad un'analisi dettagliata da parte del consiglio docenti.<br>
+                    Per tale motivo questa domanda potrebbw essere rifiutata ad insindacabile giudizio dell'istituto.
+                </i>
+            </p>
+        </center>
+    </body>
+</html>
