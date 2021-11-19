@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Verifica">
+        <meta name="author" content="Pierpaolo">
+        <meta name="description" content="Verifica HTML">
+        <title>Modulo Iscrizione</title>
+    </head>
+
+    <body>
+        <center>
+            <form>
+            <h1>Istituto Internazionale E.Agnelli</h1>
+            <h2>MODULO ISCRIZIONE ALL'ANNO SCOLASTICO 2022-2023</h2>
+            <br/><br/>
+            <hr/>
+            <br/>
+            <table>
+                <!--Riga 1-->
+                <tr>
+                    <td width="340">
+                            <label for="idnomecognome">Io sottoscritto</label>
+                            <input type="text" id="idnomecognome" name="nome_cognome" placeholder="Inserire il proprio nome e cognome">
+                    </td>
+                    <td>
+                            <label for="idemail">Email</label>
+                            <input type="email" id="idemail" name="mail_personale">
+                    </td>
+                </tr>
+                <!--Riga 2-->
+                <tr>
+                    <td>
+                            <label for="idnascita">Nato a</label>
+                            <input type="text" id="idnascita" name="luogo_nascita">
+                    </td>
+                    <td>
+                            <label for="iddata">il</label>
+                            <input type="date" id="iddata" name="giorno_nascita">
+                    </td>
+                </tr>
+                <!--Roga 3-->
+                <tr>
+                    <td>
+                            <label for="idcittadinanza">Cittadinanza</label>
+                            <input type="text" id="idcittadinanza" name="Cittadinanza">
+                    </td>
+                    <td>
+                            <label for="idcodice">Codice Fiscale</label>
+                            <input type="text" id="idcodice" name="codice_fiscale">
+                    </td>
+                </tr>
+                <!--Riga 4-->
+                <tr>
+                    <td>
+                            <label for="idcomune">Residente a</label>
+                            <input type="text" id="idcomune" name="comune" placeholder="comune">
+                    </td>
+                    <td>
+                            <label for="idprovincia">Provincia</label>
+                            <select id="idprovincia" name="provincia">
+                                <option value="TO">TO</option>
+                                <option value="CU">CU</option>
+                                <option value="CU">RO</option>
+                                <option value="CU">MI</option>
+                            </select>
+
+                    </td>
+                </tr>
+                <!--Riga 5-->
+                <tr>
+                    <td>
+                            <p>Genere</p>
+                            <input type="radio" id="idmaschio" name="Maschio">
+                            <label for="idmaschio">Maschio</label><br/>
+                            <input type="radio" id="idfemmina" name="Femmina">
+                            <label for="idfemmina">Femmina</label><br/>
+                            <input type="radio" id="idaltro" name="Altro">
+                            <label for="idaltro">Altro</label><br/>
+                            <input type="radio" id="idNonSpecificato" name="non_specificato">
+                            <label for="idNonSpecificato">Non Specificato</label><br/>
+                    </td>
+                    <td>
+                            <p>Titolo di Studio</p>
+                            <input type="checkbox" id="idelementare" name="Licenza_Elementare">
+                            <label for="idelementare">Licenza Elementare</label><br/>
+                            <input type="checkbox" id="idmedia" name="Licenza_Media">
+                            <label for="idmedia">Licenza Media</label><br/>
+                            <input type="checkbox" id="iddiploma" name="Diploma">
+                            <label for="iddiploma">Diploma</label><br/>
+                            <input type="checkbox" id="idlaurea" name="Laurea">
+                            <label for="idlaurea">Laurea</label><br/>
+                    </td>
+                </tr>
+                <!--Riga 6-->
+            </table>
+            <p>in ottemperanza al decreto legge n.37/1995 richiede l'iscrizione presso questo istituto tecnico</p>                   
+            <br/>
+            <table>   
+                <!--Riga 7-->    
+                <tr>
+                    <td width="350">
+                        <input type="button" id="cancel" value="Cancella">
+                    </td>
+                    <td>
+                        <input type="button" id="invia" value="Invia">
+                    </td>
+                </tr>
+            </table>
+            <br/>
+            <hr/>
+            <br/><br/>
+            <em>
+                La presente domanda è soggetta ad un'analisi dettagliata da parte del consiglio docenti.<br/><br/>
+                Per tale motivo questa domanda potrebbe essere rifiutata ad insidacabile giudizio dell'istituto.
+            </em>            
+            </form>
+        </center>
+
+    </body>
+</html>
