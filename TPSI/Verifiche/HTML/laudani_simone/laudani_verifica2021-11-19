@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo Iscrizione 2022/23</title>
+</head>
+<body>
+    <center>
+        <img src="data:image/png;base64,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" alt="Agnelli">
+        <h1>Istituto Internazionale E. Agnelli</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <h1>MODULO ISCRIZIONE ALL'ANNO SCOLASTICO 2022-2023</h1>
+                    </td>
+                </tr>
+            </thead>
+        </table>
+        
+        <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="idnome">Io sottoscritto</label>
+                        <input type="text" id="idnome" name="nome" placeholder="Inserire il proprio nome e cognome">
+                    </td>
+
+                    <td>
+                        &emsp;&emsp;
+                        <label for="idmail">Email</label>
+                        &emsp;&emsp;
+                        <input type="text" id="idmail" name="mail">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="idnascita">Nato a</label>
+                        &emsp;&emsp;&emsp;&nbsp;
+                        <input type="text" id="idnascita" name="nascita">
+                    </td>
+
+                    <td> <br>
+                        &emsp;&emsp;&emsp;
+                        <label for="idcompl">il</label>
+                        &emsp;&emsp;&emsp;&nbsp;
+                        <input type="date" id="idcompl" name="compleanno"><br><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="idcittadinanza">Cittadinanza</label>
+                        &nbsp;
+                        <input list="cittadinanza" id="idcittadinanza" name="cittadinanze">
+                        <datalist id="cittadinanza">
+                            <option value="Francese">
+                            <option value="Italiana">
+                            <option value="Tedesca">
+                            <option value="Russa">
+                            <option value="Americana">
+                        </datalist>
+                    </td>
+
+                    <td>
+                        <label for="idcf">Codice fiscale</label>
+                        &nbsp;
+                        <input type="text" id="idcf" name="cf">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <br>
+                        <label for="idresidenza">Residente a</label>
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="text" id="idresidenza" name="residenza" placeholder="comune">
+                    </td>
+
+                    <td> <br>
+                        &emsp;
+                        <label for="provincia">Provincia</label>
+                        &emsp;&nbsp;
+                        <select name="provincia" id="prov">
+                            <option value="torino">TO</option>
+                            <option value="cuneo">CN</option>
+                            <option value="alessandria">BI</option>
+                            <option value="biella">CN</option>
+                            <option value="asti">AT</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <br>
+                        <fieldset>
+                            <legend>Genere</legend>
+
+                            <input type="radio" id="maschio" name="genere" value="maschio">
+                            <label for="maschio">  Maschio</label><br>
+                            <input type="radio" id="femmina" name="genere" value="femmina">
+                            <label for="femmina">  Femmina</label><br>
+                            <input type="radio" id="altro" name="genere" value="altro">
+                            <label for="altro">  Altro</label><br>
+                            <input type="radio" id="nonspec" name="genere" value="nonspec">
+                            <label for="nonspec">  Non Specificato</label><br>
+                        </fieldset>
+                    </td>
+
+                    <td> <br>
+                        <fieldset>
+                            <legend>Titolo di Studio</legend>
+
+                            <input type="checkbox" id="elementare" name="elementare" value="elementare">
+                            <label for="elementare">  Licenza Elementare</label><br>
+                            <input type="checkbox" id="media" name="media" value="media">
+                            <label for="media">  Licenza Media</label><br>
+                            <input type="checkbox" id="diploma" name="diploma" value="diploma">
+                            <label for="diploma"> Diploma</label><br>
+                            <input type="checkbox" id="laurea" name="laurea" value="laurea">
+                            <label for="laurea">  Laurea</label><br>
+                        </fieldset>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tbody>
+
+                <p>in ottemperanza al dereto legge n. 37/1995 richiede l'iscrizione presso questo istituto tecnico</p>
+
+                <tr>
+                    <td> <br>
+                        <label for="idcancel"></label>
+                        <input type="button" id="idcancel" value="Cancella">
+                    </td>
+
+                    <td> <br>
+                        <label for="idsend"></label>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <input type="button" id="idsend" value="Invia">
+                    </td>
+                </tr>
+                
+                
+            </tbody>
+        </table>
+        </form>
+
+        <p>
+            <i>
+                La presente domanda è soggetta ad un'analisi dettagliata da parte del consiglio docenti.
+                <br>
+                Per tale motivo questa domanda potrebbe essere rifiutata ad insindacabile giudizio dell'istituto.
+            </i>
+        </p>
+
+    </center>
+</body>
+</html>
