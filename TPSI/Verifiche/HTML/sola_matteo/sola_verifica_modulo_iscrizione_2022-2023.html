@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it"> 
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="author" content="Matteo Sola" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="100">
+    <title>ISCRIZIONE ONLINE</title>
+</head>
+
+<body>
+    <center><img src="https://agnelli.it/wp-content/uploads/2021/02/logo_agnelli.png" width="250" alt="Scuola Agnelli"/>
+    <br><br>
+    <p><h1><b>Istituto Internazionale E. Agnelli</b></h1></p><br>
+    <p><h1><b>MODULO ISCRIZIONE ALL'ANNO SCOLASTICO 2022-2023</b></h1></p><br>
+    <hr>
+    <form>
+        <table border="0">
+            <thead>
+                <tbody>
+                    <tr>
+                        <td><label for="nome_utente">Io sottoscritto </label>
+                            <input type="text" id="idnome" name="nome_utente" placeholder="inserire il proprio nome e cognome"></td>
+                            <td><label for="email">Email </label>
+                                <input type="text" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nascita">Nato a </label>
+                            <input type="text" id="idnascita" name="nascita"></td>
+                            <td><label for="nascita">il </label>
+                                <input type="date" id="iddata" name="birthday"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nazioni">Cittadinanza </label>
+                            <input list="nations" name="nazioni" id="nazioni">
+                            <datalist id="nations">
+                                <option value="Italiana">
+                                <option value="Francese">
+                                <option value="Tedesca">
+                                <option value="Spagnola">
+                                <option value="Statunitense">
+                                <option value="Cinese">
+                                <option value="Inglese">
+                            </datalist></td>
+                            <td><label for="codice_fiscale">Codice fiscale </label>
+                                <input type="text" id="codice_fiscale" name="codice_fiscale"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="residenza">Residente a </label>
+                            <input type="text" id="residenza" name="residenza" placeholder="comune"></td>
+                            <td><label for="provincia">Provincia  </label>
+                                <select name="provincia" id="cars">
+                                    <option value="Sigla">TO</option>
+                                    <option value="Sigla">MI</option>
+                                    <option value="Sigla">NA</option>
+                                    <option value="Sigla">CA</option>
+                                    <option value="Sigla">AL</option>
+                                    <option value="Sigla">CU</option>
+                                    <option value="Sigla">RM</option>
+                                    <option value="Sigla">GE</option>
+                                    <option value="Sigla">VE</option>
+                                    <option value="Sigla">CS</option>
+                                </select></td>
+                    </tr>
+                    <tr>
+                                <td><fieldset>
+                                <legend>Genere</legend>
+                                <input type="radio" id="maschio" name="maschio" value="maschio">
+                                <label for="maschio">Maschio</label><br>
+                                <input type="radio" id="femmina" name="femmina" value="femmina">
+                                <label for="femmina">Femmina</label><br>
+                                <input type="radio" id="altro" name="altro" value="altro">
+                                <label for="altro">Altro</label><br>
+                                <input type="radio" id="non_specificato" name="non_specificato" value="non_specificato">
+                                <label for="non_specificato">Non Specificato</label>
+                                </fieldset> </td>
+    
+                                <td><fieldset>
+                                <legend>Titolo di studio</legend>
+                                <input type="checkbox" id="licenza_elementare" name="licenza_elementare" value="licenza_elementare">
+                                <label for="licenza_elementare">Licenza Elementare</label><br>
+                                <input type="checkbox" id="licenza_media" name="licenza_media" value="licenza_media">
+                                <label for="licenza_media">Licenza Media</label><br>
+                                <input type="checkbox" id="diploma" name="diploma" value="diploma">
+                                <label for="diploma">Diploma</label><br>
+                                <input type="checkbox" id="laurea" name="laurea" value="laurea">
+                                <label for="laurea">Laurea</label><br>
+                                </fieldset></td>
+                    </tr>
+                    <tr>
+                        <td><p>in ottemperanza al decreto legge n. 37/1995 richiede l'iscrizione presso questo istituto tecnico</p>
+                            <br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="idbutton"></label>
+                            <input type="button" id="idbutton" value="Cancella"></td>
+                            <td><label for="idbutton"></label>
+                                <input type="button" id="idbutton" value="Invia"><br></td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </form>
+
+      <hr>
+      <br><br>
+
+      <p><i>La presente domanda è soggetta ad un'analisi dettagliata da parte del consiglio docenti.<br><br>
+    Per tale motivo questa domanda potrebbe essere rifiutata ad insindacabile giudizio dell'Istituto.</i></p>
+    </center>
+</body>
+</html>
