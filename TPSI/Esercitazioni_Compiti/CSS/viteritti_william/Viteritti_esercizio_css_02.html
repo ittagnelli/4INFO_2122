@@ -17,10 +17,11 @@
       }
     </script>
 
-    <style>
-      h2 {color: blue;}
-    </style>
-    
+<style>
+  h2 {color: blue;}
+</style>
+
+
 </head>
 
 <body><!-- Corpo principale della pagina HTML-->
@@ -32,7 +33,7 @@
         </p>
    
     
-    <h2>Loopback</h2>
+    <h2 style="color:red;">Loopback</h2>
     <p>
         The local loopback mechanism may be used to run a network service on a host without requiring a physical network interface, or without making the service accessible from the networks the computer may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL http://localhost to display its home page.
         The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.
@@ -40,7 +41,7 @@
       
     
     
-    <h2>Name resolution</h2>
+    <h2 style="color:red;">Name resolution</h2>
     
     <p>
         IPv4 network standards reserve the entire address block 127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2] That means any packet sent to any of those addresses is looped back. The address 127.0.0.1 is the standard address for IPv4 loopback traffic; the rest are not supported by all operating systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
@@ -59,7 +60,7 @@
     
     
 
-    <h2>IETF standards</h2>
+    <h2 style="color:red;">IETF standards</h2>
     <p>
         The name localhost is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names),[4] which achieved the Proposed Standard maturity level in February 2013. The standard sets forth a number of special considerations governing the use of the name in the Domain Name System:
     
@@ -76,7 +77,7 @@
       </p>
       
     
-    <h2>Packet processing</h2>
+    <h2 style="color:red;">Packet processing</h2>
     <p>
         The processing of any packet sent to a loopback address, is implemented in the link layer of the TCP/IP stack. Such packets are never passed to any network interface controller (NIC) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.
     
