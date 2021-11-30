@@ -10,20 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="refresh" content="5">
     <title>zaina_eserizio_css_02.html</title>
-    <style>
-        h2{color:blue;}
-    </style>
     <script>
       function myFunction() { 
         document.getElementById("titolo").innerHTML = "Bortoluzzi&Zaina_html_02.html";
       }
     </script>
+    <link rel="stylesheet" href="zaina_esercizio_css_03.css.css" type="text/css" />
 
 </head>
 <body>
 
     <a href="https://en.wikipedia.org/wiki/Localhost">da https://en.wikipedia.org/wiki/Localhost</a>
-    <div><h2 style="color:red;">localhost</h2>
+    <div ><h2>localhost</h2>
         <p>In computer networking, localhost is a hostname that refers to the current computer used to access it.<br> It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware.</p>
         </div>
 <span><h4>Loopback</h4></span>
@@ -41,7 +39,7 @@ In addition to the mapping of localhost to the loopback addresses (127.0.0.1 and
 
 In the Domain Name System, the name localhost is reserved as a top-level domain name, originally set aside to avoid confusion<br> with the hostname used for loopback purposes.[3] IETF standards prohibit domain name registrars from assigning the name localhost.
 
-<h2 style="color:red;">IETF standards</h2> 
+<h2>IETF standards</h2> 
 The name localhost is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names),[4] which achieved the Proposed Standard<br> maturity level in February 2013. The standard sets forth a number of special considerations governing the use of the name in the Domain Name System:
 <br>
 An IPv4 or IPv6 address query for the name localhost must always resolve to the respective loopback address, which is specified in a separate standard.
@@ -54,7 +52,7 @@ The IPv4 loopback addresses are reserved within the IPv4 address space by the IE
 
 In contrast, the IETF "IP Version 6 Addressing Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within<br> the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
 
-<h2 style="color:red;">Packet processing</h2> 
+<h2>Packet processing</h2> 
 The processing of any packet sent to a loopback address, is implemented in the link layer of the TCP/IP stack. Such packets are never passed<br> to any network interface controller (NIC) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces.
 
 Looped-back packets are distinguished from any other packets traversing the TCP/IP stack only by the special IP address they were addressed to.<br> Thus, the services that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
@@ -62,7 +60,7 @@ Looped-back packets are distinguished from any other packets traversing the TCP/
 Packets received on a non-loopback interface with a loopback source or destination address must be dropped. Such packets are sometimes referred to<br> as Martian packets.[6] As with any other bogus packets, they may be malicious and any problems they might cause can be avoided by applying bogon filtering.
 
 
-<h2 style="color:red;">Special cases</h2>  
+<h2>Special cases</h2> 
 The releases of the MySQL database differentiate between the use of the hostname localhost and the use of the addresses 127.0.0.1 and ::1.<br> When using localhost as the destination in a client connector interface of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.
 
 One notable exception to the use of the 127.0.0.0/8 addresses is their use in Multiprotocol Label Switching (MPLS) traceroute error detection,<br> in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.

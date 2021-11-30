@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="refresh" content="1">
     <title>LocalHost</title>
+    <style>
+        h2 {color : blue};
+        </style>
     <link rel="stylesheet" href="bortoluzzi_esercizio_css_03.css" type="text/css">
 </head>
 <body>
@@ -36,9 +39,9 @@
     Applications may resolve the name to a loopback address themselves, or pass it to the local name resolver mechanisms.</h2>
     When a name resolver receives an address (A or AAAA) query for localhost, it should return the appropriate loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to caching name servers.
     To avoid burdening the Domain Name System root servers with traffic, caching name servers should never request name server records for localhost, or forward resolution to authoritative name servers.
-    DNS registrars are precluded from delegating domain names in the top-level domain localhost.
+    <h2>DNS registrars are precluded from delegating</h2> domain names in the top-level domain localhost.
     When authoritative name servers receive queries for 'localhost' in spite of the provisions mentioned resolve them appropriately.
-    The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735).[5] The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).
+    The IPv4 loopback addresses are reserved within the <h2>IPv4 address space by the IETF "Special Use IPv4 Addresses"</h2> standard (RFC 5735).[5] The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).
     
     In contrast, the IETF "IP Version 6 Addressing Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
 </p>
