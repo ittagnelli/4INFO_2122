@@ -1,0 +1,44 @@
+h1 {
+    color:blue;
+  }
+ 
+ #a1 {
+    color:red;
+  }
+
+  #a3 {
+    color:red;
+  }
+
+  #a5 {
+    color:red;
+  }
+  #a2 {
+    color:green;
+  }
+
+  #a4 {
+    color:green;
+  }
+
+  #a6 {
+    color:green;
+  }
+
+  #b1{
+      color:grey;
+  }
+  #b3{
+    color: grey;
+}
+#b5{
+    color: grey;
+}
+
+#b2{
+    color: orange;
+}#b4{
+    color:orange;
+}#b6{
+    color:orange;
+}
