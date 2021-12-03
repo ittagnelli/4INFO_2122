@@ -1,0 +1,26 @@
+h1,
+h2,
+h3 {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+p {
+  color: blue;
+  text-align: left;
+}
+#h2_dispari2 {
+  color: green;
+}
+#p_dispari4 {
+  color: red;
+  text-align: right;
+}
+.hr_pari {
+  background-color: black;
+  height: 10px;
+}
+.hr_dispari {
+  background-color: red;
+  height: 3px;
+}
