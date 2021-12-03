@@ -1,19 +1,19 @@
-.titolo {
+#titolo {
   color: blue;
 }
 
-.sottotitolo1 {
+#sottotitolo1 {
   color: red;
 }
 
-.sottotitolo2 {
+#sottotitolo2 {
   color: green;
 }
 
-.paragrafo1 {
+#paragrafo1 {
   color: gray;
 }
 
-.paragrafo2 {
+#paragrafo2 {
   color: orange;
 }
