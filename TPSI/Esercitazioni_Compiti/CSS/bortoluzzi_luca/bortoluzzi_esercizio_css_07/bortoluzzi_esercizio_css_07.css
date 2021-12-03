@@ -3,3 +3,7 @@ h1 {color: blue;}
 .hp2 {color: green;}
 .p1 {color: orange;}
 .p2 {color: gray;}
+.text{
+    text-decoration: line-through;
+    text-align: center;
+}
