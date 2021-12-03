@@ -1,0 +1,23 @@
+h1 {
+    color:darkslateblue;
+}
+h2 {
+    color:darkgreen;
+}
+p {
+    color:darkslateblue;
+}
+
+.red {
+    color: crimson;
+}
+.green {
+    color: forestgreen;
+}
+
+.gray {
+    color: gray;
+}
+.orange {
+    color: orangered;
+}
