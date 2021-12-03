@@ -1,0 +1,31 @@
+h1,
+h2,
+h3 {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+p {
+  color: blue;
+  text-align: left;
+}
+
+#terzo {
+  color: green;
+}
+
+#settimo {
+  color: red;
+  text-align: right;
+}
+
+.dispari {
+  height: 3px;
+  background-color: red;
+}
+
+.pari {
+  height: 10px;
+  background-color: black;
+}
