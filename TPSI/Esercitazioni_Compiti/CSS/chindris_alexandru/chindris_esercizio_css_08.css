@@ -1,5 +1,6 @@
-h1 {color: blue;}
-.verdi {color: green;}
-.rossi {color: red;}
-.arancioni {color: orange;}
-.grigio {color: gray;}
+h1,h2,h3 {color: red; text-decoration: underline}
+p {color: blue; text-align:left;}
+.verde {color: green;}
+.p7 {color: red; text-align: right;}
+.hrp {background-color: black; height:10px;}
+.hrd {background-color: red; height:3px;}
