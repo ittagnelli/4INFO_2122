@@ -1,0 +1,31 @@
+h1,h2,h3{
+    color:red;
+    text-decoration:underline;
+    text-decoration-color:grey
+}
+
+p{
+    color:blue;
+    Align:left;
+}
+#a2{
+    color:green;
+
+
+}
+
+#b1{
+    color:red;
+    Align:right;
+
+}
+
+.pari{
+    background-color:black;
+    height: 10px;
+}
+
+.dispari{
+    background-color:red;
+    height: 3px;
+}

@@ -1,0 +1,38 @@
+h1 {
+    color:crimson;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+h2 {
+    color:crimson;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+h3 {
+    color:crimson;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+p {
+    color:darkslateblue;
+    text-align: left;
+}
+
+#par{
+    color: red;
+    text-align: right;
+}
+
+#par_green{
+    color: forestgreen;
+}
+
+.even{
+    color: black;
+    height: 10px;
+}
+
+.odd{
+    color: crimson;
+    height: 3px;
+}
