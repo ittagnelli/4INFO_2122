@@ -28,13 +28,11 @@ p {
 }
 
 .even{
-    color: black;
     background-color: black;
     height: 10px;
 }
 
 .odd{
-    color: crimson;
     background-color: crimson;
     height: 3px;
 }
