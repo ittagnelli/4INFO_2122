@@ -3,8 +3,8 @@ p > mark{
 }
 
 p > b{
-    color: yellow;
-    background-color: black
+color: yellow;
+background-color: black;
 }
 
 div em{
@@ -13,6 +13,7 @@ div em{
 }
 
 div span{
-    color: black;
     background-color: yellow;
+    color: black;
 }
+
