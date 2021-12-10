@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Chindris Alexandru" />
+    <meta name="description" content="Template HTML" />
+    <meta name="keywords" content="template, html, lezioni, scuola" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chindris_esercizio_css_12.css" type="text/css" />
+    <meta http-equiv="refresh" content="4">
+    <title>Localhost</title>
+</head>
+<body>
+<img src="img/photo_linux.jpg" width="250">
+<h1>localhost</h1>
+<p>In <a href="https://it.wikipedia.org/wiki/Computer">computer</a> networking,<ins>localhost</ins> is a hostname <ins>that refers to the current </ins>computer used to <a href="https://www.dictionary.com/browse/access">access</a> it. It is used to access the <a href="https://it.wikipedia.org/wiki/Network">network</a> <a href="https://context.reverso.net/traduzione/inglese-italiano/Services">services</a> that are <a href="https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/">running</a> on the host via the loopback network <a href="https://www.interface.com/EU/it-IT/italia">interface</a>. Using the loopback interface bypasses any local network interface hardware. 
+<hr/>
+<h2>Loopback</h2></p>
+<p>The local <u>loopback</u> mechanism may be used to run a network service<b> on a host without</b> requiring a <mark>physical</mark> network <mark>interface</mark>, or <b>without</b> making <q>the service <blockquote>accessible from the networks</blockquote> the computer</q> may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL http://localhost to display its home page.
+<div style="background-color:blue; color: white;" >The name <b>localhost normally</b> resolves <b>to the IPv4</b> loopback <mark>address</mark> 127.0.0.1, and <b>to the IPv6</b> loopback <b>address</b> ::1.</div>    
+</p>
+<img src="https://image.shutterstock.com/image-vector/gearwheel-assembly-representing-organizing-mechanism-260nw-1498801319.jpg" width="400">
+<h1>Name resolution</h1>
+<p><div style="background-color:blue; color: white;">IPv4 network <s>standards</s> reserve the entire address <u>block 127.0.0.0/8 </u>(more than 16 million addresses) for loopback purposes.</div>[2] That <small>means</small> any <q>packet sent to any of those</q> addresses is <small>looped back</small>. The address 127.0.0.1 is the standard address for <s>IPv4</s> loopback traffic; <s>the rest</s> are not supported by all <s>operating</s> systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
+The resolution of the name localhost to one or more IP <ins>addresses is <u>normally</u></ins> configured by the <abbr>following lines</abbr> in the operating system's hosts file:
+127.0.0.1    localhost
+::1          localhost
+
+The <span style="color: red;">name</span> may <span style="color: blue;">also</span> be resolved by <span style=" color: green;">Domain Name</span> System (DNS) servers, but queries for this name should be &nbsp;resolved locally, and should not be forwarded to remote <small>name servers</small>.
+
+In addition to the <span style="color: rgb(120, 196, 44);">mapping</span> of localhost <i>to the <ins>loopback addresses</ins> (127.0.0.1 and ::1), localhost may also be mapped to other IPv4 (loopback) addresses and it is also possible to assign other, or additional, names to any <small>loopback</small> address. The mapping of localhost to addresses other t<u>han the designated</u> loopback address range <s>in the hosts</s> file or in DNS is not <s>guaranteed</s> to have the desired effect, as applications may map the name <s>internally</s>.
+
+In the Domain Name System, the <span style="color: blue;">name</span> localhost is <i>reserved</i> as a <u>top-level</u> <i>domain name</i>, originally <ins>set aside to avoid</ins> confusion with the &nbsp;hostname used for loopback purposes.[3] IETF <small>standards</small> prohibit domain name registrars <small>from assigning</small> the name localhost.
+</p>
+<a href="https://it.wikipedia.org/wiki/Internet_Engineering_Task_Force">
+<img src="https://www.rigacci.org/docs/biblio/online/inet/figures/029f1.gif" width="250" alt="logo di ietf"></a>
+<hr/>
+<h1>IETF standards</h1>
+<p>The name localhost is reserved for loopback purposes by RFC 6761 (Special-Use Domain Names),[4] which achieved the Proposed Standard maturity level in February 2013. The standard sets forth a number &nbsp;of special considerations <small>governing</small> the use of the name in the Domain Name System:
+
+An <b>IPv4 or IPv6</b> address query for the name localhost must <sup>always resolve to the respective loopback</sup> <ins>address, which is <u>specified</u> in a separate standard</ins>.
+Applications <small>may</small> resolve the <small>name to a loopback</small> address <i>themselves</i>, or pass it <ins>to the local name resolver mechanisms.</ins>
+<abbr>When a name resolver</abbr> <strong>receives an address</strong> (A or AAAA) <strong>query</strong> for localhost, it should return the <mark>appropriate</mark> loopback addresses, and negative responses for any other requested record types. Queries for localhost should not be sent to <small>caching name servers</small>.
+To avoid <strong>burdening</strong> the Domain Name System <sub>root</sub><sup>servers</sup> with traffic, <sub>caching</sub> name <ins>servers should never request</ins> name server records for localhost, &nbsp; or forward resolution to authoritative name servers.
+DNS <b>registrars are precluded</b> from <em>delegating</em> domain names in the <strong>top-level <mark>domain</mark> localhost.</strong>
+<abbr>When authoritative name servers receive</abbr> queries for 'localhost' in <ins>spite of the provisions</ins> mentioned resolve them <mark>appropriately.</mark>
+The <b>IPv4 loopback</b> addresses are <b>reserved</b> within the <i>IPv4</i> address <i>space by the IETF</i> "Special Use IPv4 Addresses" standard (RFC 5735).[5] The reservation can be traced back to the November 1986 "Assigned Numbers" <small>standard (RFC 990)</small>.
+
+In contrast, <b>the IETF <em>"IP Version 6 Addressing</em> Architecture</b>" standard <strong>(RFC 4291) reserves</strong> the single <strong>IPv6 loopback address</strong> ::1 <blockquote cite="https://it.wikipedia.org/wiki/IPv6">within the IPv6 address space </blockquote>. The standard precludes the assignment of that address to <small>any physical</small> interface, as well as its use &euro; as the source or destination address in any <br/>packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.
+</p>
+<hr/>
+<h1>Packet processing</h1>
+<p><b>The processing of any packet sent</b> to a <strong>loopback address</strong>, is <i>implemented</i> in the <mark>link</mark> layer of the TCP/IP stack. Such packets are never passed <blockquote>any network interface</blockquote>  controller &amp; (NIC) or hardware device driver and must not appear outside of a computing system, or be routed by any router.<br/> This permits software  &amp; testing and local services &euro;in the absence of any hardware network interfaces.
+
+<strong>Looped-back packets</strong> are distinguished from <del>any <mark>other</mark> packets</del> traversing <del>the TCP/IP stack only by the special IP</del> address they were addressed to. <blockquote>the services</blockquote>,  that ultimately receive them respond <ul>according <li>to the specified destination.</li> <li>For example,</li></ul>   an HTTP service could route &copy; packets addressed to <code>127.0.0.99:80</code> and 127.0.0.100:80 to different<br/> Web servers, or to a &amp; single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
+
+<table border="1">
+    <caption>Generic Table</caption>
+    <thead style="background:rgb(69, 228, 193);text-align: center;">
+        <tr>
+            <td>Text 1</td> 
+            <td>Text 2</td>
+            <td>Text 3</td>
+        </tr>
+    </thead>
+    <tbody style="color:rgb(0, 0, 0);text-align: center;">
+        <tr>
+            <td>windows</td> 
+            <td>macos</td>
+             <td>linux</td>
+        </tr>
+        <tr style="background:rgb(91, 250, 43);">
+            <td>debian</td>
+            <td>mint</td> 
+            <td>ubuntu</td>
+        </tr>
+        <tr>
+            <td>popos</td> 
+            <td>kali linux</td> 
+            <td>unix</td>
+        </tr>
+        <tr style="background:rgb(91, 250, 43);">
+            <td>garabello</td>
+            <td>marco</td>
+            <td>laudani</td>
+        </tr>
+    </tbody>
+</table>
+Packets <em>received <del>on a non-loopback</del></em> interface with a <del>loopback source</del> or <del>destination</del> address <del>must be dropped</del>. Such packets are sometimes referred to as Martian packets.[6] As with any other bogus packets, they may be malicious and any problems they might cause can be avoided by applying bogon filtering.<br/>
+</p>
+<h1>Special cases</h1>
+<p>The <em>releases of the MySQL</em> database <em>differentiate</em> between the <del>use of the hostname</del> localhost and the use of the addresses 127.0.0.1 and ::1.[7] When using localhost as <cite>the destination in a client connector interface</cite> of an application, <ol>the MySQL <li>application </li> <li>programming</li> <li>interface</li></ol>    connects to the database using a Unix  &copy; domain socket, <br/>while a TCP connection via the loopback <br/>interface  &euro; requires the direct &amp; use of the explicit address.
+
+One notable <em>exception</em> to the use <em>of the <code>127.0.0.0/8</code> <del>addresses</del> is their use in <del>Multiprotocol Label Switching (MPLS)</del> traceroute error detection, in which their property of not being routable provides a convenient</em> means <pre>to avoid 
+    delivery of faulty packets
+     to end users.</pre>
+</p>
+</body>
+</html>
