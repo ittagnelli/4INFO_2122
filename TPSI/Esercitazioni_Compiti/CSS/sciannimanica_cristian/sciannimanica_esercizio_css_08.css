@@ -1,0 +1,25 @@
+
+p {
+    color: blue;
+    text-align: left;
+}
+h1, h2, h3{
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+#hr1 {
+    height: 10px;
+    background-color: black;
+}
+#hr2 {
+    height: 3px;
+    background-color:  red;
+}
+#gino {
+    color: green;
+}
+#papo {
+    color: red;
+    text-align: right;
+}
