@@ -1,0 +1,20 @@
+.parent {
+    background-color: red;
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+  }
+
+  #child1 {
+    background-color: green;
+    border: 1px solid;
+    width: 50%;
+    height: 50%;
+  }
+
+  #child2 {
+    background-color: blue;
+    border: 1px solid;
+    width: 50%;
+    height: 50%;
+  }
