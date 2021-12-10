@@ -5,22 +5,27 @@ h3 {
   text-decoration: underline;
   text-decoration-color: gray;
 }
+
 p {
   color: blue;
   text-align: left;
 }
-#h2_dispari2 {
+
+#h2-dispari2 {
   color: green;
 }
-#p_dispari4 {
+
+#p-dispari4 {
   color: red;
   text-align: right;
 }
-.hr_pari {
+
+.hr-pari {
   background-color: black;
   height: 10px;
 }
-.hr_dispari {
+
+.hr-dispari {
   background-color: red;
   height: 3px;
 }
