@@ -1,36 +1,47 @@
 #td1 {
   background-color: mediumspringgreen;
 }
+
 #td2 {
   background-color: deepskyblue;
 }
+
 #td3 {
-  background-color: #C0B7B1;
+  background-color: #c0b7b1;
 }
+
 #td4 {
-  background-color: #7A5C61;
+  background-color: #7a5c61;
 }
+
 #td5 {
   background-color: rgb(218, 196, 247);
-} 
+}
+
 #td6 {
   background-color: rgb(245, 223, 187);
 }
+
 #td7 {
   background-color: rgba(181, 85, 46, 6%);
 }
+
 #td8 {
   background-color: rgba(18, 116, 117, 4%);
 }
+
 #td9 {
-  background-color: hsl(168, 100%, 50%)
+  background-color: hsl(168deg, 100%, 50%);
 }
-#td10{
-  background-color: hsl(180, 100%, 50%)
+
+#td10 {
+  background-color: hsl(180deg, 100%, 50%);
 }
-#td11{
-  background-color: hsla(190, 100%, 20%, 0.5);
+
+#td11 {
+  background-color: hsla(190deg, 100%, 20%, 50%);
 }
-#td12{
-  background-color: hsla(0, 100%, 50%, 0.5);
+
+#td12 {
+  background-color: hsla(0deg, 100%, 50%, 50%);
 }
