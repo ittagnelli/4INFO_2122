@@ -1,0 +1,15 @@
+h1>span {
+    color:red;
+
+}
+
+h2>span{
+    color:blue;
+}
+
+p>span {
+    color:purple;
+}
+div>p>span {
+    color:darkgreen;
+}
