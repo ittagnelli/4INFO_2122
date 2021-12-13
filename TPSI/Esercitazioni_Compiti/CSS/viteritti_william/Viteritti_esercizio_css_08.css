@@ -1,25 +1,27 @@
-  h1, h2, h3 {
-    color: red;
-    text-decoration: underline;
-    text-decoration-color:gray;
-  }
+h1,
+h2,
+h3 {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
 
-  p{
-    color: blue;
-    text-align: left;
-  }
+p {
+  color: blue;
+  text-align: left;
+}
 
-  .red{
-    color: red;
-    text-align: right;
-  }
+.red {
+  color: red;
+  text-align: right;
+}
 
-  .even{
-    background-color: black;
-    height: 10px;
-  }
+.even {
+  background-color: black;
+  height: 10px;
+}
 
-  .odd{
-    background-color: red;
-    height: 3px;
-  }
+.odd {
+  background-color: red;
+  height: 3px;
+}
