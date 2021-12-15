@@ -11,9 +11,9 @@ case $choose in
 "Y") git add . ;
      echo "Add a commit for your push: ";
      read commit ;
-     git commit -m "$commit" ;
-     git status ;
-     git push ;
+     git commit -m "$commit"
+     git status
+     git push
      echo "The script is ended" ;;
-     
+
 "N") echo "The script has been ended" ;;
