@@ -4,7 +4,6 @@
 #!/bin/bash
 
 echo "The script is running... "
-allinput="${REPLY}"
 git pull
 git add .
 echo "Add a commit for your push: "
