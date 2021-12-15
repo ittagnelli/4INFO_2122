@@ -8,7 +8,7 @@ git pull
 echo "You will add all your local updates on the github folder [Y]/[N]:"
 read choose
 case $choose in 
-"Y") 
+Y | y) 
      git add . ;;
      echo "Add a commit for your push: ";;
      read commit ;;
@@ -17,18 +17,7 @@ case $choose in
      git push ;;
      echo "The script is ended" ;;
 
-"N") 
-     echo "The script has been ended" ;;
-"y") 
-     git add . ;;
-     echo "Add a commit for your push: ";;
-     read commit ;;
-     git commit -m "$commit" ;;
-     git status ;;
-     git push ;;
-     echo "The script is ended" ;;
-
-"n")
+N | n) 
      echo "The script has been ended" ;;
 *) 
      echo "The script has been ended because you don't choose anything" ;;
