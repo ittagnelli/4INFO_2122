@@ -16,9 +16,7 @@ if [[$choose = 1]]; then
        git push 
        echo "The script is ended" 
 
-elif [[$choose = 2]]; then 
+if [[$choose = 2]]; then 
        echo "The script has been ended" 
        :
-else 
-       echo "The script has been ended" 
 fi
