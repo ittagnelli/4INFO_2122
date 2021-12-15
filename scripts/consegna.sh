@@ -18,5 +18,4 @@ if [[$choose = 1]]; then
 
 if [[$choose = 2]]; then 
        echo "The script has been ended" 
-       :
 fi
