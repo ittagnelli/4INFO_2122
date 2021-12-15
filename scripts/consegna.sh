@@ -21,3 +21,4 @@ elif [[$choose = 2]]; then
        :
 else 
        echo "The script has been ended" 
+fi
