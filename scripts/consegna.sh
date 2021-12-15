@@ -7,15 +7,16 @@ echo "The script is running... "
 git pull
 echo "You will add all your local updates on the github folder [Y]/[N]:"
 read choose
-if [[$choose = 1]]; then 
-       git add . 
+case $choose in
+     Y)git add . 
        echo "Add a commit for your push: "
        read commit 
        git commit -m "$commit" 
        git status 
        git push 
-       echo "The script is ended" 
-
-if [[$choose = 2]]; then 
-       echo "The script has been ended" 
-fi
+       echo "The script is ended" ;;
+     N)
+       echo "The script has been ended" ;;
+     *)
+       echo " The program has been ended" ;;
+esac
