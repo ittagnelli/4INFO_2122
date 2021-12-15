@@ -7,7 +7,7 @@ echo "The script is running... "
 git pull
 echo "You will add all your local updates on the github folder [Y]/[N]:"
 read choose
-if [[choose = Y]]; then 
+if [[$choose = Y]]; then 
        git add . 
        echo "Add a commit for your push: "
        read commit 
