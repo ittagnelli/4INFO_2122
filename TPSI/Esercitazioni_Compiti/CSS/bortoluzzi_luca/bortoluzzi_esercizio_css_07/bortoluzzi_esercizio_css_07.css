@@ -1,9 +1,9 @@
-h1 {color: blue;}
-.hp1 {color: green;}
-.hp2 {color: green;}
-.p1 {color: orange;}
-.p2 {color: gray;}
-.text{
-    text-decoration: line-through;
-    text-align: center;
-}
+h1 { color: blue; }
+
+.green { color: green; }
+
+.orange { color: orange; }
+
+.gray { color: gray; }
+
+.red { color: red; }
