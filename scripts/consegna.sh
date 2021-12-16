@@ -12,8 +12,8 @@ case $choose in
        echo "Add a commit for your push: "
        read commit 
        git commit -m "$commit" 
-       git status 
        git push 
+       git status 
        echo "The script is ended whit success! Check the changes whit (git log)." 
        echo "Bye!";;
      N)
