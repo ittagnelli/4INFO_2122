@@ -1,11 +1,11 @@
 .r1 {
-  background-image:url("media");
+  background-image: url("media");
   width: 250px;
   height: 100px;
-  }
+}
 
 .r2 {
-  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIF.XPNiLdDVQh%252ftvKssP%252f2mqA%26pid%3DApi&f=1); 
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIF.XPNiLdDVQh%252ftvKssP%252f2mqA%26pid%3DApi&f=1);
   width: 250px;
   height: 100px;
 }
