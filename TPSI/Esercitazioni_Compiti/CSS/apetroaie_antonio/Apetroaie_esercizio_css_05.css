@@ -1,10 +1,13 @@
 h1 {
-    color: red;
-  }
-  h2 {
-    color: green;
-  }
+  color: red;
+}
 
-  p{
-      color: blue
-  }
+h2 {
+  color: green;
+}
+
+p {
+  color: blue;
+}
+
+/*fix con lint*/
