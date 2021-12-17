@@ -1,31 +1,31 @@
-h1,h2,h3{
-    color:red;
-    text-decoration:underline;
-    text-decoration-color:grey
+h1,
+h2,
+h3 {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: gray;
 }
 
-p{
-    color:blue;
-    Align:left;
-}
-#a2{
-    color:green;
-
-
+p {
+  color: blue;
+  text-align: left;
 }
 
-#b1{
-    color:red;
-    Align:right;
-
+#predright {
+  color: red;
+  text-align: right;
 }
 
-.pari{
-    background-color:black;
-    height: 10px;
+.hrp {
+  border-color: black;
+  background-color: black;
+  height: 10px;
 }
 
-.dispari{
-    background-color:red;
-    height: 3px;
+.hrd {
+  border-color: red;
+  background-color: red;
+  height: 3px;
 }
+
+/*fix con lint*/

@@ -1,12 +1,15 @@
-h1 > span{
-    color: blue;
+h1 > span {
+  color: blue;
 }
-h2 > span{
-    color: red;
+
+h2 > span {
+  color: red;
 }
-p > span{
-color: violet;
+
+p > span {
+  color: violet;
 }
-div > p > span{
-    color: darkgreen;
+
+div > p > span {
+  color: darkgreen;
 }

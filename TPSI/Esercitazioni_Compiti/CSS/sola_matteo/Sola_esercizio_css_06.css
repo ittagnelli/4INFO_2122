@@ -1,15 +1,19 @@
-h1 { 
-    color: blue;
-  }
+h1 {
+  color: blue;
+}
+
 #pr2a {
-    color: red;
+  color: red;
 }
+
 #pr2b {
-    color:green;
+  color: green;
 }
+
 #p1 {
-    color:gray;
+  color: gray;
 }
+
 #p2 {
-    color:orange;
+  color: orange;
 }
