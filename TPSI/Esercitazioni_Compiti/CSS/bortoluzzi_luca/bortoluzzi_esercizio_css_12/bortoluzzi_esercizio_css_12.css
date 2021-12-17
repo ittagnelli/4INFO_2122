@@ -1,0 +1,21 @@
+ka:link {
+    color: blue;
+}
+a:visited {
+    color: red;
+    background-color: yellow;
+}
+a:hover {
+    color: green;
+}
+h1:first-of-type {
+    text-decoration: underline;
+    color: blue;
+}
+h2:first-of-type {
+    color: green;
+}
+p:first-of-type {
+    color: red;
+    text-align: left;
+}
