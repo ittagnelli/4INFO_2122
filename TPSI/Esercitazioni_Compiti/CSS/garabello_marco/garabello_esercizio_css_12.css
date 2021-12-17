@@ -1,5 +1,5 @@
-a:link { 
-  color: blue; 
+a:link {
+  color: blue;
 }
 
 a:visited {
@@ -7,8 +7,8 @@ a:visited {
   background-color: yellow;
 }
 
-a:hover { 
-  color: green; 
+a:hover {
+  color: green;
 }
 
 h1:first-of-type {
@@ -16,7 +16,7 @@ h1:first-of-type {
   text-decoration: underline;
 }
 
-h2:first-of-type { 
+h2:first-of-type {
   color: green;
 }
 
