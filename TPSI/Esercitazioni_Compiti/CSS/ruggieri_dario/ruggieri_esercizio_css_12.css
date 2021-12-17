@@ -2,18 +2,18 @@ a:link {
   color: blue;
 }
 
+a:hover {
+  color: green;
+}
+
 a:visited {
   color: red;
   background-color: yellow;
 }
 
-a:hover {
-  color: green;
-}
-
 h1:first-of-type {
-  color: blue;
   text-decoration: underline;
+  color: blue;
 }
 
 h2:first-of-type {
@@ -22,5 +22,5 @@ h2:first-of-type {
 
 p:first-of-type {
   color: red;
-  text-align: left;
+  text-align: right;
 }
