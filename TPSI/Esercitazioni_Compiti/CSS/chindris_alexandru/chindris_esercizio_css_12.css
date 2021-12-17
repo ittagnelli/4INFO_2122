@@ -15,7 +15,7 @@ h1 {
   color: black;
 }
 
-h1:first-child {
+h1:first-of-type{
   text-decoration: underline;
   color: blue;
 }
