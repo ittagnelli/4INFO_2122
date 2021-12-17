@@ -11,9 +11,8 @@ a:hover {
   color: green;
 }
 
-h1:first-of-type {
+h1:first-child {
   color: blue;
-  text-decoration: underline;
 }
 
 h2:first-of-type {
