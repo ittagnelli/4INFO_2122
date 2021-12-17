@@ -1,16 +1,51 @@
-h1 {color: blue;}
-#pr55 {color: red;} /* H2 */
-#pr33 {color: red;} /* H2 */
-#pr11 {color: red;} /* H2 */
+h1 {
+  color: blue;
+}
 
-#pr2 {color: green;}/* H3 */
-#pr4 {color: green;}/* H3 */
-#pr6 {color: green;}/* H3 */
+#pr55 {
+  color: red;
+} /* H2 */
 
-#pr1 {color: gray;}/* p */
-#pr3 {color: gray;}/* p */
-#pr5 {color: gray;}/* p */
+#pr33 {
+  color: red;
+} /* H2 */
 
-#pr2 {color: orange;}/* p */
-#pr4 {color: orange;}/* p */
-#pr6 {color: orange;}/* p */
+#pr11 {
+  color: red;
+} /* H2 */
+
+#pr2 {
+  color: green;
+}/* H3 */
+
+#pr4 {
+  color: green;
+}/* H3 */
+
+#pr6 {
+  color: green;
+}/* H3 */
+
+#pr1 {
+  color: gray;
+}/* p */
+
+#pr3 {
+  color: gray;
+}/* p */
+
+#pr5 {
+  color: gray;
+}/* p */
+
+#pr2d {
+  color: orange;
+}/* p */
+
+#pr4d {
+  color: orange;
+}/* p */
+
+#pr6d {
+  color: orange;
+}/* p */

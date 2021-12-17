@@ -1,39 +1,51 @@
 h1 {
   color: blue;
 }
-#h2_dispari1 {
+
+#h2-dispari1 {
   color: red;
 }
-#h2_dispari2 {
+
+#h2-dispari2 {
   color: red;
 }
-#h2_dispari3 {
+
+#h2-dispari3 {
   color: red;
 }
-#h2_pari1 {
+
+#h2-pari1 {
   color: green;
 }
-#h2_pari2 {
+
+#h2-pari2 {
   color: green;
 }
-#h2_pari3 {
+
+#h2-pari3 {
   color: green;
 }
-#p_pari1 {
+
+#p-pari1 {
   color: gray;
 }
-#p_pari2 {
+
+#p-pari2 {
   color: gray;
 }
-#p_pari3 {
+
+#p-pari3 {
   color: gray;
 }
-#p_dispari1 {
+
+#p-dispari1 {
   color: orange;
 }
-#p_dispari2 {
+
+#p-dispari2 {
   color: orange;
 }
-#p_dispari3 {
+
+#p-dispari3 {
   color: orange;
 }

@@ -1,20 +1,11 @@
-.verde{
-    color:green;
-}
+h1 { color: blue; }
 
-.rosso{
-    color:red;
-}
+.green { color: green; }
 
-.arancione{
-    color:orange;
-}
+.orange { color: orange; }
 
-.grigio{
-    color:grey;
-}
+.gray { color: gray; }
 
-h1{
+.red { color: red; }
 
-    color:blue;
-}
+/*fix con lint*/

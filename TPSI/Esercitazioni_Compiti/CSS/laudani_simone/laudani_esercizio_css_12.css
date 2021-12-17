@@ -1,0 +1,31 @@
+p > mark {
+  color: darkgreen;
+}
+
+p > b {
+  color: rgb(221, 221, 12);
+  background-color: black;
+}
+
+div em {
+  color: crimson;
+  background-color: rgb(221, 221, 12);
+}
+
+div span {
+  color: black;
+  background-color: rgb(221, 221, 12);
+}
+
+a:link { color: darkblue; }
+
+a:visited { color: crimson; }
+
+a:hover { color: crimson; background: rgb(221, 221, 12);}
+
+a:active { color: cyan; }
+
+h1:first-of-type { color: darkblue; text-decoration: underline; }
+h2:first-of-type { color: darkgreen; }
+
+p:first-of-type { color: crimson; text-align: left; }

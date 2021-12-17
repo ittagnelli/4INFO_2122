@@ -1,5 +1,19 @@
-h1 {color: blue;}
-.verdi {color: green;}
-.rossi {color: red;}
-.arancioni {color: orange;}
-.grigio {color: gray;}
+h1 {
+  color: blue;
+}
+
+.verdi {
+  color: green;
+}
+
+.rossi {
+  color: red;
+}
+
+.arancioni {
+  color: orange;
+}
+
+.grigio {
+  color: gray;
+}

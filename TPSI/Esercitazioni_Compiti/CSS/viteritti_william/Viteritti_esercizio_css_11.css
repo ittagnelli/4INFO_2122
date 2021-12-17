@@ -1,0 +1,21 @@
+p > mark {
+  color: green;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+
+p > b {
+  color: yellow;
+  background: black;
+  text-align: left;
+}
+
+div em {
+  color: red;
+  background: yellow;
+}
+
+div span {
+  color: black;
+  background: yellow;
+}

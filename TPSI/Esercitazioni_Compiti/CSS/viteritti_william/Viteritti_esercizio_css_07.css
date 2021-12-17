@@ -1,17 +1,19 @@
-  h1 {color: blue;}
+h1 {
+  color: blue;
+}
 
-  .red{
-    color: red;
-  }
+.red {
+  color: red;
+}
 
-  .green{
-    color: green;
-  }
+.green {
+  color: green;
+}
 
-  .gray{
-    color: grey;
-  }
+.gray {
+  color: grey;
+}
 
-  .orange{
-    color: orange;
-  }
+.orange {
+  color: orange;
+}

@@ -1,44 +1,19 @@
-h1 {
-    color:blue;
-  }
- 
- #a1 {
-    color:red;
-  }
+h1 { color: blue; }
 
-  #a3 {
-    color:red;
-  }
+#hdisp1 { color: red; }
+#hdisp2 { color: red; }
+#hdisp3 { color: red; }
 
-  #a5 {
-    color:red;
-  }
-  #a2 {
-    color:green;
-  }
+#hpa1 { color: green; }
+#hpa2 { color: green; }
+#hpa3 { color: green; }
 
-  #a4 {
-    color:green;
-  }
+#pdisp1 { color: gray; }
+#pdisp2 { color: gray; }
+#pdisp3 { color: gray; }
 
-  #a6 {
-    color:green;
-  }
+#ppa1 { color: orange; }
+#ppa2 { color: orange; }
+#ppa3 { color: orange; }
 
-  #b1{
-      color:grey;
-  }
-  #b3{
-    color: grey;
-}
-#b5{
-    color: grey;
-}
-
-#b2{
-    color: orange;
-}#b4{
-    color:orange;
-}#b6{
-    color:orange;
-}
+/*fix con lint*/

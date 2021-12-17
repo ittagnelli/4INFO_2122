@@ -1,17 +1,18 @@
-  h1>span{
-    color: blue;
-    text-decoration: underline;
-    text-decoration-color:gray;
-  }
+h1 > span {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
 
-  h2>span{
-    color: red;
-    text-align: left;
-  }
-  p>span{
-    color: purple;
-  }
+h2 > span {
+  color: red;
+  text-align: left;
+}
 
-  div>p>span{
-      color: green;
-  }
+p > span {
+  color: purple;
+}
+
+div > p > span {
+  color: green;
+}

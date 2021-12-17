@@ -1,24 +1,29 @@
-h1, h2, h3 {
-    color: red;
-    text-decoration: underline;
-    text-decoration-color: gray;
+h1,
+h2,
+h3 {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: gray;
 }
-p{
-    color: blue;
-    text-align: left;
+
+p {
+  color: blue;
+  text-align: left;
 }
-.hp2{
-    color: green;
+
+#predright {
+  color: red;
+  text-align: right;
 }
-.p1{
-    color: red;
-    text-align: right;
+
+.hrp {
+  border-color: black;
+  background-color: black;
+  height: 10px;
 }
-#hr1{
-    background-color: black;
-    height: 10px;
-}
-#hr2{
-    background-color: red;
-    height: 3px;
+
+.hrd {
+  border-color: red;
+  background-color: red;
+  height: 3px;
 }

@@ -1,6 +1,19 @@
-h1              {color:blue;}
+h1 {
+  color: blue;
+}
 
-.Verdi          {color:green}
-.Rossi          {color:red}
-.Arancioni      {color:orange}
-.Grigi          {color:grey}
+.verdi {
+  color: green;
+}
+
+.rossi {
+  color: red;
+}
+
+.arancioni {
+  color: orange;
+}
+
+.grigi {
+  color: grey;
+}

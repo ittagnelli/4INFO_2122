@@ -1,50 +1,51 @@
-  h1 {color: blue;}
+h1 {
+  color: blue;
+}
 
-  #h21{
-    color: red;
-  }
+#h21 {
+  color: red;
+}
 
-  #h22{
-    color: green;
-  }
+#h22 {
+  color: green;
+}
 
-  #h23{
-    color: red;
-  }
+#h23 {
+  color: red;
+}
 
-  #h24{
-    color: green;
-  }
+#h24 {
+  color: green;
+}
 
-  #h25{
-    color: red;
-  }
+#h25 {
+  color: red;
+}
 
-  #h26{
-    color: green;
-  }
+#h26 {
+  color: green;
+}
 
-  #pr1{
-    color: grey;
-  }
+#pr1 {
+  color: grey;
+}
 
-  #pr2{
-    color: orange;
-  }
+#pr2 {
+  color: orange;
+}
 
-  #pr3{
-    color: grey;
-  }
+#pr3 {
+  color: grey;
+}
 
-  #pr4{
-    color: orange;
-  }
+#pr4 {
+  color: orange;
+}
 
-  #pr5{
-    color: grey;
-  }
+#pr5 {
+  color: grey;
+}
 
-  #pr6{
-    color: orange;
-  }
-  
+#pr6 {
+  color: orange;
+}

@@ -1,20 +1,18 @@
-
-   
-p > mark  {
-    color:green;
+p > mark {
+  color: green;
 }
 
 p > b {
-    color:yellow;
-    background-color: black;
+  color: yellow;
+  background-color: black;
 }
 
 div em {
-    color:red;
-    background-color: yellow;
+  color: red;
+  background-color: yellow;
 }
 
 div span {
-    color:black;
-    background-color: yellow;
+  color: black;
+  background-color: yellow;
 }

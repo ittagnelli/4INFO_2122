@@ -1,0 +1,18 @@
+p > mark {
+  color: darkgreen;
+}
+
+p > b {
+  color: rgb(221, 221, 12);
+  background-color: black;
+}
+
+div em {
+  color: crimson;
+  background-color: rgb(221, 221, 12);
+}
+
+div span {
+  color: black;
+  background-color: rgb(221, 221, 12);
+}
