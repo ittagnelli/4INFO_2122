@@ -1,0 +1,40 @@
+table{ 
+  height: 500px;
+  width: 500px;
+}
+#id1{
+  background-color: red;
+}
+#id2{
+    background-color: blue;
+}
+#id3{
+    background-color: #009B72;
+}
+#id4{
+    background-color: #F26430;
+}
+#id5{
+    background-color: rgb(255, 71, 218);
+}
+#id6{
+    background-color: rgb(123, 134, 30);
+}
+#id7{
+    background-color: rgba(111, 16, 24, 0.5);
+}
+#id8{
+    background-color: rgba(122, 70, 68, 0.10);
+}
+#id9{
+    background-color: hsl(52, 86%, 62%);
+}
+#id10{
+    background-color: hsl(98, 40%, 81%);
+}
+#id11{
+    background-color: hsla(195, 100%, 6%, 0.5);
+}
+#id12{
+    background-color: hsla(139, 100%, 33%, 0.10);
+}
