@@ -1,0 +1,53 @@
+.rosso{
+    height: 200px;
+    width: 400px;
+    background-color:red;
+}
+
+.viola1{
+    height: 150px;
+    width: 25%;
+    background-color: purple;
+}
+
+.viola2{
+    height: 150px;
+    width: 50%;
+    background-color: purple;
+}
+
+.viola3{
+    height: 150px;
+    width: 75%;
+    background-color: purple;
+}
+
+.viola4{
+    height: 150px;
+    width: 100%;
+    background-color: purple;
+}
+
+.verde1{
+    height: 221px;
+    width: 12.5%;
+    background-color: rgba(102, 255, 0, 0.68);
+}
+
+.verde2{
+    height: 221px;
+    width: 50%;
+    background-color: rgba(102, 255, 0, 0.68);
+}
+
+.verde3{
+    height: 221px;
+    width: 62.5%;
+    background-color: rgba(102, 255, 0, 0.68);
+}
+
+.verde4{
+    height: 221px;
+    width: 22.2%;
+    background-color: rgba(102, 255, 0, 0.68);
+}
