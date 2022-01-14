@@ -1,0 +1,47 @@
+#ret1 {
+  background-color: red;
+  width: 400px;
+  height: 200px;
+}
+
+.vi {
+  background-color: purple;
+  height: 150px;
+}
+
+.ve {
+  background-color: rgba(46%, 204%, 113%, 65%);
+  height: 221px;
+}
+
+#retvi1 {
+  width: 25%;
+}
+
+#retvi2 {
+  width: 50%;
+}
+
+#retvi3 {
+  width: 75%;
+}
+
+#retvi4 {
+  width: 100%;
+}
+
+#retve1 {
+  width: 12.5%;
+}
+
+#retve2 {
+  width: 50%;
+}
+
+#retve3 {
+  width: 67.5%;
+}
+
+#retve4 {
+  width: 22.2%;
+}
