@@ -22,7 +22,9 @@
       <h2>localhost</h2>
       <div>
          <div>
-            <p>In <span>computer networking</span>, localhost is a hostname that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface.
+            <p> <a href="https://www.html.it/">HTML.it</a><br>
+
+                In <span>computer networking</span>, localhost is a hostname that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface.
                Using the <em>loopback</em> interface <span>bypasses any local network interface</span> hardware.
             </p>
          </div>
@@ -58,7 +60,8 @@
          When authoritative name servers receive queries for 'localhost' in spite of the provisions mentioned resolve them appropriately.
          The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735).[5] The reservation can be traced back to the November 1986 "Assigned Numbers" standard (RFC 990).
       </p>
-      <p>In contrast, the <b>IETF</b> "IP Version 6 Addressing Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it. </p>
+      <p>In contrast, the <b>IETF</b>
+        "IP Version 6 Addressing Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is erroneously transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it. </p>
       <h2><span>Packet</span> processing </h2>
       <p>The processing of any packet sent to a loopback address, is implemented in the link layer of the TCP/IP stack. Such packets are never passed to any network interface controller (NIC) or hardware device driver and must not appear outside of a computing system, or be routed by any router. This permits software testing and local services in the absence of any hardware network interfaces. </p>
       <p><span>Looped-back</span> packets are distinguished from any other packets traversing the <span>TCP/IP</span> stack only by the special IP address they were addressed to. Thus, the services that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.</p>
