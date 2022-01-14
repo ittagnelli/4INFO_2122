@@ -1,0 +1,58 @@
+div {
+  background-color: red;
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+}
+
+.t1 {
+  background-color: purple;
+    border: 1px solid;
+    width: 100px;
+    height: 150px;
+}
+
+.t2 {
+  background-color: purple;
+    border: 1px solid;
+    width: 200px;
+    height: 150px;;
+}
+
+.t3 {
+  background-color: purple;
+    border: 1px solid;
+    width: 300px;
+    height: 150px;;
+}
+
+.t4 {
+  background-color: purple;
+    border: 1px solid;
+    width: 400px;
+    height: 150px;
+}
+
+.v1 {
+  background-color: rgba(102, 255, 0, 0.65);
+    width: 12.5%;
+    height: 221px;
+}
+
+.v2 {
+  background-color: rgba(102, 255, 0, 0.65);
+    width: 50%;
+    height: 221px;;
+}
+
+.v3{
+  background-color: rgba(102, 255, 0, 0.65);
+    width: 62.5%;
+    height: 221px;
+}
+
+.v4 {
+  background-color: rgba(102, 255, 0, 0.65);
+    width: 22.2%;
+    height: 221px;
+}
