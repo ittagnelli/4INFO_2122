@@ -1,0 +1,47 @@
+#id1 {
+  background-color: blue;
+}
+
+#id2 {
+  background-color: lightblue;
+}
+
+#id3 {
+  background-color: #199373;
+}
+
+#id4 {
+  background-color: #0b4a4f;
+}
+
+#id5 {
+  background-color: rgb(34%, 50%, 43%);
+}
+
+#id6 {
+  background-color: rgb(10%, 2%, 12%);
+}
+
+#id7 {
+  background-color: rgba(30%, 43%, 72%, 0.5);
+}
+
+#id8 {
+  background-color: rgba(23%, 56%, 12%, 0.5);
+}
+
+#id9 {
+  background-color: hsl(123, 56%, 12%);
+}
+
+#id10 {
+  background-color: hsl(233, 56%, 12%);
+}
+
+#id11 {
+  background-color: hsla(270, 46%, 12%, 1);
+}
+
+#id12 {
+  background-color: hsla(134, 16%, 12%, 1);
+}
