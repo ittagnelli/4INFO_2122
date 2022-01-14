@@ -1,0 +1,37 @@
+.primogruppo {
+  height: 150px;
+  background-color: rgb(151, 31, 151);
+}
+.secondogruppo {
+  background-color: rgba(0, 238, 0, 0.788);
+  height: 221px;
+}
+#rettangolo1 {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(189, 0, 0);
+}
+#rettangolo2 {
+  width: 100%;
+}
+#rettangolo3 {
+  width: 75%;
+}
+#rettangolo4 {
+  width: 50%;
+}
+#rettangolo5 {
+  width: 25%;
+}
+#rettangolo6 {
+  width: 12.5%;
+}
+#rettangolo7 {
+  width: 50%;
+}
+#rettangolo8 {
+  width: 62.5%;
+}
+#rettangolo9 {
+  width: 22.2%;
+}
