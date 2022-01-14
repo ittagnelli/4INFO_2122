@@ -1,0 +1,19 @@
+table{height: 500px;width:500px ;}
+
+#ar1 {background-color:orange}
+#ar2 {background-color:orange}
+#ar3 {background-color: #ffa500;}
+
+#ro1 {background-color: #000ff0;}
+#ro2 {background-color: rgb(255,255,0)}
+#ro3 {background-color:rgb(255,0,0)}
+
+#it1 {background-color: rgba(23,182,85,0.2)}
+#it2 {background-color: rgba(255,255,255)}
+#it3 {background-color: hsl(0,100%,50%)}
+
+#fr1{background-color: hsl(241,100%,50%)}
+#fr2{background-color: hsl(241.100%,50%,1)}
+#fr3 {background-color: hsl(0,100%,50%,0)}
+
+
