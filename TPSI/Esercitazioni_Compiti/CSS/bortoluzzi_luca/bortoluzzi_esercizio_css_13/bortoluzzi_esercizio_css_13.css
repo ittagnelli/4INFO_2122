@@ -1,0 +1,41 @@
+td {
+    border-style: ridge;
+    border-width: 5px;
+    padding: 100px;
+}
+tr .c1 {
+    background-color: black; 
+}
+tr .c2 {
+    background-color: aqua;
+}
+tr .c3 {
+    background-color: #565656;
+}
+tr .c4 {
+    background-color: #454545;
+}
+tr .c5 {
+    background-color: rgb(143, 143, 44);
+}
+tr .c6 {
+    background-color: rgb(80, 63, 37);
+}
+tr .c7 {
+    background-color: rgba(40, 104, 82)
+}
+tr .c8 {
+    background-color: rgba(200, 23, 34);
+}
+tr .c9{
+    background-color: hsl(249, 73%, 40%);
+}
+tr .c10 {
+    background-color: hsl(33, 61%, 52%);
+}
+tr .c11 {
+    background-color: hsla(77, 71%, 25%);
+}
+tr .c12 {
+    background-color: hsla(87, 65%, 39%);
+}

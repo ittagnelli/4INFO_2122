@@ -1,0 +1,48 @@
+#cella1{
+    background-color: red;
+}
+
+#cella2{
+    background-color: pink;
+}
+
+#cella3{
+    background-color: #211A15;
+}
+
+#cella4{
+    background-color: #3C5241;
+}
+
+#cella5{
+    background-color: rgb(42, 98, 61);
+}
+
+#cella6{
+    background-color: rgb(4, 64, 19);
+}
+
+#cella7{
+    background-color: rgba(233, 233, 214, 0.7);
+}
+
+#cella8{
+    background-color: rgba(195, 203, 113, 0.6);
+}
+
+#cella9{
+    background-color: hsl(223, 100%, 50%);
+}
+
+#cella10{
+    background-color: hsl(316, 100%, 23%);
+}
+
+#cella11{
+    background-color: hsla(257, 100%, 51%, 1);
+}
+
+#cella12{
+    background-color: hsla(62, 100%, 51%, 1);
+}
+

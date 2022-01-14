@@ -1,0 +1,16 @@
+table {
+    height: 1000px;
+    width: 1000px;
+}
+#a1{background-color: blue;}
+#a2{background-color: yellow;}
+#a3{background-color: rgb(43, 255, 0);}
+#b1{background-color: rgb(255, 0, 0);}
+#b2{background-color: #96E6B3;}
+#b3{background-color: #464E47;}
+#c1{background-color: rgba(234, 0, 255, 0.7);}
+#c2{background-color: rgba(255, 123, 0, 0.4);}
+#c3{background-color: hsl(159, 100, 97);}
+#d1{background-color: hsla(196, 50%, 73%, 0.9)}
+#d2{background-color: hsla(339, 81%, 68%, 0.5)}
+#d3{background-color: hsla(40, 83%, 76%, 0.2)}
