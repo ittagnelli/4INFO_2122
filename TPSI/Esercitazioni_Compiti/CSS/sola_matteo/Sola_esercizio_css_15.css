@@ -1,0 +1,39 @@
+.div1 {
+    background-image: url("Immagine.png");
+    width: 500px;
+    height: 250px;
+}
+  
+.div2 {
+    background-image: url(https://www.cyberadvising.com/wp-content/uploads/2019/03/network-cyber-security.png);
+    width: 500px;
+    height: 250px;
+}
+  
+.div3 {
+    background-image: url(https://www.cyberadvising.com/wp-content/uploads/2019/03/network-cyber-security.png);
+    background-repeat: repeat;
+    width: 500px;
+    height: 250px;
+}
+  
+.div4 {
+    background-image: url(https://www.cyberadvising.com/wp-content/uploads/2019/03/network-cyber-security.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 250px;
+}
+  
+.div5 {
+    background-image: url(https://www.cyberadvising.com/wp-content/uploads/2019/03/network-cyber-security.png);
+    background-repeat: repeat-x;
+    width: 500px;
+    height: 250px;
+}
+  
+.div6 {
+    background-image: url(https://www.cyberadvising.com/wp-content/uploads/2019/03/network-cyber-security.png);
+    background-repeat: repeat-y;
+    width: 500px;
+    height: 250px;
+}
