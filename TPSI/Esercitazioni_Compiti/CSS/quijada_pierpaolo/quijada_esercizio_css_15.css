@@ -1,0 +1,96 @@
+#div1{
+    background-image:url(images/panda.jpg);
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+#div2{
+    background-image:url(images/css.jpg);
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+#container{
+    width: 1000px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#div3{
+    background-image:url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F61%2FHTML5_logo_and_wordmark.svg&imgrefurl=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FHTML&tbnid=O2LAft90i-2uhM&vet=12ahUKEwiT_IiM29L1AhUKGRoKHWWmD5QQMygAegUIARC2AQ..i&docid=qpWGYpFbJeiZRM&w=800&h=800&itg=1&q=html&safe=active&ved=2ahUKEwiT_IiM29L1AhUKGRoKHWWmD5QQMygAegUIARC2AQ);
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+#div4{
+    background-image:url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F73%2FJavascript-736400_960_720.png&imgrefurl=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FJavaScript&tbnid=Tmv1-RqRx4ZnhM&vet=12ahUKEwj8hqOE3NL1AhVV0oUKHQvRB1kQMygAegUIARC1AQ..i&docid=UO1ofN6f9C0TIM&w=720&h=720&itg=1&q=javascript&safe=active&ved=2ahUKEwj8hqOE3NL1AhVV0oUKHQvRB1kQMygAegUIARC1AQ);
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+
+}
+
+#div5{
+    background-image: url(images/afrodite.jpg);
+    background-repeat: repeat;
+    width: 600px;
+    height: 150px;
+}
+
+#div6{
+    background-image:url(images/michelangelo.jpg);
+    background-repeat: repeat;
+    width: 600px;
+    height: 150px;
+}
+
+#div7{
+    background-image: url(images/koala.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+}
+
+#div8{
+    background-image:url(images/girasoli.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+}
+
+#div9{
+    background-image: url(images/condor.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 150px;
+}
+
+#div10{
+    background-image: url(images/cocorito.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 150px;
+}
+
+#div11{
+    background-image: url(images/iphone.jpg);
+    background-repeat: repeat-y;
+    height: 100%;
+    width: 300px;
+}
+
+#div12{
+    background-image: url(images/samsung.jpg);
+    background-repeat: repeat-y;
+    height: 100%;
+    width: 300px;
+}
+
+#container2{
+    height: 1000px;
+    width: 300px;
+}
+
