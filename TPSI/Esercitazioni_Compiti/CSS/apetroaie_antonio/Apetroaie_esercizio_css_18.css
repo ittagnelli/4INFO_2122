@@ -1,0 +1,16 @@
+h1 {
+    border-bottom: 5px solid blue;
+    border-left: 7px solid black ;
+  }
+  
+  h2 {
+    border-top: 2px solid green ;
+    border-top-style: dotted;
+  }
+  
+  p {
+    border-bottom: 3px solid gray;
+    border-bottom-style: dotted;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+  }
