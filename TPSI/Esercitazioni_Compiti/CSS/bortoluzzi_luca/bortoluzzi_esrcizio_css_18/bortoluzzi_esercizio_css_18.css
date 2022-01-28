@@ -1,0 +1,22 @@
+h1 {
+  border-style: solid;
+  border-top: 5px blue;
+  border-right: 7px black;
+}
+
+h2 {
+  border-style: dashed;
+  border-bottom: 2px;
+  border-left: none;
+  border-right: none;
+  border-color: green;
+}
+
+p {
+  border-style: dashed;
+  border-width: 3px;
+  border-bottom-color: gray;
+  border-right-color: green;
+  border-left-color: green;
+  border-top: none; 
+}
