@@ -1,0 +1,13 @@
+h1{
+    text-transform: uppercase;
+    color: blue;
+}
+
+h2::first-letter{
+    text-transform: uppercase;
+    color: red;
+}
+
+h2{
+    text-decoration: underline;
+}
