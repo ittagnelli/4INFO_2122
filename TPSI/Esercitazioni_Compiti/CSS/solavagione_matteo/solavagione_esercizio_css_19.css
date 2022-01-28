@@ -1,0 +1,19 @@
+h1{
+  text-transform: uppercase;
+  color: blue;
+}
+h2{
+    text-transform: capitalize;
+    color: red;
+    text-decoration: underline;
+}
+#pr3{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+}
+#ombra{
+    text-shadow: 2px 2px green;
+}
