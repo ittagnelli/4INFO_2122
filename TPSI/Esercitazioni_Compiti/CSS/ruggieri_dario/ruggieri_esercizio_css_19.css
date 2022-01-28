@@ -1,0 +1,21 @@
+h1 {
+  text-transform: uppercase;
+  color: blue;
+}
+
+span {
+  text-transform: capitalize;
+}
+h2 {
+  color: red;
+  text-decoration: underline;
+}
+#p_dispari2 {
+  text-align: right;
+}
+p {
+  text-align: justify;
+}
+cite {
+  text-shadow: 3px 3px 5px blue;
+}
