@@ -1,0 +1,22 @@
+.img {
+  height: 180px;
+  width: 250px;
+}
+
+.testo {
+  border: 5px solid red;
+  width: 224px;
+  padding: 8px;
+}
+
+.center {
+  padding: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.allineamento {
+  display: table-cell;
+  padding: 10px;
+}
