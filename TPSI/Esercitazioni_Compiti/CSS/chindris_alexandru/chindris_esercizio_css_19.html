@@ -7,25 +7,26 @@
     <meta name="description" content="Template HTML" />
     <meta name="keywords" content="template, html, lezioni, scuola" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="4">
+    <link rel="stylesheet" href="chindris_esercizio_css_19.css" type="text/css" />
+    <meta http-equiv="refresh" content="400000">
     <title>Localhost</title>
 </head>
 <body>
 <img src="img/photo_linux.jpg" width="250">
-<h1>localhost</h1>
-<p>In <a href="https://it.wikipedia.org/wiki/Computer">computer</a> networking,<ins>localhost</ins> is a hostname <ins>that refers to the current </ins>computer used to <a href="https://www.dictionary.com/browse/access">access</a> it. It is used to access the <a href="https://it.wikipedia.org/wiki/Network">network</a> <a href="https://context.reverso.net/traduzione/inglese-italiano/Services">services</a> that are <a href="https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/">running</a> on the host via the loopback network <a href="https://www.interface.com/EU/it-IT/italia">interface</a>. Using the loopback interface bypasses any local network interface hardware. 
-<h1>Loopback</h1>
+<h2>localhost</h2>
+<p id="testo-importante" >In <a href="https://it.wikipedia.org/wiki/Computer">computer</a> networking,<ins>localhost</ins> is a hostname <ins>that refers to the current </ins>computer used to <a href="https://www.dictionary.com/browse/access">access</a> it. It is used to access the <a href="https://it.wikipedia.org/wiki/Network">network</a> <a href="https://context.reverso.net/traduzione/inglese-italiano/Services">services</a> that are <a href="https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/">running</a> on the host via the loopback network <a href="https://www.interface.com/EU/it-IT/italia">interface</a>. Using the loopback interface bypasses any local network interface hardware. 
+<h2>Loopback</h2>
 <p>The local <u>loopback</u> mechanism may be used to run a network service<b> on a host without</b> requiring a <mark>physical</mark> network <mark>interface</mark>, or <b>without</b> making <q>the service <blockquote>accessible from the networks</blockquote> the computer</q> may be connected to. For example, a locally installed website may be accessed from a Web browser by the URL http://localhost to display its home page.
 <div style="background-color:blue; color: white;" >The name <b>localhost normally</b> resolves <b>to the IPv4</b> loopback <mark>address</mark> 127.0.0.1, and <b>to the IPv6</b> loopback <b>address</b> ::1.</div>    
 </p>
 <img src="https://image.shutterstock.com/image-vector/gearwheel-assembly-representing-organizing-mechanism-260nw-1498801319.jpg" width="400">
-<h1>Name resolution</h1>
-<p><div style="background-color:blue; color: white;">IPv4 network <s>standards</s> reserve the entire address <u>block 127.0.0.0/8 </u>(more than 16 million addresses) for loopback purposes.</div>[2] That <small>means</small> any <q>packet sent to any of those</q> addresses is <small>looped back</small>. The address 127.0.0.1 is the standard address for <s>IPv4</s> loopback traffic; <s>the rest</s> are not supported by all <s>operating</s> systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
+<h1>Name resolution</h2>
+<p id="terzo-paragrafo"><div>IPv4 network <s>standards</s> reserve the entire address <u>block 127.0.0.0/8 </u>(more than 16 million addresses) for loopback purposes.</div>[2] That <small>means</small> any <q>packet sent to any of those</q> addresses is <small>looped back</small>. The address 127.0.0.1 is the standard address for <s>IPv4</s> loopback traffic; <s>the rest</s> are not supported by all <s>operating</s> systems. However, they can be used to set up multiple server applications on the host, all listening on the same port number. The IPv6 standard assigns only a single address for loopback: ::1.
 The resolution of the name localhost to one or more IP <ins>addresses is <u>normally</u></ins> configured by the <abbr>following lines</abbr> in the operating system's hosts file:
 127.0.0.1    localhost
 ::1          localhost
 
-The <span style="color: red;">name</span> may <span style="color: blue;">also</span> be resolved by <span style=" color: green;">Domain Name</span> System (DNS) servers, but queries for this name should be resolved locally, and should not be forwarded to remote <small>name servers</small>.
+The <span>name</span> may <span>also</span> be resolved by <span style=" color: green;">Domain Name</span> System (DNS) servers, but queries for this name should be resolved locally, and should not be forwarded to remote <small>name servers</small>.
 
 In addition to the <span style="color: rgb(120, 196, 44);">mapping</span> of localhost <i>to the <ins>loopback addresses</ins> (127.0.0.1 and ::1), localhost may also be mapped to other IPv4 (loopback) addresses and it is also possible to assign other, or additional, names to any <small>loopback</small> address. The mapping of localhost to addresses other t<u>han the designated</u> loopback address range <s>in the hosts</s> file or in DNS is not <s>guaranteed</s> to have the desired effect, as applications may map the name <s>internally</s>.
 
@@ -56,11 +57,11 @@ Packets <em>received <del>on a non-loopback</del></em> interface with a <del>loo
 <h1>Special cases</h1>
 <p>The <em>releases of the MySQL</em> database <em>differentiate</em> between the <del>use of the hostname</del> localhost and the use of the addresses 127.0.0.1 and ::1.[7] When using localhost as <cite>the destination in a client connector interface</cite> of an application, the MySQL application programming interface connects to the database using a Unix domain socket, while a TCP connection via the loopback interface requires the direct use of the explicit address.
 
-One notable <em>exception</em> to the use <em>of the  127.0.0.0/8  <del>addresses</del> is their use in <del>Multiprotocol Label Switching (MPLS)</del> traceroute error detection, in which their property of not being routable provides a convenient</em> means <pre>to avoid 
+One notable <em>exception</em> to the use <em>of the  127.0.0.0/8  <del>addresses</del> is their use in <del>Multiprotocol Label Switching (MPLS)</del> traceroute error detection, in which their property of not being routable provides a convenient</em> means <pre >to avoid 
     delivery of faulty packets
      to end users.</pre>
 
-    <code> pwgen -c -n [amount] </code>
+    <code > pwgen -c -n [amount] </code>
 </p>
 </body>
 </html>

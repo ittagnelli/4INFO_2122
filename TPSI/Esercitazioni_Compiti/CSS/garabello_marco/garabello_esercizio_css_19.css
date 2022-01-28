@@ -1,0 +1,26 @@
+h1 {
+  text-transform: uppercase;
+  color: blue;
+}
+
+h2 {
+  color: red;
+  text-decoration: underline;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+}
+
+#a3 {
+  text-align: right;
+}
+
+code,
+cite {
+  text-shadow: 5px 5px 5px purple;
+}
