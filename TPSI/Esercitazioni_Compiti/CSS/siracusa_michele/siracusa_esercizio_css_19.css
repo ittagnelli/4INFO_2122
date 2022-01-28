@@ -1,0 +1,22 @@
+h1 {
+    text-transform: uppercase;
+    color: blue;
+  }
+  
+  h2 {
+    text-transform: lowercase;
+    color: red;
+    text-decoration: underline;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  #terzo_paragrafo {
+    text-align: right;
+  }
+  
+  #testo_importante {
+    text-shadow: 2px 2px 5px grey;
+  }
