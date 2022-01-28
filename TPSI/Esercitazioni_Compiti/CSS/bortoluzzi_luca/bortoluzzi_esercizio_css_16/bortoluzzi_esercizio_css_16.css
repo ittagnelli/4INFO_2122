@@ -1,24 +1,22 @@
-div { 
-
-    width: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border-right: 1px black;
-    border-style: dashed;
-    margin-right: 10px;
-    align-items: baseline;
-
-}
-div img {
-
-    width: 250px;
-
-}
-
-div p {
-
-    border: 5px  dashed red;
-    text-align: center;
-    font-size: large;
-
-}
+.img {
+    width: 260px;
+    height: 180px;
+  }
+  
+  .dida {
+    border: 2px dashed red;
+    padding: 8px;
+    width: 240px;
+  }
+  
+  .center {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aling {
+    padding: 10px;
+    display: table-cell;
+  }
