@@ -1,0 +1,22 @@
+h1{
+    text-transform: uppercase;
+    color: blue;
+}
+
+h2::first-letter{
+    text-transform: capitalize;
+    color: red;
+    text-decoration: underline
+}
+
+.paragrafi{
+    text-align: justify;
+}
+
+.paragrafo3{
+    text-align: right;
+}
+
+#citazione{
+    text-shadow: 2px 2px 5px rgb(48, 142, 173);
+}
