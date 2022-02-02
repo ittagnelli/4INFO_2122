@@ -11,6 +11,8 @@
       </style>
    <link rel="stylesheet" href="pomba_esercizio_css_20.css" type="text/css" />
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family= Roboto|IBM Plex Sans Thai Looped ">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 
 <body>
@@ -58,6 +60,7 @@
     DNS registrars are precluded from delegating domain names in the top-level domain localhost.
     When authoritative <mark>name</mark> servers receive <span style="color:crimson">queries</span> for 'localhost' in spite of the provisions <em>mentioned</em> resolve them appropriately.
     The IPv4 loopback addresses are reserved within the IPv4 address space by the IETF "Special Use IPv4 Addresses" standard (RFC 5735).[5] The reservation can be traced back to the November 1986 <mark>"Assigned Numbers"</mark> standard <sup>(RFC 990)</sup>.</p>
+   
     
     <p>n contrast, the IETF "IP Version 6 Addressing Architecture" standard (RFC 4291) reserves the single IPv6 loopback address ::1 within the IPv6 address space. The standard precludes the assignment of that address to any physical interface, as well as its use as the source or destination address in any packet sent to remote hosts. Any such packet that is <em>erroneously</em> transmitted is not supposed to be routed, and should be dropped by all routers or hosts that receive it.</p>
     
@@ -78,6 +81,37 @@
    <div style="background-color: darkblue;color:rgb(255, 255, 255)">Looped-back packets are distinguished from any other packets traversing the TCP/IP stack only by the  IP address they were addressed to. </div> Thus, the services that ultimately receive them respond according to the specified destination. For example, an HTTP service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that returns different web pages. To simplify such testing, the hosts file may be configured to provide appropriate names for each address.
    One notable exception to the use of the 127.0.0.0/8 addresses is their use in <small>Multiprotocol</small> Label Switching (MPLS) traceroute error detection, in which their property of not being routable provides a convenient means to avoid delivery of faulty packets to end users.
 </p>
+
+<span class="material-icons">paid</span>
+<span class="material-icons">credit_card</span>
+<span class="material-icons">voice_over_off</span>
+<span class="material-icons">sports_esports</span>
+<span class="material-icons">downhill_skiing</span>
+
+<ul id="lista_non_ordinata">
+    <li>Pa 1</li>
+    <li>Pa 2</li>
+    <li>Pa 3</li>
+  </ul>
+
+  <p>Lista di numeri romani:</p>
+  <ol id="lista_ordinata_romana">
+    <li>P 1</li>
+    <li>P 2</li>
+    <li>P 3</li>
+  </ol>
+          
+  <p>Lista personalizzata:</p>
+  <ul class="lista_icons">
+    <li>P</li>
+    <li>P</li>
+    <li>P</li>
+    <li>P</li>
+    <li>P</li>
+  </ul>
+
+
+
 
 </body>
 

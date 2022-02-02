@@ -21,7 +21,8 @@ list-style-type: circle;
   #listaromana {
 list-style-type: upper-roman;
   }
-  .listaicona:before {
-content: 'android';
-font-family: 'Material Icons';
-  }
+
+  ul.lista_icons li:before {
+    content: "favorite";
+    font-family: 'Material Icons';
+}
