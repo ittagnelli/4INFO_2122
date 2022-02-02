@@ -1,0 +1,45 @@
+#rowdies {
+  font-family: "Rowdies", sans-serif;
+}
+
+#ytail {
+  font-family: "Yellowtail", serif;
+}
+
+#comforter {
+  font-family: "Comforter", serif;
+}
+
+h1 {
+  color:darkslateblue;
+}
+h2 {
+  color: crimson;
+}
+p {
+  text-align: justify;
+}
+
+ul.cerchio {
+  list-style-type: circle;
+}
+
+ol.roman {
+  list-style-type: upper-roman;
+}
+
+ul.icons {
+  list-style-type: none;
+}
+
+cite::before{
+  content: "verified";
+  font-family: "Material Icons", serif;
+  color: rgb(41, 63, 8);
+  vertical-align: -10%;
+  padding-right: 10px;
+}
+
+cite {
+  text-shadow: 1px 1px 5px gray;
+}

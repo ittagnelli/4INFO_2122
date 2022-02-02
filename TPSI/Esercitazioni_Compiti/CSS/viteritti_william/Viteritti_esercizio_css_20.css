@@ -1,0 +1,33 @@
+/* stylelint-disable font-family-name-quotes */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+.h1 {
+  font-family: Margarine, cursive;
+}
+
+.h2 {
+  font-family: Sofia, sans-serif;
+}
+
+.h3 {
+  font-family: Hanalei, cursive;
+}
+
+ul.circle {
+  list-style-type: circle;
+}
+
+ol.roman {
+  list-style-type: upper-roman;
+}
+
+ul.icon {
+  list-style-type: none;
+}
+
+ul.icon > li::before {
+  content: "grade";
+  font-family: Material icons;
+  color: red;
+  vertical-align: -10%;
+  padding-right: 10px;
+}
