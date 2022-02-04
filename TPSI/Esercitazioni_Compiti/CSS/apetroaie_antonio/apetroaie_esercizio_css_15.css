@@ -1,0 +1,34 @@
+
+.rel {
+    background-image: url("apetroaie_esercizio_css_15.jpg");
+  }
+  
+  .acco {
+    background-image: url("https://st.depositphotos.com/2290789/3667/i/600/depositphotos_36675429-stock-photo-king-lion-aslan.jpg");
+  }
+  
+  .nrep {
+    background-repeat: no-repeat;
+  }
+  
+  .xrep {
+    background-repeat: repeat-x;
+  }
+  
+  .yrep {
+    background-repeat: repeat-y;
+  }
+  
+  .rep {
+    background-repeat: repeat;
+  }
+  
+  .rela {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .ab {
+    height: 150px;
+    width: 500px;
+  }

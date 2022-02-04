@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     border-bottom: 5px solid blue;
     
@@ -18,4 +19,26 @@ h1 {
     border-left: 2px solid green;
 
     border-right: 2px solid green;
+=======
+h1 {
+    border-bottom: 5px solid blue;
+    
+    border-left: 7px solid black ;
+  }
+  
+  h2 {
+    border-top: 2px solid green ;
+
+    border-top-style: dotted;
+  }
+  
+  p {
+    border-bottom: 3px solid gray;
+
+    border-bottom-style: dotted;
+
+    border-left: 2px solid green;
+
+    border-right: 2px solid green;
+>>>>>>> 588237e25b48b7c8ab03925beffe8b3cdf5519ce
   }
