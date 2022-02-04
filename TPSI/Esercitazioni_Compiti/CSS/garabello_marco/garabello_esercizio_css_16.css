@@ -1,0 +1,22 @@
+.img {
+  width: 250px;
+  height: 180px;
+}
+
+.dida {
+  border: 5px solid red;
+  padding: 8px;
+  width: 224px;
+}
+
+.center {
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aling {
+  padding: 10px;
+  display: table-cell;
+}

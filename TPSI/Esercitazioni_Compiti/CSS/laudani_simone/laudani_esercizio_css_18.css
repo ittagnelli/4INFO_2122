@@ -1,0 +1,28 @@
+h1 {
+    border-bottom: 5px solid aqua;
+    border-left: 7px solid black;
+}
+
+h2 {
+  border-top: 2px dotted rgb(7, 196, 7);
+}
+
+p {
+  border-bottom: 3px dotted rgb(107, 116, 107);
+  border-left: rgb(0, 224, 0);
+  border-right: rgb(0, 224, 0);
+}
+
+.red {
+  color: crimson;
+}
+.green {
+  color: forestgreen;
+}
+
+.gray {
+  color: gray;
+}
+.orange {
+  color: orangered;
+}

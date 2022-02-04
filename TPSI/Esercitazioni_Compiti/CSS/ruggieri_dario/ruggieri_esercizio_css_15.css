@@ -1,0 +1,39 @@
+.block1 {
+  background-image: url("ruggieri_esercizio_css_15.jpg");
+  width: 400px;
+  height: 300px;
+}
+
+.block2 {
+  background-image: url("https://m.media-amazon.com/images/I/81+Po6rM12L._AC_SX425_.jpg");
+  width: 24%;
+  height: 300px;
+}
+
+.block3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ13VePKG_A_7Y-E9OOiUpWY-DgpqH--nOQFRfDV0QPYpuN-LLtfS_Zocxt51b0cf-5obc&usqp=CAU");
+  background-repeat: repeat;
+  width: 900px;
+  height: 400px;
+}
+
+.block4 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ13VePKG_A_7Y-E9OOiUpWY-DgpqH--nOQFRfDV0QPYpuN-LLtfS_Zocxt51b0cf-5obc&usqp=CAU");
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 400px;
+}
+
+.block5 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ13VePKG_A_7Y-E9OOiUpWY-DgpqH--nOQFRfDV0QPYpuN-LLtfS_Zocxt51b0cf-5obc&usqp=CAU");
+  background-repeat: repeat-x;
+  width: 900px;
+  height: 400px;
+}
+
+.block6 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ13VePKG_A_7Y-E9OOiUpWY-DgpqH--nOQFRfDV0QPYpuN-LLtfS_Zocxt51b0cf-5obc&usqp=CAU");
+  background-repeat: repeat-y;
+  width: 900px;
+  height: 400px;
+}

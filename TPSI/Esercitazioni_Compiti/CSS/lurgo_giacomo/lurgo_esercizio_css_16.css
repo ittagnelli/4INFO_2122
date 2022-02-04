@@ -1,0 +1,32 @@
+.riga {
+    height: 400px;
+    width: 1200px;
+    margin: 30px;
+    padding: 10px;
+  }
+  
+  .colonna {
+    display: inline-block;
+    width: 275px;
+    height: 370px;
+    margin: 10px;
+  }
+  
+  .immagine {
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+  }
+  
+  .didascalia {
+    border: 5px dashed red;
+    margin: 5px;
+    padding: 8px;
+    height: 120px;
+    width: 224px;
+  }
+  
+  img {
+    width: 250px;
+    height: 200px;
+  }

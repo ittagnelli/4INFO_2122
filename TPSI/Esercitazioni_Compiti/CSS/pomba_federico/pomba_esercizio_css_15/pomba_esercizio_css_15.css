@@ -1,0 +1,38 @@
+.a1 {
+    background-image: url("https://siviaggia.it/wp-content/uploads/sites/2/2020/09/settembre-montagna.jpg");
+    width: 250px;
+    height: 100px;
+  }
+  
+  .a2 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/00/IMG_2124_Everest.jpg);
+    width: 250px;
+    height: 100px;
+  }
+  
+  .a3 {
+    background-image: url(https://hobbymoto.net/public/HobbyMoto/imgs/a877f129-8d27-71f8-2903-1e701166808e_hobbymoto_negozio_01.jpg);
+    width: 250px;
+    height: 100px;
+  }
+  
+  .a4 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/00/IMG_2124_Everest.jpg);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100px;
+  }
+  
+  .a5 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/00/IMG_2124_Everest.jpg);
+    background-repeat: repeat-x;
+    width: 250px;
+    height: 90px;
+  }
+  
+  .a6 {
+    background-image: url(https://hobbymoto.net/public/HobbyMoto/imgs/a877f129-8d27-71f8-2903-1e701166808e_hobbymoto_negozio_01.jpg);
+    background-repeat: repeat-y;
+    width: 250px;
+    height: 90px;
+  }

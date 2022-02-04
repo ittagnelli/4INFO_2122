@@ -1,0 +1,20 @@
+.primaimg {
+  background-image: url("istockphoto-1198271727-170667a.jpg");
+  width:500px;
+  height:250px;
+}
+
+.image-repeat, .image-no-repeat, .image-repeatx, .image-repeaty {
+  background-image: url("istockphoto-1198271727-170667a.jpg");
+  width: 250px;
+  height: 90px;
+  border: 1px solid black;
+}
+
+.imagerepeat { background-repeat: repeat; }
+
+.image-no-repeat { background-repeat: no-repeat; }
+
+.image-repeatx { background-repeat: repeat-x; }
+
+.image-repeaty { background-repeat: repeat-y; }

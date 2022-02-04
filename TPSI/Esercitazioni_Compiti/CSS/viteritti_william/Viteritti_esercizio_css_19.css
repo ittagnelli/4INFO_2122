@@ -1,0 +1,25 @@
+h1 {
+  text-transform: uppercase;
+  color: blue;
+}
+
+h2::first-letter {
+  color: red;
+}
+
+h2 {
+  text-align: capitalize;
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}
+
+#p1 {
+  text-align: right;
+}
+
+.cite {
+  text-shadow: 2px 2px 5px red;
+}

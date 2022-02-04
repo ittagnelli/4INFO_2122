@@ -1,0 +1,33 @@
+.img_rel1 {
+    position: absolute;
+    width: 30%;
+    height: 20%;
+}
+
+.img1 {
+    background-image: url("immagini-gratis.jpg");
+}
+
+.img2 {
+    
+    background-image: url("./immagini-belle-con-frasi-significative-2.jpg");
+    left: 30%;
+}
+
+.img3 {
+    top: 30%;
+    left: 0;
+    background-image: url("https://www.atuttodonna.it/atuttodonna/wp-content/uploads/2020/04/immagini-felicit%C3%A0.jpg");
+    left: 30%;
+}
+
+.img4 {
+    top: 30%;
+    background-image: url("https://www.donnamoderna.com/content/uploads/2020/07/Immagini-rilassanti-di-panorami-naturali-830x625.jpg");
+    left: 30%;
+}
+
+.img5 {
+    background-image: url("./immagini-belle-con-frasi-significative-2.jpg");
+    left: 30%;
+}

@@ -1,0 +1,22 @@
+.immagine{
+    width: 250px;
+    height: 180px;
+    }
+    
+    .didascalia{
+      border: 5px solid red;
+      padding: 8px;
+      width: 224px;
+    }
+    
+    .centra{
+      padding: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .allinea{
+      padding: 10px;
+      display: table-cell;
+    }

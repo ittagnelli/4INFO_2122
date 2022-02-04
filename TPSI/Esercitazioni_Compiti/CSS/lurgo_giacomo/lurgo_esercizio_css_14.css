@@ -1,0 +1,47 @@
+#ret1 {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+  }
+  
+  .viola {
+    background-color: rgb(255, 0, 255);
+    height: 150px;
+  }
+  
+  .altro {
+    background-color: rgba(0, 255, 13, 65%);
+    height: 221px;
+  }
+  
+  #primorettangolo {
+    width: 25%;
+  }
+  
+  #secondorettangolo {
+    width: 50%;
+  }
+  
+  #terzorettangolo {
+    width: 75%;
+  }
+  
+  #quartorettangolo {
+    width: 100%;
+  }
+  
+  #rettangolo1 {
+    width: 12.5%;
+  }
+  
+  #rett2 {
+    width: 50%;
+  }
+  
+  #rett3 {
+    width: 67.5%;
+  }
+  
+  #rett4 {
+    width: 22.2%;
+  } 

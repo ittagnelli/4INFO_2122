@@ -1,0 +1,38 @@
+.r1 {
+    background-image: url("download.png");
+    width: 250px;
+    height: 100px;
+  }
+  
+  .r2 {
+    background-image: url(https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw);
+    width: 512px;
+    height: 512px;
+  }
+  
+  .r3 {
+    background-image: url(https://i.pinimg.com/474x/b3/84/85/b38485119a2b634bc07f7b824357c668.jpg);
+    width: 250px;
+    height: 100px;
+  }
+  
+  .r4 {
+    background-image: url(https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100px;
+  }
+  
+  .r5 {
+    background-image: url(https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1593204479-flavor-paper-wallpaper-1593204447.png?crop=0.569xw:1.00xh;0,0&resize=480:*);
+    background-repeat: repeat-x;
+    width: 250px;
+    height: 90px;
+  }
+  
+  .r6 {
+    background-image: url(https://www.hardware-programmi.com/wp-content/uploads/2019/07/cambiare-immagine-sfondo-computer-750x460.jpg);
+    background-repeat: repeat-y;
+    width: 250px;
+    height: 90px;
+  }

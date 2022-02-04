@@ -1,0 +1,54 @@
+div {
+    border-style: groove;
+    border-width: 2.5px;
+    border-color: black;
+}
+
+.div_viola {
+    background-color: violet;
+    height: 150px;
+
+}
+
+.rett {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+
+.rett1 {
+    width: 25%;
+}
+
+.rett2 {
+    width: 50%;
+}
+
+.rett3 {
+    width: 75%;
+}
+
+.rett4 {
+    width: 100%;
+}
+
+.div_verde {
+    background-color: rgba(44, 160, 44, 0.65);
+    height: 221px;
+}
+
+.rett5 {
+    width: 12.5%;
+}
+
+.rett6 {
+    width: 50%;
+}
+
+.rett7 {
+    width: 67.5%;
+}
+
+.rett8 {
+    width: 22.2%;
+}

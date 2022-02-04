@@ -1,0 +1,32 @@
+.center {
+    margin: 10px;
+    padding: 8px;
+    width: 1000px;
+    height: 200px;
+}
+
+.div {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.image {
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+}
+  
+.div2 {
+    border: 5px dashed red;
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+}
+
+img {
+    width: 250px;
+    height: 125px;
+}

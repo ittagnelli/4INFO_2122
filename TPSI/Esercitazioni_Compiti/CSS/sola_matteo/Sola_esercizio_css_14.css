@@ -1,0 +1,53 @@
+#ret1 {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+  
+#ret2 {
+    background-color: violet;
+    height: 150px;
+    width: 25%;
+}
+  
+#ret3 {
+    background-color: violet;
+    height: 150px;
+    width: 50%;
+}
+  
+#ret4 {
+    background-color: violet;
+    height: 150px;
+    width: 75%;
+}
+  
+#ret5 {
+    background-color: violet;
+    height: 150px;
+    width: 100%;
+}
+  
+#ret6 {
+    background-color: rgba(46%, 204%, 113%, 65%);
+    height: 221px;
+    width: 12.5%;
+}
+  
+#ret7 {
+    background-color: rgba(46%, 204%, 113%, 65%);
+    height: 221px;
+    width: 50%;
+}
+  
+#ret8 {
+    background-color: rgba(46%, 204%, 113%, 65%);
+    height: 221px;
+    width: 67.5%;
+}
+  
+#ret9 {
+    background-color: rgba(46%, 204%, 113%, 65%);
+    height: 221px;
+    width: 22.2%;
+}

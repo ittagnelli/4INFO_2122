@@ -1,0 +1,37 @@
+.gruppo1 {
+  height: 150px;
+  background-color: purple;
+}
+.gruppo2 {
+  background-color: rgba(0, 255, 0, 0.65);
+  height: 221px;
+}
+#rett1 {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+}
+#rett2 {
+  width: 100%;
+}
+#rett3 {
+  width: 75%;
+}
+#rett4 {
+  width: 50%;
+}
+#rett5 {
+  width: 25%;
+}
+#rett6 {
+  width: 12.5%;
+}
+#rett7 {
+  width: 50%;
+}
+#rett8 {
+  width: 62.5%;
+}
+#rett9 {
+  width: 22.2%;
+}

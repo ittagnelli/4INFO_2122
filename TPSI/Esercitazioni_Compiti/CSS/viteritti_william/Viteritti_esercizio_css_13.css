@@ -1,0 +1,51 @@
+tr .c1 {
+  background-color: black;
+}
+
+tr .c2 {
+  background-color: gray;
+}
+
+tr .c3 {
+  background-color: #8aadae;
+}
+
+tr .c4 {
+  background-color: #99bbbc;
+}
+
+tr .c5 {
+  background-color: rgb(175, 177, 180, 0.87);
+}
+
+tr .c6 {
+  background-color: rgb(193, 198, 202, 0.836);
+}
+
+tr .c7 {
+  background-color: rgba(211, 217, 224, 0.952);
+}
+
+tr .c8 {
+  background-color: rgba(236, 240, 237);
+}
+
+tr .c9 {
+  background-color: hsl(70, 26%, 91%);
+}
+
+tr .c10 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+tr .c11{
+  background-color: hsla(1, 50%, 89%, 100%);
+}
+
+tr .c12{
+  background-color: hsla(0, 0%, 100%, 100%);
+}
+
+td {
+  padding:250px;
+}

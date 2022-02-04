@@ -1,0 +1,22 @@
+h1 {
+    text-transform: uppercase;
+    color: blue;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: red;
+    text-decoration: underline;
+}
+
+#terzo_p {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}
+
+cite {
+    text-shadow: 3px 3px 5px yellow;
+}

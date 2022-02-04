@@ -1,0 +1,20 @@
+h1 {
+  text-transform: uppercase;
+  color:darkslateblue;
+}
+h2 {
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: crimson;
+}
+p {
+  text-align: justify;
+}
+
+#paragraph3 {
+  text-align: right;
+}
+
+cite {
+  text-shadow: 1px 1px 5px gray;
+}
