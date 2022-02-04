@@ -1,23 +1,32 @@
 .center {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 10px;
+    padding: 8px;
+    width: 1000px;
+    height: 200px;
 }
 
 .div {
-    padding: 10px;
-    display: table-cell;
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
 }
 
 .image {
     width: 250px;
-    height: 125px;
+    height: 200px;
+    margin: 5px;
 }
   
 .div2 {
-    border: 5px solid red;
-    padding: 8px;
+    border: 5px dashed red;
     width: 200px;
-    margin: 0;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+}
+
+img {
+    width: 250px;
+    height: 125px;
 }
