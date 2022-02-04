@@ -1,0 +1,33 @@
+.relativepic {
+    background-image: url("");
+  }
+  
+  .absolutepic {
+    background-image: url("");
+  }
+  
+  .norepeat {
+    background-repeat: no-repeat;
+  }
+  
+  .repeat_x {
+    background-repeat: repeat-x;
+  }
+  
+  .repeat_y {
+    background-repeat: repeat-y;
+  }
+  
+  .repeat {
+    background-repeat: repeat;
+  }
+  
+  .relative {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .absolute {
+    height: 150px;
+    width: 500px;
+  }

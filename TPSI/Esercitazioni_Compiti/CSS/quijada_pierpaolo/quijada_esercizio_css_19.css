@@ -3,10 +3,10 @@ h1{
     color: blue;
 }
 
-h2{
+h2::first-letter{
     text-transform: capitalize;
     color: red;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .paragrafi{
