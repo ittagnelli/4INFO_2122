@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+}
+
+#font1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#font2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#font3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#lista {
+  list-style-type: circle;
+}
+
+#listaromana {
+  list-style-type: upper-roman;
+}
+
+.listaicona:before {
+  content: 'android';
+  font-family: 'Material Icons';
+}
