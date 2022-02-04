@@ -1,0 +1,31 @@
+#uno {
+    font-family: Sofia, sans-serif;
+  }
+  
+  #due {
+    font-family: "Open Sans", serif;
+  }
+  
+  #tre {
+    font-family: "Roboto Condensed", serif;
+  }
+  
+  ul.cerchio {
+    list-style-type: circle;
+  }
+  
+  ol.roma {
+    list-style-type: upper-roman;
+  }
+  
+  ul.icona {
+    list-style-type: none;
+  }
+  
+  ul.icona > li::before {
+    content: "work";
+    font-family: "Material Icons", serif;
+    color: rgb(242, 164, 242);
+    vertical-align: -10%;
+    padding-right: 10px;
+  }
