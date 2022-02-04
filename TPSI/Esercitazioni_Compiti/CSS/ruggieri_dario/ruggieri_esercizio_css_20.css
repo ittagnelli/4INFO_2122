@@ -1,0 +1,26 @@
+#titolo1 {
+  font-family: Quintessential, sans-serif;
+}
+#titolo2 {
+  font-family: Ubuntu, sans-serif;
+}
+#titolo3 {
+  font-family: Yellowtail, sans-serif;
+}
+#lista1 {
+  list-style-type: circle;
+}
+#lista2 {
+  list-style-type: upper-roman;
+}
+.lista3 {
+  list-style-type: none;
+}
+
+ul.lista3 > li:before {
+  content: "monetization_on";
+  font-family: "Material Icons";
+  color: red;
+  vertical-align: -10%;
+  padding-right: 10px;
+}
