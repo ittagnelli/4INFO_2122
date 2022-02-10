@@ -1,0 +1,28 @@
+ul {
+list-style-type: none;
+}
+  
+  #font1 {
+font-family: 'Roboto';
+  }
+  
+  #font2 {
+font-family: 'IBM Plex Sans Thai Looped';
+  }
+  
+  #font3 {
+font-family: 'IBM Plex Sans Thai Looped';
+  }
+  
+  #lista {
+list-style-type: circle;
+  }
+  
+  #listaromana {
+list-style-type: upper-roman;
+  }
+
+  ul.lista_icons li:before {
+    content: "favorite";
+    font-family: 'Material Icons';
+}

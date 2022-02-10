@@ -1,0 +1,31 @@
+#t1 {
+  font-family: Sofia, sans-serif;
+}
+
+#t2 {
+  font-family: "Open Sans", serif;
+}
+
+#t3 {
+  font-family: "Roboto Condensed", serif;
+}
+
+ul.circle {
+  list-style-type: circle;
+}
+
+ol.roman {
+  list-style-type: upper-roman;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.icons > li::before {
+  content: "power_settings_new";
+  font-family: "Material Icons", serif;
+  color: purple;
+  vertical-align: -10%;
+  padding-right: 10px;
+}

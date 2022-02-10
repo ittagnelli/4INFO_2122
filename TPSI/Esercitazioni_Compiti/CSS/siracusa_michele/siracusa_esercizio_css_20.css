@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+}
+
+#font1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#font2 {
+  font-family: IBM Plex Sans Thai 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#font3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#lista_non_ordinata {
+  list-style-type: circle;
+}
+
+#lista_ordinata_romana {
+  list-style-type: upper-roman;
+}
+
+ul.lista_icona > li:before {
+  content: "schedule";
+  font-family: 'Material Icons';
+}

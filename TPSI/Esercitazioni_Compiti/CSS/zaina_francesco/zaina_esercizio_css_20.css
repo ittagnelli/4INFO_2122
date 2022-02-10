@@ -1,0 +1,28 @@
+#estetica1 {
+    font-family:Yellowtail, sans-serif ;
+  }
+  
+  #estetica2 {
+    font-family:Bangers, sans-serif ;
+  }
+  
+  #estetica3 {
+    font-family: Alex Brush, sans-serif ;
+  }
+  ul.lista1 {
+    list-style-type: circle;
+  }
+  ol.romano {
+    list-style-type: upper-roman;
+  }
+  ul.lista_icone{
+    list-style-type: none;
+  }
+    
+  ul.lista_icone li::before {
+    content: "done_outline";
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+  }

@@ -1,0 +1,32 @@
+#primo{
+    font-family: 'Rowdies';
+}
+    
+
+#secondo{
+    font-family: 'Mukta';
+}
+    
+#terzo{
+    font-family: 'Anton';
+}
+
+ul.cerchio{
+    list-style-type: circle;
+}
+
+ol.romano{
+    list-style-type: upper-roman;
+}
+
+ul.icon {
+    list-style-type: none;
+}
+
+ul.icon > li:before{
+    content: 'thumb_up_off_alt';
+    font-family: 'Material Icons';
+    vertical-align: -10%;
+    padding-right: 10px;
+}
+    

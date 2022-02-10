@@ -1,0 +1,32 @@
+#titolo1 {
+    font-family: Sofia, sans-serif;
+  }
+  
+  #titolo2 {
+    font-family: "Modak", serif;
+  }
+  
+  #titolo3 {
+    font-family: 'Margarine', cursive;
+  }
+  
+  ul.circle {
+    list-style-type: circle;
+  }
+  
+  ol.roman {
+    list-style-type: upper-roman;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul.icons > li::before {
+    content: "power_settings_new";
+    font-family: "Material Icons", serif;
+    color: purple;
+    vertical-align: -10%;
+    padding-right: 10px;
+  }
+  
