@@ -1,0 +1,8 @@
+li {
+  display: inline;
+  background-color: red;
+}
+.lista li:hover {
+    background-color: yellow;
+}
+
