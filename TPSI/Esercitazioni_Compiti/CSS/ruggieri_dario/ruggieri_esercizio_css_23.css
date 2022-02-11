@@ -1,0 +1,30 @@
+.gallery {
+  border: 20px solid blue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 190px;
+}
+.colonna {
+  border: 1px solid black;
+  width: 150px;
+  height: auto;
+  float: left;
+  margin: 5px;
+}
+.immagine {
+  width: 150px;
+  height: auto;
+}
+.didascalia {
+  border: 1px solid black;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bolder;
+}
+img {
+  width: 150px;
+  height: auto;
+}
