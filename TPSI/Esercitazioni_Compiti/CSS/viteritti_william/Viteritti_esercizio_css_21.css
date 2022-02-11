@@ -1,0 +1,12 @@
+.menu li {
+  float: left;
+  color:aliceblue;
+  background-color:black;
+  display: inline;
+  margin: 0;
+  padding: 5px;
+}
+
+.linea:hover {
+  background-color: red;
+}
