@@ -1,0 +1,18 @@
+.nav {
+  border: 10px;
+  border-color: black;
+  padding: 5px;
+  color: rgb(240, 233, 233);
+
+  float: left;
+}
+
+.border {
+  border: 20px;
+  border-color: aqua;
+}
+
+.img1 {
+  height: auto;
+  width: 150px;
+}
