@@ -1,0 +1,16 @@
+.barra{
+    display: inline;
+    border: none;
+    margin: 0px;
+    padding: 15px;
+    float: left;
+    background-color: black;
+    color: white;
+    
+}
+
+div:hover{
+    background-color: grey;
+}
+
+

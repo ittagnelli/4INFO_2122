@@ -1,0 +1,10 @@
+div{
+    display:inline;
+    padding: 10px;
+    background-color: aqua;
+    float: left;
+}
+
+div:hover{
+    background-color: blue;
+}

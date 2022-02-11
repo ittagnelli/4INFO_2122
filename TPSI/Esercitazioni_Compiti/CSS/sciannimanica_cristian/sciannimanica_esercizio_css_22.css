@@ -1,0 +1,12 @@
+div{
+  float: left;
+  color: white;
+  background-color: black;
+  display: inline;
+  margin= o;
+  padding: 5px;
+}
+
+div:hover {
+  background: red ;
+}
