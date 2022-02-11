@@ -1,0 +1,12 @@
+.navbar li {
+  display: inline;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  float: left;
+}
+.navbar li:hover {
+  background-color: gray;
+  cursor: pointer;
+}
