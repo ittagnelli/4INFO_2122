@@ -1,0 +1,12 @@
+
+  .lista {
+      float:left;
+      border: 2px solid;
+      background-color: yellow;  
+}
+
+    .lista:hover { 
+        background-color: purple;
+}
+  
+  

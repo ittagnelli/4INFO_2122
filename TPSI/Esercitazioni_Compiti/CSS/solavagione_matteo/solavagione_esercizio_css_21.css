@@ -1,0 +1,15 @@
+.menu li{
+    display: inline;
+    border: none;
+    margin: 0;
+    padding: 5px;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+
