@@ -1,5 +1,5 @@
 div{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width: auto;
     padding: 5px;
     float:left;
@@ -11,7 +11,7 @@ a{
 
 }
 a:hover{
-    color:black;
+    color:rgb(255, 255, 255);
 }
 div:hover{
 background-color: gray;
