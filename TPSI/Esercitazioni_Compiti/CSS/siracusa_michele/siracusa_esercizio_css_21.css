@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: rgb(197, 190, 190);
+    float: left;
+    border:1px solid;
+    width: 100px;
+    height:30px;
+    padding: 5px;
+    font-size: medium;
+    text-align: center;
+  
+  }
+  
+  li:hover {
+    background-color: white;
+    cursor: pointer;
+    font-weight: bolder;
+  }

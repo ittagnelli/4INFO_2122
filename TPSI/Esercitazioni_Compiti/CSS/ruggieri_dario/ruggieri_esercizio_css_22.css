@@ -1,0 +1,11 @@
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  float: left;
+}
+.navbar:hover {
+  background-color: gray;
+  cursor: pointer;
+}
