@@ -1,0 +1,15 @@
+.nav li {
+  display: inline;
+  margin: 0px;
+  border: none;
+  padding: 10px;
+  color: rgb(240, 233, 233);
+  background-color: rgb(32, 32, 32);
+  font-size: 1em;
+  float: left;
+}
+
+.nav li:hover {
+  background-color: rgba(146, 142, 142, 0.767);
+  color: rgb(43, 39, 39);
+}
