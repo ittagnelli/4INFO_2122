@@ -1,0 +1,12 @@
+.barra_navigazione{
+    float:left;
+    border: 1px solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.barra_navigazione:hover{
+    background-color: cornflowerblue;
+}
