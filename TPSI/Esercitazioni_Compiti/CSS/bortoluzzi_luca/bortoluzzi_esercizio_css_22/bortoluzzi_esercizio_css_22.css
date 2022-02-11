@@ -1,0 +1,20 @@
+div{
+    background-color: black;
+    width: auto;
+    padding: 5px;
+    float:left;
+    font-size: xx-large;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+div:hover{
+    background-color: gray;
+}
