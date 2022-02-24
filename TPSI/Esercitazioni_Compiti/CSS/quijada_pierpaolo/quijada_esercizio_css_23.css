@@ -1,23 +1,42 @@
-.riga{
-    border: 20px solid lightblue;
-    height: 251px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    
+body {
+    text-align: center;
 }
 
-.colonna{
-    border:1px solid black;
-    margin-left: 5px;
-    margin-right: 5px;
+span {
+    display: inline-block;
+    margin-top: 10px;
+}  
+
+.contenitore{
+    margin-top: 20%;
+    margin-left: auto ;
+    margin-right: auto;
+}
+  
+.riga {
+    height: 100%;
+    line-height: 100%;
+    display: inline-block;
+    border: 20px solid lightblue;
+}
+  
+.panda {
     width: 150px;
-    height: 211px;
-    display: inline;
+    border: 1px solid;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
     float: left;
 }
-
-.img{
-    width: 150px;
-    height: 150px;
+  
+.foto {
+    display: inline-block;
+    margin: 5px;
+}
+  
+.didascalia {
+    font-weight: bold;
+    border: 1px solid;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    padding: 10px;
 }
