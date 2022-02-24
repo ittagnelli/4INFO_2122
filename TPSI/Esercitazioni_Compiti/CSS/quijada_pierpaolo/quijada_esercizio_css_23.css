@@ -1,0 +1,23 @@
+.riga{
+    border: 20px solid lightblue;
+    height: 251px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.colonna{
+    border:1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 150px;
+    height: 211px;
+    display: inline;
+    float: left;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
