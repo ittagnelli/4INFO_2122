@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+}
+
+.center {
+  height: 33.3%;
+  margin-top: 17%;
+  margin-left: auto ;
+  margin-right: auto;
+}
+
+.content {
+    height: 100%;
+    line-height: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 20px solid purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tux {
+  width: 150px;
+  border: 1px solid;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  margin-bottom: 0px;
+  padding: 5px;
+  float: left;
+}
+
+.inline {
+  display: inline-block;
+  padding:0px;
+  margin: 5px;
+}
+
+.dida {
+  font-weight: bold;
+  border: 1px solid;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  padding: 10px;
+}
+
+span {
+  display: inline-block;
+  height: 10px;
+  line-height: 10px;
+  margin-top: 10px;
+}

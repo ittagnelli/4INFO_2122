@@ -1,0 +1,36 @@
+body {
+  /*centramento immagine*/
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  float: left;
+
+  /*creazione contorno immagine*/
+  padding: 5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+.border {
+  height: 100%;
+  line-height: 100%;
+  display: inline-block;
+  border: 20px solid rgb(0, 89, 119);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.img1 {
+  /*dimensionamento immagine*/
+  height: auto;
+  width: 150px;
+}
+
+.scritta {
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

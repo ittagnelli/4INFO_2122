@@ -1,0 +1,10 @@
+div{
+    display:inline;
+    padding: 10px;
+    background-color: orange;
+    float: left;
+}
+
+div:hover{
+    background-color: yellow;
+}

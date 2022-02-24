@@ -1,0 +1,15 @@
+.nav li {
+  display: inline;
+    
+  margin: 0px;
+  border: none;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  font-size: 2em;
+  float: left; 
+}
+
+.nav li:hover {
+    background-color: gray;
+}
