@@ -1,0 +1,23 @@
+.d{
+    border: 20px solid rgb(120, 120, 245);
+    padding-right: 0;
+}
+
+.img {
+    width: 260px;
+    height: 180px;
+}
+
+.dida {
+    border: 2px dashed red;
+    padding: 8px;
+    width: 240px;
+}
+
+.aling {
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+    border-right: 1px solid;
+    display: table-cell;
+    float: none;
+}
