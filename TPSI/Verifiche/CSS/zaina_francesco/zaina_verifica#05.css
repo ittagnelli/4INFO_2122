@@ -1,0 +1,29 @@
+
+#CVcontainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ 
+  }
+  #CVleft {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(70, 70, 67);
+    float: left;
+    color:white
+}
+ 
+  #CVright {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.432);
+
+ }
+ .font {
+    font-family: Concert One, sans-serif;
+    
+}
+ #img {
+    border-radius:50%;
+ }
