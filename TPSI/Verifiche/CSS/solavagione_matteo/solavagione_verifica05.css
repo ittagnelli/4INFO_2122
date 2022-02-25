@@ -1,0 +1,91 @@
+#CVContainer{
+    justify-content: center;
+    width: 1200px;
+    height: 740px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin: auto;
+    border-style: outset;
+}
+
+#CVleft {
+    float:left; 
+    background:Gray;
+    width:30%;
+    height:auto;
+}
+
+#CVrigth{
+    float:right;
+    background:white;
+    width:70%;
+    height:600px;
+}
+
+.h1_left{
+    font-family: "Concert One";   
+    text-transform : uppercase; 
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+.h2_left{
+    font-family: "Concert One";   
+    text-transform : uppercase; 
+    padding: 3px;
+    text-align: center;
+    color: white;
+}
+
+
+.icon{
+    color: white;
+    padding-left: 10px;
+}
+
+.myimg{
+    border-radius: 80px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.contact{
+    color: white;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+
+.text{
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.h1_right{
+    font-family: "Concert One";   
+    text-transform : uppercase; 
+    padding: 10px;
+    color: black;
+}
+
+.h3{
+    padding: 5px;
+    font-weight: none;
+    padding-left: 10px;
+
+}
+
+
+.p_right{
+    padding: 5px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+

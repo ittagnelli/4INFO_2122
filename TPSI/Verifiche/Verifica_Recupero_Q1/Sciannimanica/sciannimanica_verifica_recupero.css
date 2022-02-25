@@ -1,0 +1,38 @@
+#CVleft { 
+    float: left;
+    background-color: darkslategrey;
+    width: 360px;
+    margin: 3px;
+    height: 100%;
+  }
+
+#CVrigth {
+    float: rigth;
+    text-align: justify;
+    width: 840px;
+    margin: 3px;
+    height: 100%;
+}
+
+#centro1 {
+    text-align: center;
+    font-family: Concet One;
+    color: white;
+}
+
+#giustificato {
+    text-align: justify;
+    color: white;
+}
+
+.h1 {
+    font-family: Concet One;
+}
+
+#centro2 {
+    text-align: center;
+}
+
+#bianco {
+    color: white;
+}
