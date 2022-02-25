@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    margin-top: 10px;
+}  
+
+.contenitore{
+    margin-top: 20%;
+    margin-left: auto ;
+    margin-right: auto;
+}
+  
+.riga {
+    height: 100%;
+    line-height: 100%;
+    display: inline-block;
+    border: 20px solid lightblue;
+}
+  
+.panda {
+    width: 150px;
+    border: 1px solid;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    float: left;
+}
+  
+.foto {
+    display: inline-block;
+    margin: 5px;
+}
+  
+.didascalia {
+    font-weight: bold;
+    border: 1px solid;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    padding: 10px;
+}

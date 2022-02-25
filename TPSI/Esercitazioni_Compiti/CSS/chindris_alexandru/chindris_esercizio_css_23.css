@@ -4,7 +4,6 @@
   border: 1px solid;
   text-align: center;
   font-weight: bolder;
-  text-align: center;
   box-shadow: 5px 5px 5px gray;
 }
 
@@ -15,61 +14,61 @@
 }
 
 #img1 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQEzZNQ2IqTNxg/profile-displayphoto-shrink_200_200/0/1627139978386?e=1649894400&v=beta&t=Gt3v25NlVt64D18v4aWaVO2qiXvLwqs72SOhWzCp-34);
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4E03AQEzZNQ2IqTNxg/profile-displayphoto-shrink_200_200/0/1627139978386?e=1649894400&v=beta&t=Gt3v25NlVt64D18v4aWaVO2qiXvLwqs72SOhWzCp-34");
   width: 170px;
   height: 170px;
 }
 
 #img2 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQEksYXT5i1ZFw/profile-displayphoto-shrink_200_200/0/1632421394878?e=1649894400&v=beta&t=JI0a5GxDbfDWChF6kWoOsAR4CY_3D7d1kMXT0BbuoAQ);
+  background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQEksYXT5i1ZFw/profile-displayphoto-shrink_200_200/0/1632421394878?e=1649894400&v=beta&t=JI0a5GxDbfDWChF6kWoOsAR4CY_3D7d1kMXT0BbuoAQ");
   width: 170px;
   height: 170px;
 }
 
 #img3 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQHNTOmegL6PEQ/profile-displayphoto-shrink_200_200/0/1628245381534?e=1649894400&v=beta&t=aD9Ckqyr12hUzLCmHxosLsn_Mb1peZ5vlsZ3FmSOc5s);
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4D03AQHNTOmegL6PEQ/profile-displayphoto-shrink_200_200/0/1628245381534?e=1649894400&v=beta&t=aD9Ckqyr12hUzLCmHxosLsn_Mb1peZ5vlsZ3FmSOc5s");
   width: 170px;
   height: 170px;
 }
 
 #img4 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQGmx9m1ou0DEA/profile-displayphoto-shrink_200_200/0/1631855420985?e=1649894400&v=beta&t=1whF7FLM7xCImFZKgQDWNaZf1nvUURG8yNsTYuy2jF4);
+  background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQGmx9m1ou0DEA/profile-displayphoto-shrink_200_200/0/1631855420985?e=1649894400&v=beta&t=1whF7FLM7xCImFZKgQDWNaZf1nvUURG8yNsTYuy2jF4");
   width: 170px;
   height: 170px;
 }
 
 #img5 {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQH8IbQbYg_amw/profile-displayphoto-shrink_200_200/0/1639845737310?e=1649894400&v=beta&t=IC6vRf2dmYX2iUs3sRwL62zUBVlnFJKtbbdhqKQ_lUA);
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4D03AQH8IbQbYg_amw/profile-displayphoto-shrink_200_200/0/1639845737310?e=1649894400&v=beta&t=IC6vRf2dmYX2iUs3sRwL62zUBVlnFJKtbbdhqKQ_lUA");
   width: 170px;
   height: 170px;
 }
 
 #img1:hover {
-  background-image: url(immagine_giacomo.png);
+  background-image: url("immagine_giacomo.png");
   width: 170px;
   height: 170px;
 }
 
 #img2:hover {
-  background-image: url(immagine_garabello.png);
+  background-image: url("immagine_garabello.png");
   width: 170px;
   height: 170px;
 }
 
 #img3:hover {
-  background-image: url(immagine_ruggieri.png);
+  background-image: url("immagine_ruggieri.png");
   width: 170px;
   height: 170px;
 }
 
 #img4:hover {
-  background-image: url(immagine_pier.png);
+  background-image: url("immagine_pier.png");
   width: 170px;
   height: 170px;
 }
 
 #img5:hover {
-  background-image: url(immagine_chindris.png);
+  background-image: url("immagine_chindris.png");
   width: 170px;
   height: 170px;
 }
