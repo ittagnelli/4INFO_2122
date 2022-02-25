@@ -1,0 +1,69 @@
+#Nome {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Concert One;
+}
+
+#Nome2 {
+    text-align: center;
+}
+
+#Profilo {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Concert One;
+}
+
+.p1:before {
+    content: 'home';
+    font-family: 'Material Icons';
+}
+
+.p2:before {
+    content: 'mail';
+    font-family: 'Material Icons';
+}
+
+.p3:before {
+    content: 'phone';
+    font-family: 'Material Icons';
+}
+
+#CVleft {
+    float: left;
+    width:360px;
+    height: auto;
+    border: 3px;
+    color: white;
+    background-color: black;
+    
+}
+
+#img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 110px;
+    border-radius: 200px;
+}
+
+#Esperienze {
+    text-transform: uppercase;
+    font-family: Concert One;
+}
+
+#CVright {
+    display: inline;
+    width: 840 px;
+}
+
+#CVcontainer {
+    width:  1200 px;
+    height: auto;
+    margin: solid black;
+}
+
+#Certificazioni {
+    text-transform: uppercase;
+    font-family: Concert One;
+}
