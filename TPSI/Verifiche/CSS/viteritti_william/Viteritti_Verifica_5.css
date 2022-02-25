@@ -1,0 +1,46 @@
+h1 {
+  font-style: "Concet One";
+}
+
+.menu li {
+  float: left;
+  display: inline;
+  margin: 0;
+}
+
+#cvcontainer {
+  display: inline;
+  margin: 0;
+}
+
+#cvleft {
+  background-color: rgb(133, 133, 226);
+  border-left: 3px solid;
+  width: 360px;
+  height: 900px;
+}
+
+#cvright {
+  background-color: rgb(224, 209, 209);
+  border-right: 3px solid;
+  width: 840px;
+  height: 900px;
+}
+
+p {
+  text-align: justify;
+  font-family: serif;
+}
+
+.centre {
+  text-align: center;
+}
+
+#p {
+  display: inline;
+  text-align: center;
+}
+
+#justify {
+  text-align: justify;
+}
