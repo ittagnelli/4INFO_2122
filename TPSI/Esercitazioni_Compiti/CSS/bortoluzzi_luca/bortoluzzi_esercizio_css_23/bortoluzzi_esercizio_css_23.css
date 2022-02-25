@@ -1,5 +1,4 @@
 .d{
-    border: 20px solid rgb(120, 120, 245);
     padding-right: 0;
 }
 
@@ -13,11 +12,34 @@
     padding: 8px;
     width: 240px;
 }
-
+ 
+.center {
+    padding-top: 10%;
+    padding-left: 8%;
+    align-items: center;
+    justify-content: center;
+}
+  
 .aling {
     padding-right: 2.5px;
     padding-left: 2.5px;
     border-right: 1px solid;
+    border-bottom: 20px solid blue;
+    padding-bottom: 5px;
+    border-top: 20px solid blue;
+    padding-top: 5px;
     display: table-cell;
     float: none;
 }
+
+#p_img{
+    border-left: 20px solid blue;
+    padding-left: 5px;
+}
+
+
+#u_img{
+    border-right: 20px solid blue;
+    padding-right: 5px;
+}
+

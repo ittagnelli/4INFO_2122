@@ -1,0 +1,30 @@
+.titolo1{
+    font-family: Roboto, sans-serif;
+}
+
+.titolo2{
+    font-family: Rowdies, sans-serif;
+}
+
+.titolo3{
+    font-family: Supermercado One, sans-serif;
+}
+
+ul.cerchio{
+    list-style-type: circle;
+}
+
+ol.roman{
+    list-style-type: upper-roman;
+}
+
+#ul{
+    list-style-type: none;
+}
+#ul li:before{
+    content: "account_circle";
+    font-family: 'Material Icons';
+    color: blue;
+    vertical-align: -10%;
+    padding-right: 10px;
+}
