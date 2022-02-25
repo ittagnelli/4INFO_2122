@@ -1,0 +1,90 @@
+.cv-container {
+  border-left: 3px solid;
+  border-right: 3px solid;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 900px;
+}
+
+.cv-left {
+  text-align: center;
+  color: white;
+  width: 30%;
+  height: 100%;
+  margin: 0;
+  float: left;
+  background-color: rgb(48, 46, 46);
+}
+
+.cv-rigth {
+  text-align: left;
+  height: 100%;
+  margin: 0;
+  float: right;
+  width: 70%;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.icons {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.icon {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  margin-right: 5px;
+  padding: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-family: "Concert One", sans-serif;
+}
+
+.paragrafo {
+  text-align: justify;
+  margin: 30px;
+}
+
+.paragrafo-left {
+  text-align: justify;
+  margin: 5px;
+}
+
+.title {
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.sub-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.up {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.inline {
+  height: 100%;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sec {
+  margin-bottom: 3px;
+}

@@ -1,0 +1,56 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    height: 35%;
+    margin-top: 10%;
+}
+  
+.foto_gallery {
+    height: 100%;
+    line-height: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 50px solid rgb(0, 204, 255);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+  
+.colonna {
+    display: inline-block;
+    padding:0px;
+    margin: 5px;
+}
+  
+.immagine {
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 0px;
+    padding: 6px;
+    float: left;
+}
+
+.didascalia {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 15px;
+}
+  
+span {
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 15px;
+}
+
+body {
+    text-align: center;
+}
