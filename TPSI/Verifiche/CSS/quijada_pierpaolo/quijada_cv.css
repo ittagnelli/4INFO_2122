@@ -1,0 +1,115 @@
+#CVcontainer {
+  height: 1500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+}
+
+#CVleft {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background-color: #4d4b4b;
+}
+
+#foto_profilo {
+  width: 60%;
+  height: 13%;
+  background-image: url("quijada_fotoprofilo.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  border-radius: 500%;
+}
+
+#cont_nome {
+  margin-top: 10%;
+  margin-left: 2.5%;
+}
+
+.nome {
+  color: white;
+  font-family: "Concert One";
+  font-size: 32px;
+}
+
+#cont_descrizione {
+  margin-top: 7%;
+  margin-left: 30%;
+}
+
+.descrizione {
+  color: white;
+  font-size: 23px;
+  font-family: "Concert One";
+}
+
+.material-icons {
+  color: white;
+}
+
+#contenitore_info {
+  margin-top: 15%;
+  margin-left: 2.5%;
+}
+
+#cont_info {
+  display: inline-block;
+  width: 300px;
+}
+
+.informazioni {
+  color: white;
+}
+
+#cont_titolo_bio {
+  margin-left: 40%;
+}
+
+#cont_bio {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 8%;
+}
+
+.bio {
+  color: white;
+  text-align: justify;
+}
+
+#CVright {
+  width: 70%;
+  background-color: white;
+  height: 100%;
+}
+
+#cont_titolo {
+  margin-left: 31%;
+}
+
+.titolo {
+  color: black;
+  font-size: 32px;
+  font-family: "Concert One";
+}
+
+#cont_sottotitolo {
+  margin-left: 31%;
+}
+
+.sottotitolo {
+  color: black;
+  font-size: 25px;
+  font-family: "Concert One";
+}
+
+#cont_paragrafo {
+  margin-left: 34%;
+  margin-right: 5%;
+}
+
+.paragrafo {
+  text-align: justify;
+  font-size: 20px;
+}
