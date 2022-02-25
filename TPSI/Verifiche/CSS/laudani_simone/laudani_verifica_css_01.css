@@ -1,0 +1,91 @@
+#CVcontainer {
+  border-left: 3px solid rgb(0, 0, 0);
+  border-right: 3px solid rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 900px;
+}
+
+#CVleft {
+  font-size: 0.5em;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  height: 100%;
+  width: 30%;
+  background-color: rgb(49, 43, 43);
+  float: left;
+}
+
+#CVright {
+  margin-left: 30%;
+  height: 100%;
+  width: 70%;
+}
+
+#navh1 {
+  font-family: 'Concert One', Arial, sans-serif;
+  font-style: italic;
+  font-size: 4em;
+  margin-left: 0px;
+}
+
+#navh2 {
+  font-family: 'Concert One', Arial, sans-serif;
+  font-size: 2.5em;
+  margin-left: 0px;
+}
+
+#navh2profilo {
+  font-family: 'Concert One', Arial, sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin-left: 0px;
+}
+
+#navpicon {
+  font-size: 1.7em;
+  text-align: justify;
+  margin-left: 25px;
+  padding: 0px;
+}
+
+#navp {
+  font-size: 1.7em;
+  text-align: justify;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+#certificazioni {
+  margin-top: 55px;
+}
+
+.picture {
+  border-radius: 100%;
+  margin-top: 15px;
+  width: 130px;
+}
+
+.material-icons {
+  font-size: 17px;
+  float: left;
+  margin-left: 5px;
+}
+
+h1 {
+  font-family: 'Concert One', Arial, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+p {
+  text-align: justify;
+  padding: 20px;
+}
