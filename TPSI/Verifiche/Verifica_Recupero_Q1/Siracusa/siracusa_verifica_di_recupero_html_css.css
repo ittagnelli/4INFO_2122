@@ -1,0 +1,81 @@
+.CVcontainer {
+    border-left: 3px solid;
+    border-right: 3px solid;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+  }
+  
+  .CVleft {
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    float: left;
+    background-color: gray;
+  }
+  
+  .CVrigth {
+    text-align: left;
+    height: 100%;
+    margin: 0;
+    float: right;
+    width: 70%;
+  }
+  
+  .immagine {
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .inline {
+    height: 100%;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    margin-right: 5px;
+    padding: 0;
+  }
+
+  .title {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+    font-family: "Concert One", sans-serif;
+  }
+  
+  .paragrafo {
+    text-align: justify;
+    margin: 30px;
+  }
+  
+  .paragrafo-left {
+    text-align: justify;
+    margin: 5px;
+  }
+  
+
+
+  .icons {
+    text-align: left;
+    margin-left: 5px;
+  }
+  
+ 
+  

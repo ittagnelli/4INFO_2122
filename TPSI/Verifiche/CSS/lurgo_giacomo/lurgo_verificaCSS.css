@@ -1,0 +1,40 @@
+.colonna1 {
+  float: left;
+  border: 1px solid;
+  width: 480px;
+  height: auto;
+  background-color: darkred;
+  padding: 5px;
+
+}
+
+.colonna2 {
+  float: left;
+  border: 1px;
+  width: 740px;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+}
+
+#name { 
+  color: white;
+}
+
+.immagine {
+  height: auto;
+  width: 50px;
+}
+#titolo1 { 
+  font-family: 'Concert One', corsive;
+}
+
+#titolo2 {
+  text-align: center;
+  font-family: 'Concert One', corsive;
+  color: white;
+}
+
+#white {
+  color: white;
+}
