@@ -1,0 +1,14 @@
+.immagine {
+  background-image: url("https://www.phoca.cz/images/article/phoca-panorama.jpg");
+  width: auto;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin: 200px;
+}
+.scritta {
+  position: relative;
+  left: 30px;
+  top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
