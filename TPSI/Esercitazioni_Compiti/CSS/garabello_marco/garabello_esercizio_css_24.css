@@ -1,0 +1,14 @@
+.bg {
+  background-image: url("./bg.jpg");
+  height: 250px;
+  width: 800px;
+}
+
+.scritta {
+  position: relative;
+  left: 20px;
+  top: 35px;
+  font-size: 30px;
+  color: yellow;
+  font-weight: bold;
+}
