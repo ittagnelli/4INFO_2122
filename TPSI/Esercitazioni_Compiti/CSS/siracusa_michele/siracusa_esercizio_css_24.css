@@ -1,0 +1,15 @@
+.immagine {
+    background-image: url("https://www.storicang.it/medio/2021/07/21/van-gogh-dipinse-la-straordinaria-notte-stellata-nel-1889_e83bd343_1200x630.jpg");
+    height: 315px;
+    width: 600px;
+  }
+  
+
+  .word {
+    position: relative;
+    left: 20px;
+    top: 35px;
+    font-size: 50px;
+    color: yellow;
+    font-weight: bold;
+  }
