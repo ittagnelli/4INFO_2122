@@ -1,0 +1,18 @@
+#img {
+    border: 3px solid red;
+    width: 1000px;
+    height: 500px;
+    background-image: url("montagne.jpg");
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    right: 100px;
+}
+#child {
+    width: 1000px;
+    position:relative;
+    left: 50px;
+    top: 5px;
+    color:blue;
+    font-size: 50px;
+}
