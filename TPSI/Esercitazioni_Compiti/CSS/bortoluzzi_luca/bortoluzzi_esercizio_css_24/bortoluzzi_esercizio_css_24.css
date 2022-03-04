@@ -1,0 +1,14 @@
+.img1 {
+    background-image: url("immagini-belle-da-scaricare-luna-mare.jpg");
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom:100px;
+    left:400px;
+}
+
+h3 {
+    position: relative;
+    left:10px;
+    color:yellow;
+}
