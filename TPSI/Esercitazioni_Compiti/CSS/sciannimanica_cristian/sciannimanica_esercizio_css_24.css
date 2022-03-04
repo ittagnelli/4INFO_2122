@@ -1,0 +1,13 @@
+.img {
+  background-image: url("foto.jpg");
+  height: 300px;
+  width: 400px;
+  background-repeat: no-repeat;
+  margin: 400px;
+}
+
+.int {
+  top: 30px;
+  left: 30px;
+  position: relative;
+}
