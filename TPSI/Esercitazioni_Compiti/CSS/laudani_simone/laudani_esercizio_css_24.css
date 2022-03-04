@@ -1,0 +1,16 @@
+body {
+  /*centramento immagine*/
+  display: flex;
+  background-image: url("immagini/immagini_esercizio_23/superturtle.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: left;
+  color: rgb(238, 255, 0);
+  font-size: 3em;
+  padding-left: 35px;
+  font-family:'Times New Roman', Times, serif
+}

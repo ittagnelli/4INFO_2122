@@ -1,0 +1,12 @@
+#parent {
+background-image: url("./istock-637816996.jpg");
+weight: 2000px;
+height: 1500px;
+}
+  
+  #child {
+    color: yellow;
+    position: relative;
+    left: 150px;
+    top: 10px;
+  }

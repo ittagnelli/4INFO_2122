@@ -1,0 +1,25 @@
+.image {
+  width: 130px;
+  height: 200px;
+  margin: 10px;
+}
+
+#parent {
+  background-image: url("hill_341357132_1000.jpg");
+  border: 0px solid;
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+
+#child {
+  border: 0px solid;
+  width: 200px;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+
+h1 {
+  color: rgb(211, 211, 28);
+}
