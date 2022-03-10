@@ -1,0 +1,198 @@
+body {
+  background-color: #3fdfec;
+}
+
+span {
+  color: #f7f7f7;
+}
+
+#cvcontainer {
+  height: 760px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  width: 30%;
+  height: 100%;
+  background-color: #00284a;
+  float: left;
+}
+
+#cvright {
+  background-color: #f7f7f7;
+  width: 70%;
+  height: 100%;
+  float: right;
+}
+
+#img {
+  margin-top: 35px;
+  width: 190px;
+  height: 190px;
+  border-radius: 200px;
+  border: 10px solid #3fdfec;
+}
+
+.centre {
+  text-align: center;
+}
+
+#white {
+  color: #f7f7f7;
+}
+
+#hr1 {
+  width: 75%;
+  height: 5px;
+  background-color: #f7f7f7;
+  border: 0;
+}
+
+#hr4 {
+  width: 75%;
+  height: 5px;
+  background-color: #f7f7f7;
+  border: 0;
+  margin-bottom: 9.3%;
+}
+
+.inline {
+  text-align: inline;
+}
+
+.space {
+  vertical-align: -15%;
+  color: #3fdfec;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+
+.icon-text {
+  margin-left: 30px;
+}
+
+#cyan {
+  color: #3fdfec;
+}
+
+h1 h2 {
+  text-transform: uppercase;
+  font-family: Lexend, cursive;
+}
+
+h3 {
+  margin-left: 13px;
+}
+
+#p1 {
+  margin-left: 35px;
+  text-align: justify;
+  margin-right: 35px;
+}
+
+#hr2 {
+  width: 95%;
+  height: 5px;
+  background-color: #001742;
+  margin-top: 32px;
+  border: 0;
+}
+
+#hr3 {
+  width: 95%;
+  height: 5px;
+  background-color: #001742;
+  margin-top: 15px;
+  margin-bottom: 4.561%;
+  border: 0;
+}
+
+.container_right {
+  width: 80%;
+  height: 19.1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-left {
+  width: 50%;
+  height: 33%;
+  float: left;
+}
+
+.form-right {
+  width: 50%;
+  height: 33%;
+  float: right;
+  text-align: center;
+}
+
+#p2 {
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-family: 'Lexend';
+  font-size: xx-large;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#p3 {
+  text-transform: uppercase;
+  color: #3fdfec;
+  font-family: Lexend, cursive;
+  font-size: larger;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#p4 {
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-family: Lexend, cursive;
+  font-size: larger;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#p5 {
+  text-transform: uppercase;
+  color: black;
+  font-family: Lexend, cursive;
+  font-size: xx-large;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: #1d32eb;
+}
+
+meter {
+  font-size: 1em;
+  width: 35%;
+}
+
+.testo-skill {
+  text-align: right;
+  display: inline-block;
+  margin-bottom: 8%;
+}
+
+.meter-line {
+  margin-left: 40px;
+}
+
+.meter-line2 {
+  margin-left: 38px;
+}
+
+.meter-line3 {
+  margin-left: 15px;
+}
+
+.meter-line4 {
+  margin-left: 32px;
+}
