@@ -1,0 +1,176 @@
+#sfondo {
+  background-color: lightskyblue;
+}
+
+#nome {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Lexend, "Times New Roman", Times, serif;
+}
+
+#nome2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: lightskyblue;
+}
+
+#contatti {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Lexend, "Times New Roman", Times, serif;
+}
+
+.p1::before {
+  content: "home";
+  font-family: "Material Icons", serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: lightskyblue;
+}
+
+.p2::before {
+  content: "mail";
+  font-family: "Material Icons", serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: lightskyblue;
+}
+
+.p3::before {
+  content: "phone";
+  font-family: "Material Icons", serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: lightskyblue;
+}
+
+.p4::before {
+  content: "tag";
+  font-family: "Material Icons", serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: lightskyblue;
+}
+
+.p1 {
+  text-align: left;
+}
+
+.p2 {
+  text-align: left;
+}
+
+.p3 {
+  text-align: left;
+}
+
+.p4 {
+  text-align: left;
+}
+
+#cvsinistra {
+  display: inline-block;
+  border: 1px;
+  padding: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  vertical-align: middle;
+  width: 30%;
+  color: white;
+  background-color: rgb(10 10 68);
+}
+
+#cvdestra {
+  display: inline-block;
+  border: 1px;
+  padding: 2rem;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 70%;
+  vertical-align: middle;
+  background-color: white;
+}
+
+#cvtotale {
+  display: flex;
+  border: 1px;
+  padding: 2rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  margin: 0 10%;
+
+  /* margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%; */
+}
+
+#img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  margin: auto;
+  border: 8px solid lightskyblue;
+}
+
+#studi {
+  text-transform: uppercase;
+  font-family: Lexend, "Times New Roman", Times, serif;
+  padding-bottom: 10px;
+}
+
+#titolo1 {
+  text-align: left;
+}
+
+#titolo2 {
+  text-align: left;
+}
+
+#testo1 {
+  text-align: justify;
+}
+
+#testo2 {
+  text-align: justify;
+}
+
+#skills {
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Lexend, "Times New Roman", Times, serif;
+}
+
+#skillstotale {
+  display: flex;
+}
+
+#skillsleft {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+#skillsright {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+#lineabianca {
+  height: 3px;
+  background: white;
+}
+
+#linea1 {
+  height: 3px;
+  background: rgb(10 10 68);
+}
+
+#linea2 {
+  height: 3px;
+  background: rgb(10 10 68);
+}

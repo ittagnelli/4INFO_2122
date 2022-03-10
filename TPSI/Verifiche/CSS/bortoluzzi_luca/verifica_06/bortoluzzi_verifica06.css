@@ -1,0 +1,148 @@
+:root {
+  --color-aq: aqua;
+  --color-bla: black;
+  --color-wh: white;
+  --color-blu: darkblue;
+}
+
+body {
+  background-color: var(--color-aq);
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-right {
+  background-color: var(--color-wh);
+  width: 70%;
+  float: right;
+  height: 50em;
+}
+
+.container-left {
+  width: 30%;
+  background-color: var(--color-blu);
+  float: left;
+  height: 50em;
+}
+
+p {
+  margin-left: 3em;
+}
+
+.container-right hr {
+  height: 0.25em;
+  background-color: var(--color-blu);
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.container-left hr {
+  height: 0.2em;
+  background-color: var(--color-wh);
+  margin: 2em;
+  margin-bottom: 1em;
+}
+
+.hr-sp {
+  margin-top: 15em;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Lexend, sans-serif;
+}
+
+h3 {
+  margin-left: 1em;
+}
+
+label {
+  margin-left: 1.5em;
+  padding-right: 1.5em;
+  font-weight: bold;
+}
+
+label span {
+  text-transform: uppercase;
+}
+
+label[for="C"],
+label[for="html"],
+label[for="css"] {
+  text-transform: uppercase;
+}
+
+.left {
+  float: left;
+  margin-left: 3em;
+  text-align: right;
+}
+
+.right {
+  float: right;
+  margin-right: 5em;
+  text-align: right;
+}
+
+.spazio {
+  margin-right: 5em;
+}
+
+img {
+  border-radius: 10em;
+  height: 18em;
+  width: 18em;
+  display: block;
+  margin: auto;
+  margin-top: 1.5em;
+  border: 1em solid var(--color-aq);
+}
+
+.block-progress {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.container-left h1 {
+  color: var(--color-wh);
+}
+
+.container-left h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Lexend, sans-serif;
+  color: var(--color-aq);
+}
+
+.contacts {
+  color: var(--color-wh);
+  font-size: 1em;
+  vertical-align: 2px;
+  padding-right: 1em;
+}
+
+span[class="material-icons"] {
+  color: var(--color-aq);
+  margin-left: 1em;
+  margin-right: 1.5em;
+  font-size: 1.5em;
+}
+
+a {
+  color: var(--color-wh);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-aq);
+}
+
+a::after {
+  color: var(--color-wh);
+}

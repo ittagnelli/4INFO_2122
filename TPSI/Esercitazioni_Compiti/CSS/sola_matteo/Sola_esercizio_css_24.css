@@ -1,0 +1,16 @@
+#immagine {
+    background-image: url("https://nopapaye.files.wordpress.com/2014/09/orizzonte.jpg");
+    height: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#parola {
+    position: relative;
+    font-size: 30px;
+    color: lightblue;
+    font-weight: bold;
+    left: 50px;
+    top: 20px;
+}

@@ -1,0 +1,181 @@
+:root {
+  --aqua: #3fdfec;
+  --blu: #00284a;
+}
+
+body {
+  background-color: aqua;
+}
+
+.contenitore {
+  margin-top: 1%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#colonna1 {
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 30%;
+  background-color: var(--blu);
+  float: left;
+}
+
+#colonna2 {
+  width: 70%;
+  height: auto;
+  display: inline-block;
+  float: right;
+  background-color: white ;
+}
+
+.img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 10px var(--aqua);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.bordo {
+  padding-top: 8px;;
+  height: 260px;
+  width: 265px;
+  border-radius: 50%;
+  background-color: var(--aqua);
+  display: inline-block;
+  text-align: center;
+}
+
+#barra {
+  height: 2em;
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#spazia {
+  margin-left: 1%;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.converti {
+  text-transform: uppercase;
+  font-family: 'Lexend', sans-serif;
+}
+
+.modifica_dimensioni {
+  font-size: 1.3em;
+}
+
+#casa {
+  text-align: center;
+  font-size: 0.7em;
+}
+  
+#info {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#icone {
+  float: left;
+  text-align: left;
+}
+
+#informazioni {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.alto {
+  margin-top: 1%;
+}
+.titolo {
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.sottotitolo {
+  font-size: 1.5em;
+}
+
+.testo {
+  font-size: 1.2em;
+}
+
+.centra{
+  float: left;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.grassetto {
+  font-weight: bold;
+}
+
+.riga {
+  height: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: auto;
+  color: black;
+}
+
+.dimensioni {
+  font-size: xx-large;
+}
+
+.colore {
+  color: white;
+}
+
+.mie_skills {
+  font-size: 1.3em;
+  text-align: right;
+  font-weight: bold;
+  width: 30%;
+  float: left;
+}
+.skills-bar {
+  text-align: left;
+  width: 70%;
+  float: left;
+}
+.meter {
+  height: 1.1em;
+  width: 50%;
+}
+
+.spazio_valore{
+  margin-top: 1.2%;
+  margin-bottom: 10%;
+  padding-left: 10%;
+}
+
+.spaziamento{
+  margin-bottom: 20%;
+}
+
+.skill_sinistra {
+  float: left;
+  text-align: left;
+  margin: 0;
+  border: 0;
+  width: 50%;
+}
+.skill_destra {
+  float: left;
+  text-align: left;
+  margin: 0;
+  border: 0;
+  width: 50%;
+}
