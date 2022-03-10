@@ -77,7 +77,7 @@ body {
 .icon {
   color: var(--bg);
   vertical-align: -30%;
-  margin-left: 5%;
+  margin-left: 15%;
   margin-top: 5%;
   margin-right: 3%;
 }
@@ -188,4 +188,8 @@ meter::-webkit-meter-optimum-value {
 
 .icon-container {
   text-align: left;
+}
+
+.icon-text {
+  font-size: 1.2em;
 }
