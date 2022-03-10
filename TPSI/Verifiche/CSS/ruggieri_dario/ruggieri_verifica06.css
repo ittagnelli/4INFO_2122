@@ -1,0 +1,173 @@
+:root {
+  --light-blue: #26c6e2;
+  --dark-blue: #00003ace;
+  --white: white;
+}
+
+body {
+  background-color: var(--light-blue);
+}
+
+#cv-container {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cv-left {
+  width: 30%;
+  height: 700px;
+  float: left;
+  background-color: var(--dark-blue);
+}
+
+#cv-right {
+  width: 70%;
+  height: 700px;
+  float: left;
+  background-color: var(--white);
+}
+
+img {
+  width: auto;
+  height: 80%;
+  border-radius: 200px;
+  border: 8px solid var(--light-blue);
+}
+
+.center-image {
+  text-align: center;
+  width: 60%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elemento {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.maiuscolo {
+  text-transform: uppercase;
+  font-family: Lexend, cursive;
+}
+
+.titolo {
+  font-size: 30px;
+}
+
+.sottotitolo {
+  font-size: 20px;
+}
+
+.background-bianco {
+  background-color: var(--white);
+}
+
+.background-blu {
+  background-color: var(--dark-blue);
+}
+
+.bianco {
+  color: var(--white);
+}
+
+.azzurro {
+  color: lightblue;
+}
+
+.divisore1 {
+  width: 70%;
+  height: 3px;
+}
+
+.divisore2 {
+  width: 95%;
+  height: 3px;
+}
+
+.icona {
+  color: var(--light-blue);
+  padding-right: 20px;
+  vertical-align: -25%;
+}
+
+.center {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin {
+  margin-top: 15px;
+}
+
+.scuola {
+  margin-left: 10px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.paragrafo {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 29px;
+  text-align: justify;
+}
+
+.skill-container {
+  width: 80%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.skill-right {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.skill-name {
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: right;
+}
+
+.skill-value {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+meter {
+  padding-left: 20px;
+  width: 70%;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: blue; /* Green */
+}
+
+.skill {
+  margin-left: 10px;
+  margin-bottom: 25px;
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.skill-margin {
+  margin-top: 13%;
+}
