@@ -41,7 +41,7 @@ body {
 }
 
 .bordo {
-  padding-top: 8px;;
+  padding-top: 8px;
   height: 260px;
   width: 265px;
   border-radius: 50%;
@@ -98,6 +98,7 @@ body {
 .alto {
   margin-top: 1%;
 }
+
 .titolo {
   font-size: 2.5em;
   text-align: center;
@@ -112,7 +113,7 @@ body {
   font-size: 1.2em;
 }
 
-.centra{
+.centra {
   float: left;
   margin-left: 4%;
   margin-right: 4%;
@@ -138,24 +139,26 @@ body {
   color: white;
 }
 
-.mie_skills {
+.mieskills {
   font-size: 1.3em;
   text-align: right;
   font-weight: bold;
   width: 30%;
   float: left;
 }
+
 .skills-bar {
   text-align: left;
   width: 70%;
   float: left;
 }
+
 .meter {
   height: 1.1em;
   width: 50%;
 }
 
-.spazio_valore{
+.spaziovalore{
   margin-top: 1.2%;
   margin-bottom: 10%;
   padding-left: 10%;
@@ -165,17 +168,19 @@ body {
   margin-bottom: 20%;
 }
 
-.skill_sinistra {
+.skillsinistra {
   float: left;
   text-align: left;
   margin: 0;
   border: 0;
   width: 50%;
 }
-.skill_destra {
+
+.skilldestra {
   float: left;
   text-align: left;
   margin: 0;
   border: 0;
   width: 50%;
 }
+
