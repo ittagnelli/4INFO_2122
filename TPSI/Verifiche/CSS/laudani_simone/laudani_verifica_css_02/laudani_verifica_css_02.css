@@ -1,34 +1,157 @@
+:root {
+  --white: white;
+  --lightblue: rgb(0, 199, 235);
+  --darkblue: rgb(0, 40, 74);
+}
+
 body{
-  background-color: aqua;
+  background-color: var(--lightblue);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  margin-left: 15px;
+  margin-bottom: 25px;
+  font-size: 21px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+progress {
+  margin-left: 15px;
 }
 
 #CVcontainer {
-  height: 100%;
-  background-color: white;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
+  height: auto;
   width: 80%;
 }
 
 #CVleft {
-  font-size: 0.5em;
+  background-color: var(--darkblue);
   text-align: center;
-  color: white;
-  margin: 0px;
-  height: 100%;
+  height: 720px;
   width: 30%;
-  background-color: rgb(49, 43, 43);
   float: left;
 }
 
 #CVright {
-  margin-left: 30%;
-  height: 100%;
+  height: 720px;
   width: 70%;
+  float: left;
+  background-color: var(--white);
+}
+
+#SKILLcontainer {
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:end;
+  font-weight: bold;
+}
+
+#SKILLleft { 
+  float: left;
+  margin-left: 2em;
+}
+
+#SKILLright {
+  margin-left: 11em;
+  float: left;
+}
+
+#ICONScentering {
+  width: 74%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .picture {
+  width: 190px;
   border-radius: 100%;
-  margin-top: 15px;
-  width: 130px;
+  margin-top: 40px;
+  border: 9px solid var(--lightblue);
+}
+
+.uppercase {
+  font-family: 'Lexend';
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.contacts {
+  text-align: start;
+  margin-left: 35px;
+}
+
+.tnewroman {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.white {
+  color: var(--white);
+}
+
+.lblue {
+  color: var(--lightblue);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-dblue {
+  background-color: var(--darkblue);
+}
+
+.material-icons {
+  float: left;
+  font-size: 17px;
+  color: var(--lightblue);
+}
+
+.leftdiv {
+  height: 2.5px;
+  width: 75%;
+}
+
+.rightdiv {
+  height: 2.5px;
+  width: 90%;
+}
+
+.experiences {
+  text-align: justify;
+  margin-bottom: 29px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.skillbars {
+  margin-bottom: 1.8em;
+}
+
+a.anchorICONS {
+  color: var(--white);
+}
+
+a.anchorICONS:hover {
+  color: var(--lightblue);
 }
