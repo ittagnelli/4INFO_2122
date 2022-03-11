@@ -1,1 +1,1 @@
-alert("My second JS :)")
+alert("My second JS :)");
