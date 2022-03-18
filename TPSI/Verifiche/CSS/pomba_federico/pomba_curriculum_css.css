@@ -1,0 +1,178 @@
+body {
+  width: 80%;
+  height: 100%;
+  background-color: aqua;
+  padding-left: 30px;
+}
+
+img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.bordo {
+  padding-top: 8px;
+  height: 260px;
+  width: 265px;
+  border-radius: 50%;
+  background-color: aqua;
+  text-align: center;
+  display: inline-block;
+}
+
+.hr {
+  height: 3px;
+  width: 80%;
+  background-color: white;
+}
+
+.inline {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-top: 10px;
+  margin-bottom: 14px;
+  margin-right: 5px;
+  display: block;
+  padding: 0;
+}
+
+.icons {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.al {
+  text-align: left;
+}
+
+.up {
+  margin-bottom: 23px;
+  margin-top: 1px;
+}
+
+.size {
+  font-size: xx-large;
+}
+
+.divleft {
+  width: 30%;
+  height: 900px;
+  background-color: #00284a;
+  float: left;
+  text-align: center;
+  margin: 0;
+}
+
+.divright {
+  width: 120%;
+  height: 900px;
+  text-align: left;
+  background-color: white;
+}
+
+.dim1 {
+  font-size: x-large;
+}
+
+.dim2 {
+  font-size: large;
+}
+
+.hr1 {
+  height: 3px;
+  width: 70%;
+  background-color: #00284a;
+}
+
+.sp2 {
+  padding-left: 26%;
+}
+
+.sp1 {
+  padding-left: 29%;
+  padding-right: 4%;
+}
+
+.barra {
+  display: inline;
+  padding-right: 30px;
+}
+
+.customsize {
+  font-size: x-large;
+}
+
+.spaziosx {
+  float: left;
+  padding-right: 20%;
+}
+
+.bordospazio {
+  padding-top: 9%;
+  text-align: center;
+}
+
+.meterspace {
+  display: inline;
+  padding-right: 48px;
+}
+
+.space {
+  padding-bottom: 60px;
+  padding-right: 20%;
+}
+
+.test {
+  padding-right: 50%;
+}
+
+.leftmeter {
+  padding-left: 34%;
+}
+
+.barra2 {
+  display: inline;
+  padding-right: 25px;
+}
+
+::-webkit-meter-bar {
+  width: 200px;
+  height: 10px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: #2d24db;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.font {
+  font-family: Lexend, sans-serif;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.bianco {
+  color: white;
+}
+
+.azzurro {
+  color: aqua;
+}
+
+.left {
+  float: left;
+}
+
+.center {
+  text-align: center;
+}

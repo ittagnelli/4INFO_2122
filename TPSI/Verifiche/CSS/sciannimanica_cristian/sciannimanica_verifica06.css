@@ -1,0 +1,120 @@
+    body {
+    background-color: aqua;
+  }
+  
+  .container {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cr{
+    background-color: white;
+    width: 70%;
+    float: right;
+    height: 650px;
+  }
+  
+  .cl {
+    width: 30%;
+    background-color: blue;
+    float: left;
+    height: 650px;
+  }
+  
+  p {
+    margin-left: 30px;
+  }
+
+  label p {
+    display: inline;
+  }
+  
+  .cr hr {
+    height: 2.5px;
+    background-color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .cl hr {
+    height: 2px;
+    background-color: white;
+    margin: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .hr-sp {
+    margin-top: 150px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Lexend, sans-serif;
+  }
+  
+  h3 {
+    margin-left: 10px;
+  }
+  
+  label {
+    margin-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+  }
+  
+  label span {
+    text-transform: uppercase;
+  }
+  
+  .left {
+    float: left;
+    margin-left: 30px;
+    text-align: right;
+  }
+  
+  .right {
+    float: right;
+    margin-right: 50px;
+    text-align: right;
+  }
+  
+  img {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border: 10px solid aqua;
+  }
+  
+  .block-progress {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .cl h1 {
+    color: white;
+  }
+  
+  .cl h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Lexend, sans-serif;
+    color: aqua;
+  }
+  
+  .bian {
+    color: white;
+    font-size: 18px;
+    vertical-align: 2px;
+    padding-right: 10px;
+  }
+  
+  meter::-webkit-meter-optimum-value {
+    color: blue;
+    background-color: blue;
+  }
