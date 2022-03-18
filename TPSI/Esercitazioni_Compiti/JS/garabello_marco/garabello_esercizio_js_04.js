@@ -35,7 +35,7 @@ function modifica_stile(){
 
 
     par3.innerHTML = par3.innerHTML.toUpperCase();
-    par3.style.backgroundColor = "lightbliue";
+    par3.style.backgroundColor = "lightblue";
 
     par6.innerHTML = par6.innerHTML.toUpperCase();
 
