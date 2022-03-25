@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="sciannimanica_verifica05R.css" type="text/css">
+        <title>Verifica05</title>
+    </head>
+    <body>
+        <h1 id="Titolo">Il Blog di Cristian Sciannimanica</h1>
+
+
+
+        <div id="container">
+            <div id="left">
+                <h2>mount & unmount</h2>
+                <hr>
+                <h2>Aricolo 2</h2>
+                <hr>
+                <h2>Articolo 3</h2>
+                <hr>
+                <h2>Articolo 4</h2>
+                <hr>
+                <h2>Articolo 5</h2>
+                <hr>
+                <h2>Articolo 6</h2>
+                <hr>
+            </div>
+            <div id="right">
+                <h1>I COMANDI MOUNT E UMOUNT</h1>
+                <p> 
+                    Nei sistemi che fanno riferimento al mondo linux (o, più correttamente, nei sistemi
+                    unix-like) le periferiche di archiviazione dati vengono rilevate dal sistema
+                    operativo non appena collegate al computer, ma i loro filesystem non vengono
+                    "integrati"; automaticamente all'interno del "filesystem globale".
+                </p>
+                <p>
+                    Questa operazione di "innesto" avviene mediante il comando mount il quale
+                    collega il filesystem della periferica al filesystem globale del sistema inserendolo
+                    all'interno dell'albero delle directory (in ogni sistema linux, un drive è
+                    rappresentato come se fosse una comune cartella). L'operazione inversa, che
+                    rilascia un filesystem montato, si dice smontaggio e si esegue tramite il comando umount.
+                </p>
+                <p>
+                    A titolo di confronto, per quanto riguarda il mondo Windows, l'operazione
+                    di mount è celata dal sistema operativo. Questa operazione, infatti, viene eseguita
+                    all'avvio ed, automaticamente, ogni volta in cui viene collegata una nuova
+                    periferica (si pensi ad esempio al caso delle penne USB).
+                </p>
+                <p>
+                    Sui sistemi linux
+                    l'operazione di mount è svolta all'avvio in modo automatico nel caso della
+                    directory radice (/) e, solitamente, anche all'inserimento di una periferica
+                    rimovibile. In alcune circostanze, tuttavia, è certamente utile saper eseguire
+                    l'operazione mediante comandi manuali.
+                </p>
+                <p>
+                    Il loop device è un dispositivo virtuale a
+                    blocchi che rende visibile al sistema un file come se fosse un dispositivo di
+                    memorizzazione. Alcuni file a struttura regolare come le immagini virtuali (es:
+                    ISO) sono particolarmente adatte ad essere rappresentate con un intero file system.
+                </p>
+                <p>
+                    Attraverso il loop mount è possibile eseguire questa operazione. Il loop
+                    mount si esegue lanciando il comando mount col parametro -o loop, seguito dal
+                    nome del file e dalla destinazione che sarà usata come radice.
+                </p>
+                <p>
+                    In taluni casi è necessario forzare il montaggio di un device poichè questo si trova per un qualche
+                    motivo in stato di lock. Il montaggio forzato si richiama con la sintassi.
+                </p>
+            </div>
+            <br>
+            <div id=sot>
+                &copy; Cristian Sciannimanica - 2021-2022
+                <br>
+                <p>cristian.sciannimanica@istitutoagnelli.it</p>
+                <p>3498919571</p>
+                <p>Don't print articles to save paper and ink</p>
+            </div>
+        </div>
+    </body>
+</html>
