@@ -1,0 +1,22 @@
+.Titolo {
+    font-family: Hurricane;
+    text-align: center;
+    background-color: gray;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+}
+
+.right {
+    right;
+}
+
+.left {
+    left;
+}
+
+.sot {
+    background-color: gray;
+}
