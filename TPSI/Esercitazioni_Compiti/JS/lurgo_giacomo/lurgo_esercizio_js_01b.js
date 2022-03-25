@@ -1,0 +1,1 @@
+alert("This is MY second JS - by 80K");
