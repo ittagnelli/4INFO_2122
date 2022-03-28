@@ -31,5 +31,4 @@ function modifica_stile() {
     terzopar.style.backgroundColor = "lightblue";
     sestopar.style.textTransform = "uppercase";
     settimopar.style.fontStyle = "italic";
-
 }
