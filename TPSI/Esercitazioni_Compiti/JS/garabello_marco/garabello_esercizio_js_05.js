@@ -1,4 +1,3 @@
-let flag = false;
 let first_time = true;
 
 function add_user(){
@@ -36,28 +35,27 @@ function add_user(){
         tr.append(media);
 
         tr.classList.add("removable");
-
-        if(flag) tr.classList.add("eaven");
-        else tr.classList.add("odd");
+        tr.classList.add("tr");
 
         table.append(tr);
         
-        flag = !flag;
+       
     
 }
 
 
 function color(){
-    const odds = document.getElementsByClassName("odd");
-    const eavens = document.getElementsByClassName("eaven");
 
-    for(let i = 0; i<odds.length;i++){
-        odds[i].style.backgroundColor="red";
-    }
+    const tr = document.getElementsByClassName("tr");
 
-    for(let i =0; i<eavens.length; i++){
-        eavens[i].style.backgroundColor="blue";
+    for (let i = 0; i < tr.length; i++) {
+        const element = tr[i];
 
+        if(i%2 == 0)
+            element.style.backgroundColor="blue";
+        else
+            element.style.backgroundColor="red";
+        
     }
 }
 
