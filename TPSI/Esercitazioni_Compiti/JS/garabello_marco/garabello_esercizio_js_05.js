@@ -10,10 +10,6 @@ function add_user(){
         td_media.innerHTML = "<b>media</b>";
         td_media.style.paddingLeft = "30px",
 
-        td_media.classList.add("removable");
-        td_cognomi.classList.add("removable");
-
-
         header.append(td_cognomi);
         header.append(td_media);
         
@@ -32,6 +28,8 @@ function add_user(){
 
         cognomi.innerHTML =  document.getElementById("cognome").value;
         media.innerHTML = document.getElementById("media").value;
+
+        cognomi.classList.add("name");
 
         
         tr.append(cognomi);
@@ -66,10 +64,16 @@ function color(){
 
 function remove(){
     const objs = document.getElementsByClassName("removable");
+    const names = document.getElementsByClassName("name");
+
+    let cognomi =  document.getElementById("cognome").value;
 
     for(let i = objs.length-1; i>=0;i--){
-        objs[i].remove();
+        if(names[i].innerText == cognomi){
+            names[i].remove();
+            objs[i].remove();
+        }
+            
     }
 
-    first_time =!first_time;
 }
