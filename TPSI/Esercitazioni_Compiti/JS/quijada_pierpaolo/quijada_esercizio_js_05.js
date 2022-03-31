@@ -10,7 +10,6 @@ function add_studente() {
     table.append(tr);
     tr.append(td1);
     tr.append(td2);
-
 }   
 
 function colora() {
@@ -25,12 +24,10 @@ function colora() {
 
 function rimozione() {
     let cont = document.getElementsByTagName("td");
-    const studente = document.getElementById("nome2").value;
+    const studente = document.getElementById("nome").value;
     let rimuovi = document.getElementsByTagName("tr");
     for (let i=0; i<cont.length; i++){
-        if(cont[i].innerText == studente){
+        if(cont[i].innerText == studente)
             rimuovi[i].remove();
-        }
-            
     }
 }
