@@ -113,3 +113,11 @@ function red(){
 
     }
 }
+
+
+function borde(){
+    const el = document.getElementById("t1");
+
+    console.log(el);
+    el.classList.toggle("borde");
+}
