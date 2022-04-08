@@ -1,44 +1,112 @@
-function add_info() {
-    let surname = document.getElementById("cognome").value;
-    let average = document.getElementById("num").value;
-    let table = document.getElementById("tabella");
-    let td1 = document.createElement("td");
-    let td2= document.createElement("td");
-    let tr = document.createElement("tr");
-    td1.innerText = surname;
-    td2.innerText = average;
-    td1.className= "special";
-    tr.append(td1);
-    tr.append(td2);
-    table.append(tr);
+let first_time = true;
+
+function add(){
+    if(first_time == true){
+        const header = document.getElementById("tabella");
+        const td_cognomi = document.createElement("td");
+        const td_media = document.createElement("td");
+        td_cognomi.innerHTML = "<b>cognome</b>";
+        td_media.innerHTML = "<b>media</b>";
+
+        header.append(td_cognomi);
+        header.append(td_media);
+        
+        first_time = false;
+    }
+        const table = document.getElementById("tabella");
+
+        const riga = document.createElement("tr");
+        
+        const cognomi = document.createElement("td");
+        const num = document.createElement("td");
+
+
+        media.style.padding = "30px";
+
+
+        cognomi.innerHTML =  document.getElementById("cognome").value;
+        media.innerHTML = document.getElementById("media").value;
+
+        cognomi.classList.add("nome");
+
+        
+        tr.append(cognomi);
+        tr.append(media);
+
+        tr.classList.add("removable");
+        tr.classList.add("tr");
+
+        table.append(tr);
+        
+       
+    
 }
 
-function color() {
-    let trs = document.getElementsByTagName("tr");
-    for (let i=0; i<trs.length; i++){
-        if (i % 2 == 1) {
-            trs[i].style.backgroundColor = "blue";
-        }
-        else{
-            trs[i].style.backgroundColor = "red";
-        }
+function color(){
+    const tr = document.getElementsByClassName("tr");
+
+    for (let i = 0; i < tr.length; i++) {
+        const element = tr[i];
+
+        if(i % 2 == 0)
+            element.style.backgroundColor="blue";
+        else
+            element.style.backgroundColor="red";
+        
     }
 }
+
 
 function remove(){
-    let surname = document.getElementById("cognome").value;
-    let trs = document.getElementsByTagName("tr");
-    let tds = document.getElementsByClassName("special");
-    let flag = 0;
-    let trs_lenght = trs.length;
-    for(let i = trs_lenght-1; i >= 0; i--){
-        console.log("for");
-        if(tds[i].innerText == surname){
-            console.log("if");
-            trs[i].remove();
-            flag = 1;
+    const objs = document.getElementsByClassName("rimuovi");
+    const names = document.getElementsByClassName("name");
+
+    let cognomi =  document.getElementById("cognome").value;
+
+    for(let i = objs.length-1; i>=0;i--){
+        if(names[i].innerText == cognomi){
+            names[i].remove();
+            objs[i].remove();
         }
+            
     }
-    if(flag == false)
-        alert("Persona non presente");
+
+}
+
+
+function bold(){
+    const tr = document.getElementsByClassName("tr");
+
+    for (let i = 0; i < tr.length; i++) {
+        const element = tr[i];
+
+        element.classList.toggle("bold");
+        
+    }
+}
+
+
+function blue(){
+    const tr = document.getElementsByClassName("tr");
+
+    for (let i = 0; i < tr.length; i++) {
+        const element = tr[i];
+
+        element.classList.add("blue");
+        element.classList.remove("red")
+        
+    }
+}
+
+
+function red(){
+    const tr = document.getElementsByClassName("tr");
+
+    for (let i = 0; i < tr.length; i++) {
+        const element = tr[i];
+
+        element.classList.add("red");
+        element.classList.remove("blue");
+
+    }
 }
