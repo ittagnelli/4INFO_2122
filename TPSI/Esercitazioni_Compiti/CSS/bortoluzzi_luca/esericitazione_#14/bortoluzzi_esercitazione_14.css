@@ -1,0 +1,65 @@
+:root {
+  --color-wh: white;
+  --color-blue: rgb(10, 88, 233);
+}
+
+body {
+  background-color: var(--color-wh);
+}
+
+.image {
+  height: 100px;
+  padding-left: 225px;
+}
+
+.row img {
+  height: 260px;
+}
+
+.name {
+  color: var(--color-blue);
+  text-align: center;
+}
+
+span {
+  color: black;
+}
+
+span[class="material-icons"],
+.col {
+  color: var(--color-blue);
+}
+
+p {
+  color: black;
+}
+
+.col-sm-3 p {
+  color: var(--color-blue);
+}
+
+.inline {
+  display:inline-block;
+}
+
+.inline p {
+  text-align: center;
+  padding-left: 5px;
+}
+
+li {
+  color: black;
+}
+
+.right {
+  text-align: right;
+}
+
+b {
+  color: black;
+}
+
+.title {
+  font-size: x-large;
+  margin-left: 130px;
+}
