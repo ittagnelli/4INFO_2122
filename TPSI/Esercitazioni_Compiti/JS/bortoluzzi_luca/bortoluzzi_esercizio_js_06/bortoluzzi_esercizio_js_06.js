@@ -1,112 +1,68 @@
-let first_time = true;
-
 function add(){
-    if(first_time == true){
-        const header = document.getElementById("tabella");
-        const td_cognomi = document.createElement("td");
-        const td_media = document.createElement("td");
-        td_cognomi.innerHTML = "<b>cognome</b>";
-        td_media.innerHTML = "<b>media</b>";
+    const tabella = document.getElementById("table");
+    const nome = document.getElementById("nome").value;
 
-        header.append(td_cognomi);
-        header.append(td_media);
-        
-        first_time = false;
-    }
-        const table = document.getElementById("tabella");
+    console.log(nome);
+    console.log(media);
+    let riga = document.createElement("tr");
+    let td1 = document.createElement("td");
 
-        const riga = document.createElement("tr");
-        
-        const cognomi = document.createElement("td");
-        const num = document.createElement("td");
+    table.append(riga);
+    td1.innerText = nome;
+    riga.append(td1);
 
-
-        media.style.padding = "30px";
-
-
-        cognomi.innerHTML =  document.getElementById("cognome").value;
-        media.innerHTML = document.getElementById("media").value;
-
-        cognomi.classList.add("nome");
-
-        
-        tr.append(cognomi);
-        tr.append(media);
-
-        tr.classList.add("removable");
-        tr.classList.add("tr");
-
-        table.append(tr);
-        
-       
-    
 }
 
 function color(){
-    const tr = document.getElementsByClassName("tr");
-
-    for (let i = 0; i < tr.length; i++) {
-        const element = tr[i];
-
-        if(i % 2 == 0)
-            element.style.backgroundColor="blue";
+    let trs = document.getElementsByTagName("tr");
+    console.log(trs);
+    console.log(trs.length);
+    for(let i = 0; i < trs.length; i++){
+        if(i%2==1)
+            trs[i].style.backgroundColor = "red";
         else
-            element.style.backgroundColor="red";
-        
+            trs[i].style.backgroundColor = "blue";
     }
 }
-
 
 function remove(){
-    const objs = document.getElementsByClassName("rimuovi");
-    const names = document.getElementsByClassName("name");
-
-    let cognomi =  document.getElementById("cognome").value;
-
-    for(let i = objs.length-1; i>=0;i--){
-        if(names[i].innerText == cognomi){
-            names[i].remove();
-            objs[i].remove();
+    let trs = document.getElementsByTagName("tr");
+    const nome = document.getElementById("nome");
+    for(let i = 0; i < trs.length; i++){
+        console.log(trs[i].cells[0].innerHTML); 
+        console.log(nome.value);
+        if(trs[i].cells[0].innerHTML == nome.value){
+            trs[i].remove();
+            console.log("cancellato");
         }
-            
+           
     }
-
 }
-
 
 function bold(){
-    const tr = document.getElementsByClassName("tr");
-
-    for (let i = 0; i < tr.length; i++) {
-        const element = tr[i];
-
-        element.classList.toggle("bold");
-        
+    let trs = document.getElementsByTagName("tr");
+    console.log(trs);
+    console.log(trs.length);
+    for(let i = 0; i < trs.length; i++){
+       trs[i].classList.add("grassetto");
     }
 }
 
-
-function blue(){
-    const tr = document.getElementsByClassName("tr");
-
-    for (let i = 0; i < tr.length; i++) {
-        const element = tr[i];
-
-        element.classList.add("blue");
-        element.classList.remove("red")
-        
+function blu(){
+    let trs = document.getElementsByTagName("tr");
+    console.log(trs);
+    console.log(trs.length);
+    for(let i = 0; i < trs.length; i++){
+       trs[i].classList.add("blu");
     }
 }
 
-
-function red(){
-    const tr = document.getElementsByClassName("tr");
-
-    for (let i = 0; i < tr.length; i++) {
-        const element = tr[i];
-
-        element.classList.add("red");
-        element.classList.remove("blue");
-
+function border(){
+    let trs = document.getElementsByTagName("tr");
+    console.log(trs);
+    console.log(trs.length);
+    for(let i = 0; i < trs.length; i++){
+       trs[i].classList.toggle("bordo");
     }
 }
+

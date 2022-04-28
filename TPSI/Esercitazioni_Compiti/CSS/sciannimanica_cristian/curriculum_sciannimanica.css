@@ -1,0 +1,128 @@
+.Firstline {
+    display: inline-block;
+}
+
+.imgEuropass {
+    width: 30%;
+    margin-right: 10%;
+}
+
+#imgEuropass {
+    width: 30%;
+    float:initial;
+}
+
+.Scritta {
+    color: aqua;
+    width: 64%;
+    
+}
+
+.CVcontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.CVleft {
+    width: 30%;
+    text-align: right;
+    float: left;
+}
+
+.Colonna {
+    display: inline-block;
+}
+
+.CVright {
+    width: 64%;
+    text-align: left;
+    margin-left: 1%;
+    float: right;
+}
+
+h5 {
+    text-transform: uppercase;
+    color: blue;
+}
+
+.indirizzo::before {
+    content: "place";
+    font-family: "Material Icons", serif;
+    margin-right: 2%;
+    color: blue;
+}
+
+.telefono::before {
+    content: "smartphone";
+    font-family: "Material Icons", serif;
+    margin-right: 2%;
+    color: blue;
+}
+
+.mail::before {
+    content: "mail";
+    font-family: "Material Icons", serif;
+    margin-right: 2%;
+    color: blue;
+}
+
+.hr {
+    background:blue;
+    height: 2px;
+}
+
+.Titolo_m {
+    color: rgb(0, 0, 0);
+}
+
+
+#F1tabella {
+    color:blue;
+}
+
+td.Titoli_tabella {
+    color:blue;
+    box-sizing: border-box;
+    border-left: 1px solid blue;
+}
+
+
+.diploma {
+    display: inline-block;
+}
+
+
+
+.td {width: 100%;}
+
+.ascolto {width: 10%;}
+
+.inline1 {
+    color:blue;text-transform: uppercase;text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    width: 15%;
+}
+
+
+.container {border: 1px solid black;}
+
+.tab {
+    color:blue;text-transform: uppercase;text-align: center;
+
+    width: 30%;
+}
+
+.tabellaTd {
+    color:blue;
+    box-sizing: border-box;
+    border-left: 1px solid blue;
+}
+
+.firma {
+    float: right;
+}
+
+.divv {
+   float:inline;
+}

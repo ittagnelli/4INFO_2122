@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="lurgo_esercizio_js_06.js"></script>
+    <title>Esercizio 05 Js </title>
+    <style>
+        .grassetto{
+            font-weight: bold;
+        }
+
+        .blue{
+            color: blue;
+        }
+
+        .bordo{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body onload="start()">
+    <h1></h1>
+    <label for="nome">STUDENT NAME: </label>
+    <input type="text" id="nome" placeholder="Inserire il nome"> </br>
+    <label for="media">INSERT MEDIA:</label> 
+    <input type="number" id="media" min="0" max="10" placeholder="Inserire la media">
+    <button onclick="add_studente()">ADD</button>
+    <button onclick="grassetto()">grassetto</button>
+    <button onclick="colora()">COLOR</button>
+    <button onclick="blue()">blue</button>
+    <button onclick="bordo()">bordo</button>
+    <button onclick="remove_studente()">REMOVE</button>
+    <table id="tabella" ></table>
+</body>
+</html>

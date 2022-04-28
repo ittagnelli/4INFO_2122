@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <!-- Qui vanno inserite informazioni relative alla pagina ma che non saranno visualizzate -->
+    <!-- sezione meta Fornisce informazioni al web browser e ai motori di ricerca per il processo di indicizzazione -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alexandru Chindris" />
+    <meta name="description" content="Empty Page" />
+    <meta name="keywords" content="js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="chindris_esercizio_js_06.js"></script>
+    <style>
+        .bold{
+            font-weight: bold;
+        }
+
+        .bordo{
+            border: 1px solid black;
+        }
+
+        .blue{
+            color: blue;
+        }
+    </style>
+    <title>Exercise 05</title>
+</head>
+<body>
+    <h1>Online Register</h1>
+    <input id="surname" type="text" placeholder="enter your surname"/>
+    <input id="average" type="number" placeholder="enter your mark avarage"/>
+    <button onclick="add_info()">Push your informations</button>
+    <button onclick="color()">Change color</button>
+    <button onclick="remove()">Delete</button>
+    <button onclick="border()">Table border</button>
+    <button onclick="grasetto()">Bolder</button>
+    <button onclick="blue()">Blue</button>
+    <table id="table">
+    </table>
+</body>
+</html>
