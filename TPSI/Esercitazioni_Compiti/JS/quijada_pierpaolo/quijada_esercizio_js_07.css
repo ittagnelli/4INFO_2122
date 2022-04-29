@@ -1,0 +1,29 @@
+.titolo {
+  font-family: 'Arial';
+  text-align: center;
+  font-size: 55px;
+}
+  
+hr {
+  border: 3px solid gray;
+  width: 50%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+  
+table {
+  width: 40%;
+  border-collapse:separate; 
+  border-spacing: 0px 10px;
+  margin: auto;
+}
+  
+th {
+  font-size: 20px;
+}
+  
+tr {
+  margin-bottom: 10px;
+  text-align: center;
+}
+  
