@@ -1,0 +1,21 @@
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+hr {
+    width: 50%;
+    border: 3px solid gray;
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+
+table {
+    margin: auto;
+    width: 50%;
+    border-collapse:separate; 
+    border-spacing: 0px 10px;
+}
+
