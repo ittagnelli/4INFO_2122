@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="laudani_esercizio_js_07.css">
+    <script src="laudani_esercizio_js_07.js"></script>
+    <title>rubrica</title>
+</head>
+
+<body>
+  <h1 class="main-title">rubrica</h1>
+  <table>
+    <tr>
+      <th>Cognome</th>
+      <th>Nome</th>
+      <th>Indirizzo</th>
+      <th>Telefono</th>
+      <th colspan=2>Azioni</th>
+    </tr>
+    <tr>
+      <td><input type="text" size=11 id="cognome"/></td>
+      <td><input type="text" size=11 id="nome"/></td>
+      <td><input type="text" size=30 id="indirizzo"/></td>
+      <td><input type="text" size=11 id="telefono"/></td>
+      <td>
+        <button onclick="cerca()">ricerca</button>
+      </td>
+      <td>
+        <button onclick="aggiungi_utente()">salva</button>
+      </td>
+
+    </tr>
+  </table>        
+    
+  <hr>
+
+  <table id="db_table">
+    <tr>
+      <td><input type="text" size=11 readonly value="Bortè"></td>
+      <td><input type="text" size=11 readonly value="Andrea"></td>
+      <td><input type="text" size=30 readonly value="Via Roma, Torino"></td>
+      <td><input type="text" size=11 readonly value="39212345678"></td>
+      <td>
+          <button class="remove-button" onclick="rimuovi(this)">Rimuovi</button>
+      </td>
+      <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>   
+    </tr>
+    <tr>
+      <td><input type="text" size=11 readonly value="Verdi"></td>
+      <td><input type="text" size=11 readonly value="Giuseppe"></td>
+      <td><input type="text" size=30 readonly value="C.so Sempione 11, Torino"></td>
+      <td><input type="text" size=11 readonly value="3228934588"></td>
+      <td>
+          <button class="remove-button" onclick="rimuovi(this)">Rimuovi</button>
+      </td>
+      <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+    </tr>
+    <tr>
+      <td><input type="text" size=11 readonly value="Bianchi"></td>
+      <td><input type="text" size=11 readonly value="Paolo"></td>
+      <td><input type="text" size=30 readonly value="Via Cottolengo 89,Torino"></td>
+      <td><input type="text" size=11 readonly value="3338899032"></td>
+      <td>
+          <button class="remove-button" onclick="rimuovi(this)">Rimuovi</button>
+      </td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>   
+    </tr>
+  </table>        
+</body>
+</html>
