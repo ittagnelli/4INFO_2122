@@ -19,29 +19,33 @@ function aggiungi(){ // aggiunge un contatto alla rubrica
             
         }else{                                                                     //creo una riga della tabella dei contatti con i valori presi in input
             let temp = `                                                            
-            <tr id = "${telefono}">
+            <tr id = "contatto_down">
                 <td><input type="text" size=10 readonly value="${cognome}"></td>           
                 <td><input type="text" size=10 readonly value="${nome}"></td>
                 <td><input type="text" size=35 readonly value="${indirizzo}"></td>
                 <td><input type="text" size=10 readonly value="${telefono}"></td>
                 <td>
-                    <button class="remove-button" onclick="rimuovi(telefono)">Rimuovi</button>
+                    <button class="remove-button" onclick="rimuovi()">Rimuovi</button>
                 </td>
                 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>   
             </tr>
              `;
-             table_final.innerHTML = table_final.innerHTML + temp;                                  //inserisco la riga nella tabella 
-        }
-      
-       
-    } else{
+             table_final.innerHTML = table_final.innerHTML + temp;    //inserisco la riga nella tabella
+
+            }
+                                                                        
+        let vet_in = document.getElementsByTagName("input");
+        vet_in[0].value = "";
+        vet_in[1].value = "";
+        vet_in[2].value = "";
+        vet_in[3].value = "";
+    }else{
         alert("Non hai compilato tutti i campi");
     }
 }
 
-function rimuovi(telefono){                                     //usiamo come riferimento il telefono per cancellare una riga
-    console.log(telefono.value);
-    let contatto = document.getElementById(telefono.value);
+function rimuovi(){                                     //usiamo come riferimento il telefono per cancellare una riga
+    let contatto = document.getElementById("contatto_down");
     contatto.remove();
 }
 
