@@ -5,6 +5,12 @@ function add() {
     const name = document.getElementById("name").value;
     const address = document.getElementById("address").value;
     const phone = document.getElementById("phone").value;
+
+    const surname_change = document.getElementById("surname");
+    const name_change = document.getElementById("name");
+    const address_change = document.getElementById("address");
+    const phone_change = document.getElementById("phone");
+
     const table = document.getElementById("table");
     let input = document.getElementsByTagName("input");
     let string_array = [];
@@ -26,10 +32,20 @@ function add() {
             input[string_array.indexOf(String(surname)) + 5].setAttribute("value",name);
             input[string_array.indexOf(String(surname)) + 6].setAttribute("value",address);
             input[string_array.indexOf(String(surname)) + 7].setAttribute("value",phone);
+            
             flag_aleady_existing = 0;
+
+            surname_change.value = "";
+            name_change.value = "";
+            address_change.value = "";
+            phone_change.value = "";
         }
         else if(string_array.indexOf(String(surname)) != -1 && string_array.indexOf(String(phone)) != -1 && string_array.indexOf(String(name)) != -1 && string_array.indexOf(String(address)) != -1){
             alert("contatto già esistente");
+            surname_change.value = "";
+            name_change.value = "";
+            address_change.value = "";
+            phone_change.value = "";
         }
         else{
 
@@ -87,6 +103,11 @@ function add() {
 
 
         table.append(tr);
+
+        surname_change.value = "";
+        name_change.value = "";
+        address_change.value = "";
+        phone_change.value = "";
     }
     } else alert("Fornire tutte le informazioni richieste per poter inserire il contatto")
 
@@ -102,31 +123,47 @@ function remove(obj) {
 
 function search() {
 
-    let surname = document.getElementById("surname").value;
+    
+    let surname_change = document.getElementById("surname");
     let name = document.getElementById("name");
     let address = document.getElementById("address");
+    let phone_change = document.getElementById("phone");
+
     let phone = document.getElementById("phone").value;
+    let surname = document.getElementById("surname").value;
+
+    
     let input = document.getElementsByTagName("input");
-    let flag = 1;
+
+
     let string_array = [];
 
-
-    if(surname == "" || phone == ""){
-        alert("Inserire sia il cognome che il numero di telefono");
-        flag = 0;
-    }
 
     let j = 0;
     for(let i = 4; i < input.length; i++){
         string_array[j] = input[i].getAttribute("value");
         j++;
     }
+    if(string_array.indexOf(String(surname)) != -1 && string_array.indexOf(String(phone)) == -1){
+        name.value = string_array[string_array.indexOf(String(surname)) + 1];
+        address.value = string_array[string_array.indexOf(String(surname)) + 2];
+        surname_change.value = string_array[string_array.indexOf(String(surname))];
+        phone_change.value = string_array[string_array.indexOf(String(surname)) + 3];
+        flag_aleady_existing = 1;
+    }
+    else
     if(string_array.indexOf(String(surname)) != -1 && string_array.indexOf(String(phone)) != -1){
         name.value = string_array[string_array.indexOf(String(surname)) + 1];
         address.value = string_array[string_array.indexOf(String(surname)) + 2];
         flag_aleady_existing = 1;
     }
-    else{
-        if(flag) alert("Il contatto non esiste");    
-    }
+    else 
+        if(string_array.indexOf(String(surname)) == -1 && string_array.indexOf(String(phone)) != -1){
+            name.value = string_array[string_array.indexOf(String(phone)) - 2];
+            address.value = string_array[string_array.indexOf(String(phone))  - 1];
+            surname_change.value = string_array[string_array.indexOf(String(phone)) - 3];
+            phone_change.value = string_array[string_array.indexOf(String(phone))];
+            flag_aleady_existing = 1;
+        }
+
 }
