@@ -1,0 +1,66 @@
+.titolo_principale {
+  font-family: "Bebas Neue", Times, serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+}
+
+input {
+  border-radius: 5%;
+  border: solid black;
+}
+
+.bassa {
+  color: green;
+}
+
+.media {
+  color: orange;
+}
+
+.alta {
+  color: red;
+}
+
+#aggiungi {
+  font-size: 25px;
+  padding-left: 40%;
+  color: green;
+}
+
+hr {
+  width: 60%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 2.5px solid gray;
+  background-color: gray;
+}
+
+table {
+  width: 40%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin: auto;
+}
+
+th {
+  font-size: 20px;
+}
+
+tr {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.parola_eliminata {
+  text-decoration: line-through;
+}
+
+.grigio {
+  color: grey;
+}
+
+.testo {
+  font-size: 170%;
+  margin: 0;
+}
