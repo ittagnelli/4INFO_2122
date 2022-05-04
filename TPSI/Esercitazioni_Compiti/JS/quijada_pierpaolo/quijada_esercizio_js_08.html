@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="quijada_esercizio_js_08.css">
+    <script src="quijada_esercizio_js_08.js"></script>
+    <title>To Do JS</title>
+</head>
+<body>
+    <form>
+        <h1 class="main-title">TODO JS</h1>
+        <table>
+            <tr>
+                <td><input id="testo" type="text" size=100/></td>
+                <td>
+                    <select name="importanza" id="importanza">
+                        <option value="bassa">Bassa</option>
+                        <option value="media">Media</option>
+                        <option value="alta">Alta</option>
+                    </select>
+                </td>
+                <td>
+                    <button onclick="aggiungi()" class="material-icons">
+                        add
+                    </button>
+                </td>
+        
+            </tr>
+        </table>        
+        
+        <hr>
+
+        <table id="tabella">
+        </table>    
+    </form>    
+    
+</body>
+</html>
