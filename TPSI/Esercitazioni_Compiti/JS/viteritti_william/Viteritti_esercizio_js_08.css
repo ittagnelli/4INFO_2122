@@ -1,0 +1,83 @@
+#tab1 {
+  margin-right: 40%;
+}
+
+#in {
+  text-align: center;
+  width: 500px;
+  margin-left: 700px;
+  margin-bottom: 40px;
+}
+
+#prio {
+  text-align: center;
+  width: 70px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+#aggiungi {
+  text-align: center;
+  width: 50px;
+  height: 40px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.barrato {
+  text-decoration: line-through;
+}
+
+table {
+  margin: auto;
+  width: 40%;
+  border-collapse: separate;
+  border-spacing: 0px, 10px;
+}
+
+tr {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main-title {
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 60px;
+}
+
+hr {
+  width: 50%;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#freccia_alta {
+  color: red;
+  font-size: xx-large;
+}
+
+#freccia_media {
+  color: yellow;
+  font-size: 40pt;
+}
+
+#freccia_bassa {
+  color: green;
+  font-size: xx-large;
+}
+
+.barrato {
+  text-decoration: line-through;
+}
+
+button {
+  background-color: white;
+  border: 0;
+}
+
+#task {
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
