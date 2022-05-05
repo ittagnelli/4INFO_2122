@@ -11,32 +11,29 @@
     <title>To Do JS</title>
 </head>
 <body>
-    <form>
-        <h1 class="main-title">TODO JS</h1>
-        <table>
-            <tr>
-                <td><input id="testo" type="text" size=100/></td>
-                <td>
-                    <select name="importanza" id="importanza">
-                        <option value="bassa">Bassa</option>
-                        <option value="media">Media</option>
-                        <option value="alta">Alta</option>
-                    </select>
-                </td>
-                <td>
-                    <button onclick="aggiungi()" class="material-icons">
-                        add
-                    </button>
-                </td>
+    <h1 class="main-title">TODO JS</h1>
+    <table>
+        <tr>
+            <td><input id="testo" type="text" size=80/></td>
+            <td>
+                <select name="importanza" id="importanza">
+                    <option value="bassa">Bassa</option>
+                    <option value="media">Media</option>
+                    <option value="alta">Alta</option>
+                </select>
+            </td>
+            <td>
+                <button  class="aggiunta" onclick="aggiungi()">
+                    <span class="material-icons">add</span>
+                </button>
+            </td>
+        </tr>
+    </table>        
         
-            </tr>
-        </table>        
-        
-        <hr>
+    <hr>
 
-        <table id="tabella">
-        </table>    
-    </form>    
+    <table id="tabella">
+    </table>  
     
 </body>
 </html>

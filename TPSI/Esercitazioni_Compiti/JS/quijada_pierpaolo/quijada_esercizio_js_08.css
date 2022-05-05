@@ -4,7 +4,29 @@
     font-size: 60px;
 }
 
-.material-icons {
+.fatto {
+    background-color: #ffffff;
+    border: none;
+}
+
+.rimozione {
+    background-color: #ffffff;
+    border: none;
+}
+
+.bassa {
+    color: #008000;
+}
+
+.media {
+    color: #ffff00;
+}
+
+.alta {
+    color: #ff0000;
+}
+
+.aggiunta {
     background-color: #ffffff;
     color: #008000;
     border: none;
