@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="garabello_esercizio_js_08.css">
+    <script src="garabello_esercizio_js_08.js"></script>
+    <title>TODO list</title>
+</head>
+
+<body>
+    <h1 class="main-title">todo list</h1>
+
+
+    <table>
+        
+        <tr>
+            <td><input id="todo" type="text" size=60></td>
+            <td><select name="priority" id="priority_menu">
+              <option value="Alta">Alta</option>
+              <option value="Media">Media</option>
+              <option value="Bassa">Bassa</option>
+            </select></td>
+            
+            <td>
+                <button id="add-button" class="icon-button" onclick="add()"><span  id="add" class="material-icons green">add</span></button>
+            </td>
+            
+
+        </tr>
+    </table>
+
+    <hr>
+
+    <table id="table"></table>
+
+</body>
+
+</html>
