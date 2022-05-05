@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="pomba_esercizio_js_08.css">
+    <script src="pomba_esercizio_js_08.js"></script>
+
+    <title>ToDo JS</title>
+</head>
+<body>
+    <h1 class="main-title">ToDo JS</h1>
+    
+        <table>
+            <tr>
+                <td><input id="ToDo" type="text" size=50/></td>
+               <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>
+                    <select name="priotità" id="priority">
+                        <option value="bassa">Bassa</option>
+                        <option value="media">Media</option>
+                        <option value="alta">Alta</option>
+                    </select>
+                </td>
+              <td>
+                &nbsp;&nbsp;
+              </td>
+                <td>
+                    <button onclick="aggiungi_utente()"><span class="material-icons add">
+                        add
+                    </span></button>
+                </td>
+        
+            </tr>
+        </table>        
+        
+        <hr>
+
+        <table id="tabella">
+        </table>        
+    
+</body>
+</html>

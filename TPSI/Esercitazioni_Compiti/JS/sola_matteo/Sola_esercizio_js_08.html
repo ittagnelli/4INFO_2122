@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Matteo Sola" />
+        <meta name="description" content="Empty Page" />
+        <meta name="keywords" content="js"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <title>Rubrica JS</title>
+    
+        <link rel="stylesheet" href="Sola_esercizio_js_08.css">
+        <script type="text/javascript" src="Sola_esercizio_js_08.js" charset="UTF-8"></script>
+    </head>
+    <body>
+        <h1 class="titolo_principale">Todo JS</h1>
+
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" id="nome_opzione" size=40>
+                    </td>
+                    <td><form>
+                          <select id="priorita">
+                              <option value="bassa">Bassa</option>
+                              <option value="media">Media</option>
+                              <option value="alta">Alta</option>
+                          </select>
+                        </form>
+                    </td>
+                    <td><i class="material-icons" id="aggiungi" onclick="aggiungi()">add</i></td>
+                </tr>
+            </table>        
+            
+            <hr>
+
+            <table id="table">  
+            </table>
+
+    </body>
+</html>

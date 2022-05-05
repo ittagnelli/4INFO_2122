@@ -1,128 +1,137 @@
-let esistente = 0;
+let contatore_esistenza = 0;
 
-function aggiungi_utente(){
-    let db_table = document.getElementById("db_table");
-    let cognome = document.getElementById("cognome").value;
-    let nome = document.getElementById("nome").value;
-    let indirizzo = document.getElementById("indirizzo").value;
-    let telefono = document.getElementById("telefono").value;
+function aggiungi_oggetto() {
+    const table = document.getElementById("tabella");
+    const cognome = document.getElementById("surname").value;
+    const nome= document.getElementById("name").value;
+    const indirizzo = document.getElementById("address").value;
+    const telefono = document.getElementById("phone").value;
     let input = document.getElementsByTagName("input");
     let string_array = [];
-
-    
-
+    //prendo il valore dell'input tramite il loro id per cognome, nome, indizzo, telefono 
+ 
     if (cognome != "" && nome != "" && indirizzo != "" && telefono != "") {
-
-        
         let j = 0;
+
         for(let i = 4; i < input.length; i++){
             string_array[j] = input[i].getAttribute("value");
             j++;
         }
 
-        if(esistente){
+        if(contatore_esistenza){
             input[string_array.indexOf(String(cognome)) + 4].setAttribute("value",cognome);
             input[string_array.indexOf(String(cognome)) + 5].setAttribute("value",nome);
             input[string_array.indexOf(String(cognome)) + 6].setAttribute("value",indirizzo);
             input[string_array.indexOf(String(cognome)) + 7].setAttribute("value",telefono);
-            esistente = 0;
+            contatore_esistenza = 0;
         }
-        else if(string_array.indexOf(String(cognome)) != -1 && string_array.indexOf(String(telefono)) != -1 && string_array.indexOf(String(nome)) != -1 && string_array.indexOf(String(indirizzo)) != -1){
-            alert("Contatto già presente in rubrica");
+        else if(string_array.indexOf(String(cognome)) != -1 && string_array.indexOf(String(nome)) != -1 && string_array.indexOf(String(indirizzo)) != -1 && string_array.indexOf(String(telefono)) != -1){
+            alert("Il contatto esiste");
         }
         else{
-        let tr = document.createElement("tr");
-        for(let i = 0; i < 4; i++){
-            let input_element = document.createElement("input");
-            let td = document.createElement("td");
-            input_element.setAttribute("type", "text");
-            input_element.readOnly = true;
 
-            switch(i){
+        const tr = document.createElement("tr");
+
+        for (let i = 0; i < 4; i++) {
+
+            
+            let input = document.createElement("input");
+
+            input.setAttribute("type", "text");
+            input.setAttribute("size", "10");
+
+            input.readOnly = true;
+
+            let td = document.createElement("td");
+
+            switch (i) {
                 case 0:
-                    input_element.setAttribute("value", cognome);
-                    input_element.setAttribute("size", "10");
-                    td.append(input_element);
+                    input.setAttribute("value", cognome);
+                    td.append(input);
                     tr.append(td);
-               
                     break;
                 case 1:
-                        input_element.setAttribute("value", nome);
-                        input_element.setAttribute("size", "10");
-                        td.append(input_element);
-                        tr.append(td);
-                   
-                        break;
-                case 2:
-                    input_element.setAttribute("value", indirizzo);
-                    input_element.setAttribute("size", "35");
-                    td.append(input_element);
+                    input.setAttribute("value", nome);
+                    td.append(input);
                     tr.append(td);
-               
                     break;
-                case 3:
-                        input_element.setAttribute("value", telefono);
-                        input_element.setAttribute("size", "10");
-                        td.append(input_element);
-                        tr.append(td);
-                   
-                        break;
+                case 2:
+                    input.setAttribute("value", indirizzo);
+                    input.setAttribute("size", "35");
+                    td.append(input);
+                    tr.append(td);
+                    break;
                 default:
-                        break;
+                    input.setAttribute("value", telefono);
+                    td.append(input);
+                    tr.append(td);
+                    break;
             }
-
         }
+        
         let button = document.createElement("button");
         let td = document.createElement("td");
-        button.classList.add("remove-button");
-        button.innerText = "Rimuovi";
-        button.setAttribute("onclick" , "rimuovi(this)")
-        console.log(button);
-        td.append(button);
-        tr.append(td);
-        db_table.append(tr);
-    }
-    }else{
-        console.log("Uno o più campi del form non sono stati completati");
-        alert("Completare tutti i campi del form");
-    }
+        let td_button = document.createElement("td");
 
+        button.innerHTML = "Rimuovi";
+        button.classList.add("remove-button");
+        button.setAttribute("onclick", "rimuovi_oggetto(this)");
+        td_button.append(button);
+        tr.append(td_button);
+
+        td.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+        tr.append(td);
+
+
+
+        table.append(tr);
+    }
+    } else alert("Fornire tutte le informazioni richieste per poter inserire il contatto");
 
 }
 
-
-function rimuovi(this_oggetto){
-    let tr = this_oggetto.parentElement.parentElement;
+function rimuovi_oggetto(this_oggetto) {
+    const tr = this_oggetto.parentElement.parentElement;
     tr.remove();
 }
-function cerca(){
-    let cognome = document.getElementById("cognome").value;
-    let nome = document.getElementById("nome");
-    let indirizzo = document.getElementById("indirizzo");
-    let telefono = document.getElementById("telefono").value;
+
+function cerca_oggetto() {
+
     let input = document.getElementsByTagName("input");
     let flag = 1;
-
-    if(cognome == "" || telefono == ""){
-        alert("Inserire sia il cognome che il telefono");
-        flag = 0;
-    }
-
     let string_array = [];
+
+    let cognome = document.getElementById("surname").value;
+    let nome = document.getElementById("name");
+
+    let indirizzo = document.getElementById("address");
+    let telefono = document.getElementById("phone").value;
+
+
     let j = 0;
     for(let i = 4; i < input.length; i++){
         string_array[j] = input[i].getAttribute("value");
         j++;
     }
-    if(string_array.indexOf(String(cognome)) != -1 && string_array.indexOf(String(telefono)) != -1){
+
+    if(string_array.indexOf(String(cognome)) != -1 || string_array.indexOf(String(telefono)) == -1){
         nome.value = string_array[string_array.indexOf(String(cognome)) + 1];
         indirizzo.value = string_array[string_array.indexOf(String(cognome)) + 2];
-        esistente = 1;
+        telefono.value = string_array[string_array.indexOf(String(cognome))  +3];
+
+        contatore_esistenza = 1;
     }
     else{
-        if(flag) alert("Il contatto non esiste");    
+        if(flag) alert("Il contatto non esiste nella rubrica");    
     }
 
-     console.log(string_array.indexOf(String(cognome)));
-
+    if(string_array.indexOf(String(cognome)) == -1 && string_array.indexOf(String(telefono)) != -1){
+        nome.value = string_array[string_array.indexOf(String(telefono)) -2];
+        indirizzo.value = string_array[string_array.indexOf(String(telefono)) -1];
+        cognome.value =string_array[string_array.indexOf(String(telefono))-3];
+        contatore_esistenza = 1;
+    }
+    else{
+        if(flag) alert("Il contatto non esiste nella rubrica");    
+    }
 }
