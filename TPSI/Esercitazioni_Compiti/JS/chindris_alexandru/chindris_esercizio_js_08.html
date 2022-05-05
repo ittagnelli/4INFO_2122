@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alexandru Chindris" />
+    <meta name="keywords" content="to_do_list, dynamic_lsit" />
+    <meta name="description" content="Template HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chindris_esercizio_js_08.css" type="text/css" /> 
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined" />
+    <script src="chindris_esercizio_js_08.js"></script>
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>To do list</h1>
+    <div>
+        <input type="text" name="item" placeholder="enter your item" id="selezione">
+        <select id="priorita">
+            <option value="Bassa">Bassa</option>
+            <option value="Media">Media</option>
+            <option value="Alta">Alta</option>
+        </select>
+        <button onclick="add()"><span class="material-symbols-outlined">add</span></button>
+    </div>
+    <br><br>
+    <hr>
+        <ul id="lista">
+    </ul>
+</body>
+</html>

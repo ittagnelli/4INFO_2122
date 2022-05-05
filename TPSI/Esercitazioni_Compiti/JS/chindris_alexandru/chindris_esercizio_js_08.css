@@ -1,0 +1,56 @@
+/*  General assigment   */
+body{
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  font-size: xx-large;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+div{
+  font-size: xx-large;
+  text-align: center;   
+}
+
+hr{
+  border: 2px solid gray
+}
+
+button{
+  border: none;
+  background-color: white;
+}
+
+ul{
+  font-size:xx-large;
+  text-align: center;
+  list-style-type: none;
+}
+
+/*  classes for javascript  */
+.done{
+  text-decoration: line-through;
+}
+
+.space{
+  padding-right: 30px;
+}
+
+.rosso{
+  color: red;
+}
+
+.arancione{
+  color: orange;
+}
+
+.verde{
+  color: green;
+}
+
+.bottoni{
+  color: grey;
+}
