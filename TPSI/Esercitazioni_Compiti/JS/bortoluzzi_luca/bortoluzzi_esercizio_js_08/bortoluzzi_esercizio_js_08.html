@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luca Bortoluzzi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="bortoluzzi_esercizio_js_08.css">
+    <script src="bortoluzzi_esercizio_js_08.js"></script>
+
+    <title>ToDo JS</title>
+</head>
+<body>
+    <h1 class="titolo">ToDo JS</h1>
+    <table>
+        <tr>
+            <td><input id="Todo" type="text" size=60/></td>
+            <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <select name="priotità" id="priority">
+                    <option value="low">Bassa</option>
+                    <option value="mid">Media</option>
+                    <option value="high">Alta</option>
+                </select>
+            </td>
+            <td>
+            &nbsp;&nbsp;
+            </td>
+            <td>
+                <button onclick="add()"><span class="material-icons aggiungi">add</span></button>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    
+    <table id="tabella">
+    </table>        
+</body>
+</html>
