@@ -1,0 +1,44 @@
+.main-title {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+}
+
+hr {
+    width: 50%;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: auto;
+    width: 40%;
+    border-collapse:separate; 
+    border-spacing: 0px 10px;
+}
+
+td{
+    margin-right: 100px;
+}
+
+tr {
+    text-align: center;
+    margin-bottom: 10px;
+}
+button{
+    border: none;
+    background-color: white;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.underline{
+    text-decoration: line-through;
+}
