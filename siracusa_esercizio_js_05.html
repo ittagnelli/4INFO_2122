@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="siracusa_esercizio_js_05.js"></script>
+    <title>Esercizio 05</title>
+</head>
+<body onload="start()">
+    <h1></h1>
+    <label for="nome">Nome dello studente: </label>
+    <input type="text" id="nome" placeholder="Inserisci il tuo nome">
+    <label for="media" >Media dei voti: </label>
+    <input type="number" id="media" min="0" max="10">
+    <button onclick="add_studente()">Aggiungi studente</button>
+    <button onclick="colora()">Colora</button>
+    <button onclick="remove_studente()">Rimuovi studente</button>
+    <table id="tabella" border="1"></table>
+</body>
+</html>

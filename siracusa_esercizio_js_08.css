@@ -1,0 +1,67 @@
+.main-title {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 65%;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: gray;
+}
+
+table {
+    margin: auto;
+    width: 40%;
+    border-collapse:separate; 
+    border-spacing: 0px 10px;
+}
+
+th {
+    font-size: 20px;
+}
+
+tr {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#add{
+    color: green;
+    font-size: 30px;
+    padding-left: 209%;
+}
+
+.sbarrato{
+    text-decoration: line-through;
+}
+
+.testo{
+    font-size: 150%;
+    margin: 0;
+}
+
+.bassa{
+    color: green;
+}
+
+.media{
+    color: orange
+}
+
+.alta{
+    color: red;
+}
+
+.grigio{
+    color: grey;
+}
+
+input{
+    border: solid black;
+    border-radius: 2%;
+}
+
