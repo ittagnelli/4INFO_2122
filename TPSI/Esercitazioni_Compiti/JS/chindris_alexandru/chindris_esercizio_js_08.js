@@ -64,7 +64,7 @@ function add(){
     icona_tolgo.classList.add("material-symbols-outlined");
     icona_tolgo.classList.add("bottoni");
 
-    button2.setAttribute("onclick", "bidona(this)");
+    button2.setAttribute("onclick", "bidona(this)"); 
 
     button2.append(icona_tolgo);
     elemento.append(button2);
